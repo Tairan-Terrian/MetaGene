@@ -1,0 +1,412 @@
+protocol,seed,model,name,job_index,held_role,n_train,n_held,shared_record_ids,shared_pair_identities,shared_gene_identities,scope
+pair_holdout,101,linear,pair_holdout_linear_101,0,val,9518,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,101,linear,pair_holdout_linear_101,0,calibration,9518,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,101,linear,pair_holdout_linear_101,0,test,9518,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,101,naiad,pair_holdout_naiad_101,1,val,9518,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,101,naiad,pair_holdout_naiad_101,1,calibration,9518,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,101,naiad,pair_holdout_naiad_101,1,test,9518,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,101,twohead_gnn,pair_holdout_twohead_gnn_101,2,val,9518,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,101,twohead_gnn,pair_holdout_twohead_gnn_101,2,calibration,9518,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,101,twohead_gnn,pair_holdout_twohead_gnn_101,2,test,9518,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,101,twohead_graphless,pair_holdout_twohead_graphless_101,3,val,9518,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,101,twohead_graphless,pair_holdout_twohead_graphless_101,3,calibration,9518,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,101,twohead_graphless,pair_holdout_twohead_graphless_101,3,test,9518,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,101,xgb,pair_holdout_xgb_101,4,val,9518,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,101,xgb,pair_holdout_xgb_101,4,calibration,9518,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,101,xgb,pair_holdout_xgb_101,4,test,9518,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,101,target_graphless,pair_holdout_target_graphless_101,5,val,9518,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,101,target_graphless,pair_holdout_target_graphless_101,5,calibration,9518,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,101,target_graphless,pair_holdout_target_graphless_101,5,test,9518,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,101,target_string,pair_holdout_target_string_101,6,val,9518,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,101,target_string,pair_holdout_target_string_101,6,calibration,9518,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,101,target_string,pair_holdout_target_string_101,6,test,9518,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,101,pooled_graphless,pair_holdout_pooled_graphless_101,7,val,204868,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,101,pooled_graphless,pair_holdout_pooled_graphless_101,7,calibration,204868,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,101,pooled_graphless,pair_holdout_pooled_graphless_101,7,test,204868,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,101,pooled_reactome,pair_holdout_pooled_reactome_101,8,val,204868,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,101,pooled_reactome,pair_holdout_pooled_reactome_101,8,calibration,204868,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,101,pooled_reactome,pair_holdout_pooled_reactome_101,8,test,204868,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,101,pooled_string,pair_holdout_pooled_string_101,9,val,204868,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,101,pooled_string,pair_holdout_pooled_string_101,9,calibration,204868,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,101,pooled_string,pair_holdout_pooled_string_101,9,test,204868,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,101,pooled_multigraph,pair_holdout_pooled_multigraph_101,10,val,204868,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,101,pooled_multigraph,pair_holdout_pooled_multigraph_101,10,calibration,204868,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,101,pooled_multigraph,pair_holdout_pooled_multigraph_101,10,test,204868,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,211,linear,pair_holdout_linear_211,11,val,9518,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,211,linear,pair_holdout_linear_211,11,calibration,9518,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,211,linear,pair_holdout_linear_211,11,test,9518,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,211,naiad,pair_holdout_naiad_211,12,val,9518,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,211,naiad,pair_holdout_naiad_211,12,calibration,9518,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,211,naiad,pair_holdout_naiad_211,12,test,9518,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,211,twohead_gnn,pair_holdout_twohead_gnn_211,13,val,9518,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,211,twohead_gnn,pair_holdout_twohead_gnn_211,13,calibration,9518,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,211,twohead_gnn,pair_holdout_twohead_gnn_211,13,test,9518,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,211,twohead_graphless,pair_holdout_twohead_graphless_211,14,val,9518,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,211,twohead_graphless,pair_holdout_twohead_graphless_211,14,calibration,9518,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,211,twohead_graphless,pair_holdout_twohead_graphless_211,14,test,9518,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,211,xgb,pair_holdout_xgb_211,15,val,9518,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,211,xgb,pair_holdout_xgb_211,15,calibration,9518,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,211,xgb,pair_holdout_xgb_211,15,test,9518,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,211,target_graphless,pair_holdout_target_graphless_211,16,val,9518,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,211,target_graphless,pair_holdout_target_graphless_211,16,calibration,9518,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,211,target_graphless,pair_holdout_target_graphless_211,16,test,9518,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,211,target_string,pair_holdout_target_string_211,17,val,9518,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,211,target_string,pair_holdout_target_string_211,17,calibration,9518,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,211,target_string,pair_holdout_target_string_211,17,test,9518,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,211,pooled_graphless,pair_holdout_pooled_graphless_211,18,val,204868,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,211,pooled_graphless,pair_holdout_pooled_graphless_211,18,calibration,204868,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,211,pooled_graphless,pair_holdout_pooled_graphless_211,18,test,204868,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,211,pooled_reactome,pair_holdout_pooled_reactome_211,19,val,204868,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,211,pooled_reactome,pair_holdout_pooled_reactome_211,19,calibration,204868,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,211,pooled_reactome,pair_holdout_pooled_reactome_211,19,test,204868,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,211,pooled_string,pair_holdout_pooled_string_211,20,val,204868,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,211,pooled_string,pair_holdout_pooled_string_211,20,calibration,204868,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,211,pooled_string,pair_holdout_pooled_string_211,20,test,204868,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,211,pooled_multigraph,pair_holdout_pooled_multigraph_211,21,val,204868,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,211,pooled_multigraph,pair_holdout_pooled_multigraph_211,21,calibration,204868,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,211,pooled_multigraph,pair_holdout_pooled_multigraph_211,21,test,204868,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,307,linear,pair_holdout_linear_307,22,val,9518,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,307,linear,pair_holdout_linear_307,22,calibration,9518,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,307,linear,pair_holdout_linear_307,22,test,9518,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,307,naiad,pair_holdout_naiad_307,23,val,9518,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,307,naiad,pair_holdout_naiad_307,23,calibration,9518,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,307,naiad,pair_holdout_naiad_307,23,test,9518,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,307,twohead_gnn,pair_holdout_twohead_gnn_307,24,val,9518,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,307,twohead_gnn,pair_holdout_twohead_gnn_307,24,calibration,9518,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,307,twohead_gnn,pair_holdout_twohead_gnn_307,24,test,9518,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,307,twohead_graphless,pair_holdout_twohead_graphless_307,25,val,9518,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,307,twohead_graphless,pair_holdout_twohead_graphless_307,25,calibration,9518,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,307,twohead_graphless,pair_holdout_twohead_graphless_307,25,test,9518,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,307,xgb,pair_holdout_xgb_307,26,val,9518,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,307,xgb,pair_holdout_xgb_307,26,calibration,9518,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,307,xgb,pair_holdout_xgb_307,26,test,9518,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,307,target_graphless,pair_holdout_target_graphless_307,27,val,9518,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,307,target_graphless,pair_holdout_target_graphless_307,27,calibration,9518,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,307,target_graphless,pair_holdout_target_graphless_307,27,test,9518,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,307,target_string,pair_holdout_target_string_307,28,val,9518,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,307,target_string,pair_holdout_target_string_307,28,calibration,9518,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,307,target_string,pair_holdout_target_string_307,28,test,9518,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,307,pooled_graphless,pair_holdout_pooled_graphless_307,29,val,204868,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,307,pooled_graphless,pair_holdout_pooled_graphless_307,29,calibration,204868,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,307,pooled_graphless,pair_holdout_pooled_graphless_307,29,test,204868,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,307,pooled_reactome,pair_holdout_pooled_reactome_307,30,val,204868,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,307,pooled_reactome,pair_holdout_pooled_reactome_307,30,calibration,204868,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,307,pooled_reactome,pair_holdout_pooled_reactome_307,30,test,204868,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,307,pooled_string,pair_holdout_pooled_string_307,31,val,204868,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,307,pooled_string,pair_holdout_pooled_string_307,31,calibration,204868,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,307,pooled_string,pair_holdout_pooled_string_307,31,test,204868,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,307,pooled_multigraph,pair_holdout_pooled_multigraph_307,32,val,204868,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,307,pooled_multigraph,pair_holdout_pooled_multigraph_307,32,calibration,204868,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,307,pooled_multigraph,pair_holdout_pooled_multigraph_307,32,test,204868,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,419,linear,pair_holdout_linear_419,33,val,9518,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,419,linear,pair_holdout_linear_419,33,calibration,9518,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,419,linear,pair_holdout_linear_419,33,test,9518,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,419,naiad,pair_holdout_naiad_419,34,val,9518,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,419,naiad,pair_holdout_naiad_419,34,calibration,9518,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,419,naiad,pair_holdout_naiad_419,34,test,9518,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,419,twohead_gnn,pair_holdout_twohead_gnn_419,35,val,9518,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,419,twohead_gnn,pair_holdout_twohead_gnn_419,35,calibration,9518,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,419,twohead_gnn,pair_holdout_twohead_gnn_419,35,test,9518,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,419,twohead_graphless,pair_holdout_twohead_graphless_419,36,val,9518,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,419,twohead_graphless,pair_holdout_twohead_graphless_419,36,calibration,9518,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,419,twohead_graphless,pair_holdout_twohead_graphless_419,36,test,9518,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,419,xgb,pair_holdout_xgb_419,37,val,9518,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,419,xgb,pair_holdout_xgb_419,37,calibration,9518,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,419,xgb,pair_holdout_xgb_419,37,test,9518,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,419,target_graphless,pair_holdout_target_graphless_419,38,val,9518,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,419,target_graphless,pair_holdout_target_graphless_419,38,calibration,9518,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,419,target_graphless,pair_holdout_target_graphless_419,38,test,9518,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,419,target_string,pair_holdout_target_string_419,39,val,9518,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,419,target_string,pair_holdout_target_string_419,39,calibration,9518,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,419,target_string,pair_holdout_target_string_419,39,test,9518,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,419,pooled_graphless,pair_holdout_pooled_graphless_419,40,val,204868,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,419,pooled_graphless,pair_holdout_pooled_graphless_419,40,calibration,204868,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,419,pooled_graphless,pair_holdout_pooled_graphless_419,40,test,204868,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,419,pooled_reactome,pair_holdout_pooled_reactome_419,41,val,204868,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,419,pooled_reactome,pair_holdout_pooled_reactome_419,41,calibration,204868,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,419,pooled_reactome,pair_holdout_pooled_reactome_419,41,test,204868,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,419,pooled_string,pair_holdout_pooled_string_419,42,val,204868,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,419,pooled_string,pair_holdout_pooled_string_419,42,calibration,204868,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,419,pooled_string,pair_holdout_pooled_string_419,42,test,204868,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,419,pooled_multigraph,pair_holdout_pooled_multigraph_419,43,val,204868,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,419,pooled_multigraph,pair_holdout_pooled_multigraph_419,43,calibration,204868,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,419,pooled_multigraph,pair_holdout_pooled_multigraph_419,43,test,204868,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,503,linear,pair_holdout_linear_503,44,val,9518,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,503,linear,pair_holdout_linear_503,44,calibration,9518,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,503,linear,pair_holdout_linear_503,44,test,9518,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,503,naiad,pair_holdout_naiad_503,45,val,9518,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,503,naiad,pair_holdout_naiad_503,45,calibration,9518,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,503,naiad,pair_holdout_naiad_503,45,test,9518,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,503,twohead_gnn,pair_holdout_twohead_gnn_503,46,val,9518,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,503,twohead_gnn,pair_holdout_twohead_gnn_503,46,calibration,9518,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,503,twohead_gnn,pair_holdout_twohead_gnn_503,46,test,9518,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,503,twohead_graphless,pair_holdout_twohead_graphless_503,47,val,9518,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,503,twohead_graphless,pair_holdout_twohead_graphless_503,47,calibration,9518,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,503,twohead_graphless,pair_holdout_twohead_graphless_503,47,test,9518,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,503,xgb,pair_holdout_xgb_503,48,val,9518,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,503,xgb,pair_holdout_xgb_503,48,calibration,9518,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,503,xgb,pair_holdout_xgb_503,48,test,9518,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,503,target_graphless,pair_holdout_target_graphless_503,49,val,9518,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,503,target_graphless,pair_holdout_target_graphless_503,49,calibration,9518,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,503,target_graphless,pair_holdout_target_graphless_503,49,test,9518,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,503,target_string,pair_holdout_target_string_503,50,val,9518,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,503,target_string,pair_holdout_target_string_503,50,calibration,9518,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,503,target_string,pair_holdout_target_string_503,50,test,9518,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,503,pooled_graphless,pair_holdout_pooled_graphless_503,51,val,204868,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,503,pooled_graphless,pair_holdout_pooled_graphless_503,51,calibration,204868,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,503,pooled_graphless,pair_holdout_pooled_graphless_503,51,test,204868,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,503,pooled_reactome,pair_holdout_pooled_reactome_503,52,val,204868,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,503,pooled_reactome,pair_holdout_pooled_reactome_503,52,calibration,204868,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,503,pooled_reactome,pair_holdout_pooled_reactome_503,52,test,204868,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,503,pooled_string,pair_holdout_pooled_string_503,53,val,204868,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,503,pooled_string,pair_holdout_pooled_string_503,53,calibration,204868,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,503,pooled_string,pair_holdout_pooled_string_503,53,test,204868,2380,0,0,439,Pair-disjoint double-perturbation labels
+pair_holdout,503,pooled_multigraph,pair_holdout_pooled_multigraph_503,54,val,204868,2380,0,0,442,Pair-disjoint double-perturbation labels
+pair_holdout,503,pooled_multigraph,pair_holdout_pooled_multigraph_503,54,calibration,204868,1586,0,0,435,Pair-disjoint double-perturbation labels
+pair_holdout,503,pooled_multigraph,pair_holdout_pooled_multigraph_503,54,test,204868,2380,0,0,439,Pair-disjoint double-perturbation labels
+gene_holdout,101,linear,gene_holdout_linear_101,55,val,5743,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,101,linear,gene_holdout_linear_101,55,calibration,5743,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,101,linear,gene_holdout_linear_101,55,test,5743,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,101,xgb,gene_holdout_xgb_101,56,val,5743,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,101,xgb,gene_holdout_xgb_101,56,calibration,5743,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,101,xgb,gene_holdout_xgb_101,56,test,5743,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,101,target_graphless,gene_holdout_target_graphless_101,57,val,5743,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,101,target_graphless,gene_holdout_target_graphless_101,57,calibration,5743,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,101,target_graphless,gene_holdout_target_graphless_101,57,test,5743,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,101,target_string,gene_holdout_target_string_101,58,val,5743,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,101,target_string,gene_holdout_target_string_101,58,calibration,5743,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,101,target_string,gene_holdout_target_string_101,58,test,5743,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,101,pooled_graphless,gene_holdout_pooled_graphless_101,59,val,190238,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,101,pooled_graphless,gene_holdout_pooled_graphless_101,59,calibration,190238,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,101,pooled_graphless,gene_holdout_pooled_graphless_101,59,test,190238,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,101,pooled_string,gene_holdout_pooled_string_101,60,val,190238,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,101,pooled_string,gene_holdout_pooled_string_101,60,calibration,190238,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,101,pooled_string,gene_holdout_pooled_string_101,60,test,190238,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,101,pooled_multigraph,gene_holdout_pooled_multigraph_101,61,val,190238,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,101,pooled_multigraph,gene_holdout_pooled_multigraph_101,61,calibration,190238,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,101,pooled_multigraph,gene_holdout_pooled_multigraph_101,61,test,190238,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,101,naiad,gene_holdout_naiad_101,62,val,5743,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,101,naiad,gene_holdout_naiad_101,62,calibration,5743,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,101,naiad,gene_holdout_naiad_101,62,test,5743,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,211,linear,gene_holdout_linear_211,63,val,5743,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,211,linear,gene_holdout_linear_211,63,calibration,5743,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,211,linear,gene_holdout_linear_211,63,test,5743,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,211,xgb,gene_holdout_xgb_211,64,val,5743,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,211,xgb,gene_holdout_xgb_211,64,calibration,5743,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,211,xgb,gene_holdout_xgb_211,64,test,5743,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,211,target_graphless,gene_holdout_target_graphless_211,65,val,5743,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,211,target_graphless,gene_holdout_target_graphless_211,65,calibration,5743,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,211,target_graphless,gene_holdout_target_graphless_211,65,test,5743,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,211,target_string,gene_holdout_target_string_211,66,val,5743,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,211,target_string,gene_holdout_target_string_211,66,calibration,5743,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,211,target_string,gene_holdout_target_string_211,66,test,5743,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,211,pooled_graphless,gene_holdout_pooled_graphless_211,67,val,190238,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,211,pooled_graphless,gene_holdout_pooled_graphless_211,67,calibration,190238,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,211,pooled_graphless,gene_holdout_pooled_graphless_211,67,test,190238,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,211,pooled_string,gene_holdout_pooled_string_211,68,val,190238,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,211,pooled_string,gene_holdout_pooled_string_211,68,calibration,190238,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,211,pooled_string,gene_holdout_pooled_string_211,68,test,190238,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,211,pooled_multigraph,gene_holdout_pooled_multigraph_211,69,val,190238,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,211,pooled_multigraph,gene_holdout_pooled_multigraph_211,69,calibration,190238,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,211,pooled_multigraph,gene_holdout_pooled_multigraph_211,69,test,190238,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,211,naiad,gene_holdout_naiad_211,70,val,5743,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,211,naiad,gene_holdout_naiad_211,70,calibration,5743,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,211,naiad,gene_holdout_naiad_211,70,test,5743,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,307,linear,gene_holdout_linear_307,71,val,5743,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,307,linear,gene_holdout_linear_307,71,calibration,5743,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,307,linear,gene_holdout_linear_307,71,test,5743,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,307,xgb,gene_holdout_xgb_307,72,val,5743,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,307,xgb,gene_holdout_xgb_307,72,calibration,5743,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,307,xgb,gene_holdout_xgb_307,72,test,5743,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,307,target_graphless,gene_holdout_target_graphless_307,73,val,5743,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,307,target_graphless,gene_holdout_target_graphless_307,73,calibration,5743,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,307,target_graphless,gene_holdout_target_graphless_307,73,test,5743,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,307,target_string,gene_holdout_target_string_307,74,val,5743,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,307,target_string,gene_holdout_target_string_307,74,calibration,5743,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,307,target_string,gene_holdout_target_string_307,74,test,5743,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,307,pooled_graphless,gene_holdout_pooled_graphless_307,75,val,190238,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,307,pooled_graphless,gene_holdout_pooled_graphless_307,75,calibration,190238,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,307,pooled_graphless,gene_holdout_pooled_graphless_307,75,test,190238,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,307,pooled_string,gene_holdout_pooled_string_307,76,val,190238,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,307,pooled_string,gene_holdout_pooled_string_307,76,calibration,190238,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,307,pooled_string,gene_holdout_pooled_string_307,76,test,190238,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,307,pooled_multigraph,gene_holdout_pooled_multigraph_307,77,val,190238,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,307,pooled_multigraph,gene_holdout_pooled_multigraph_307,77,calibration,190238,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,307,pooled_multigraph,gene_holdout_pooled_multigraph_307,77,test,190238,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,307,naiad,gene_holdout_naiad_307,78,val,5743,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,307,naiad,gene_holdout_naiad_307,78,calibration,5743,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,307,naiad,gene_holdout_naiad_307,78,test,5743,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,419,linear,gene_holdout_linear_419,79,val,5743,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,419,linear,gene_holdout_linear_419,79,calibration,5743,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,419,linear,gene_holdout_linear_419,79,test,5743,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,419,xgb,gene_holdout_xgb_419,80,val,5743,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,419,xgb,gene_holdout_xgb_419,80,calibration,5743,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,419,xgb,gene_holdout_xgb_419,80,test,5743,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,419,target_graphless,gene_holdout_target_graphless_419,81,val,5743,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,419,target_graphless,gene_holdout_target_graphless_419,81,calibration,5743,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,419,target_graphless,gene_holdout_target_graphless_419,81,test,5743,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,419,target_string,gene_holdout_target_string_419,82,val,5743,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,419,target_string,gene_holdout_target_string_419,82,calibration,5743,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,419,target_string,gene_holdout_target_string_419,82,test,5743,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,419,pooled_graphless,gene_holdout_pooled_graphless_419,83,val,190238,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,419,pooled_graphless,gene_holdout_pooled_graphless_419,83,calibration,190238,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,419,pooled_graphless,gene_holdout_pooled_graphless_419,83,test,190238,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,419,pooled_string,gene_holdout_pooled_string_419,84,val,190238,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,419,pooled_string,gene_holdout_pooled_string_419,84,calibration,190238,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,419,pooled_string,gene_holdout_pooled_string_419,84,test,190238,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,419,pooled_multigraph,gene_holdout_pooled_multigraph_419,85,val,190238,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,419,pooled_multigraph,gene_holdout_pooled_multigraph_419,85,calibration,190238,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,419,pooled_multigraph,gene_holdout_pooled_multigraph_419,85,test,190238,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,419,naiad,gene_holdout_naiad_419,86,val,5743,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,419,naiad,gene_holdout_naiad_419,86,calibration,5743,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,419,naiad,gene_holdout_naiad_419,86,test,5743,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,503,linear,gene_holdout_linear_503,87,val,5743,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,503,linear,gene_holdout_linear_503,87,calibration,5743,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,503,linear,gene_holdout_linear_503,87,test,5743,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,503,xgb,gene_holdout_xgb_503,88,val,5743,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,503,xgb,gene_holdout_xgb_503,88,calibration,5743,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,503,xgb,gene_holdout_xgb_503,88,test,5743,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,503,target_graphless,gene_holdout_target_graphless_503,89,val,5743,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,503,target_graphless,gene_holdout_target_graphless_503,89,calibration,5743,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,503,target_graphless,gene_holdout_target_graphless_503,89,test,5743,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,503,target_string,gene_holdout_target_string_503,90,val,5743,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,503,target_string,gene_holdout_target_string_503,90,calibration,5743,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,503,target_string,gene_holdout_target_string_503,90,test,5743,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,503,pooled_graphless,gene_holdout_pooled_graphless_503,91,val,190238,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,503,pooled_graphless,gene_holdout_pooled_graphless_503,91,calibration,190238,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,503,pooled_graphless,gene_holdout_pooled_graphless_503,91,test,190238,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,503,pooled_string,gene_holdout_pooled_string_503,92,val,190238,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,503,pooled_string,gene_holdout_pooled_string_503,92,calibration,190238,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,503,pooled_string,gene_holdout_pooled_string_503,92,test,190238,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,503,pooled_multigraph,gene_holdout_pooled_multigraph_503,93,val,190238,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,503,pooled_multigraph,gene_holdout_pooled_multigraph_503,93,calibration,190238,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,503,pooled_multigraph,gene_holdout_pooled_multigraph_503,93,test,190238,425,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,503,naiad,gene_holdout_naiad_503,94,val,5743,262,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,503,naiad,gene_holdout_naiad_503,94,calibration,5743,160,0,0,0,Pair-disjoint double-perturbation labels
+gene_holdout,503,naiad,gene_holdout_naiad_503,94,test,5743,425,0,0,0,Pair-disjoint double-perturbation labels
+anchor_holdout,101,linear,anchor_holdout_linear_101,95,val,9021,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,101,linear,anchor_holdout_linear_101,95,calibration,9021,1601,0,0,401,Pair-disjoint double-perturbation labels
+anchor_holdout,101,linear,anchor_holdout_linear_101,95,test,9021,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,101,xgb,anchor_holdout_xgb_101,96,val,9021,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,101,xgb,anchor_holdout_xgb_101,96,calibration,9021,1601,0,0,401,Pair-disjoint double-perturbation labels
+anchor_holdout,101,xgb,anchor_holdout_xgb_101,96,test,9021,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,101,target_graphless,anchor_holdout_target_graphless_101,97,val,9021,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,101,target_graphless,anchor_holdout_target_graphless_101,97,calibration,9021,1601,0,0,401,Pair-disjoint double-perturbation labels
+anchor_holdout,101,target_graphless,anchor_holdout_target_graphless_101,97,test,9021,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,101,target_string,anchor_holdout_target_string_101,98,val,9021,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,101,target_string,anchor_holdout_target_string_101,98,calibration,9021,1601,0,0,401,Pair-disjoint double-perturbation labels
+anchor_holdout,101,target_string,anchor_holdout_target_string_101,98,test,9021,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,101,pooled_graphless,anchor_holdout_pooled_graphless_101,99,val,203532,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,101,pooled_graphless,anchor_holdout_pooled_graphless_101,99,calibration,203532,1601,0,0,401,Pair-disjoint double-perturbation labels
+anchor_holdout,101,pooled_graphless,anchor_holdout_pooled_graphless_101,99,test,203532,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,101,pooled_string,anchor_holdout_pooled_string_101,100,val,203532,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,101,pooled_string,anchor_holdout_pooled_string_101,100,calibration,203532,1601,0,0,401,Pair-disjoint double-perturbation labels
+anchor_holdout,101,pooled_string,anchor_holdout_pooled_string_101,100,test,203532,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,101,pooled_multigraph,anchor_holdout_pooled_multigraph_101,101,val,203532,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,101,pooled_multigraph,anchor_holdout_pooled_multigraph_101,101,calibration,203532,1601,0,0,401,Pair-disjoint double-perturbation labels
+anchor_holdout,101,pooled_multigraph,anchor_holdout_pooled_multigraph_101,101,test,203532,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,101,naiad,anchor_holdout_naiad_101,102,val,9021,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,101,naiad,anchor_holdout_naiad_101,102,calibration,9021,1601,0,0,401,Pair-disjoint double-perturbation labels
+anchor_holdout,101,naiad,anchor_holdout_naiad_101,102,test,9021,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,211,linear,anchor_holdout_linear_211,103,val,9021,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,211,linear,anchor_holdout_linear_211,103,calibration,9021,1601,0,0,401,Pair-disjoint double-perturbation labels
+anchor_holdout,211,linear,anchor_holdout_linear_211,103,test,9021,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,211,xgb,anchor_holdout_xgb_211,104,val,9021,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,211,xgb,anchor_holdout_xgb_211,104,calibration,9021,1601,0,0,401,Pair-disjoint double-perturbation labels
+anchor_holdout,211,xgb,anchor_holdout_xgb_211,104,test,9021,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,211,target_graphless,anchor_holdout_target_graphless_211,105,val,9021,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,211,target_graphless,anchor_holdout_target_graphless_211,105,calibration,9021,1601,0,0,401,Pair-disjoint double-perturbation labels
+anchor_holdout,211,target_graphless,anchor_holdout_target_graphless_211,105,test,9021,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,211,target_string,anchor_holdout_target_string_211,106,val,9021,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,211,target_string,anchor_holdout_target_string_211,106,calibration,9021,1601,0,0,401,Pair-disjoint double-perturbation labels
+anchor_holdout,211,target_string,anchor_holdout_target_string_211,106,test,9021,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,211,pooled_graphless,anchor_holdout_pooled_graphless_211,107,val,203532,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,211,pooled_graphless,anchor_holdout_pooled_graphless_211,107,calibration,203532,1601,0,0,401,Pair-disjoint double-perturbation labels
+anchor_holdout,211,pooled_graphless,anchor_holdout_pooled_graphless_211,107,test,203532,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,211,pooled_string,anchor_holdout_pooled_string_211,108,val,203532,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,211,pooled_string,anchor_holdout_pooled_string_211,108,calibration,203532,1601,0,0,401,Pair-disjoint double-perturbation labels
+anchor_holdout,211,pooled_string,anchor_holdout_pooled_string_211,108,test,203532,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,211,pooled_multigraph,anchor_holdout_pooled_multigraph_211,109,val,203532,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,211,pooled_multigraph,anchor_holdout_pooled_multigraph_211,109,calibration,203532,1601,0,0,401,Pair-disjoint double-perturbation labels
+anchor_holdout,211,pooled_multigraph,anchor_holdout_pooled_multigraph_211,109,test,203532,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,211,naiad,anchor_holdout_naiad_211,110,val,9021,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,211,naiad,anchor_holdout_naiad_211,110,calibration,9021,1601,0,0,401,Pair-disjoint double-perturbation labels
+anchor_holdout,211,naiad,anchor_holdout_naiad_211,110,test,9021,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,307,linear,anchor_holdout_linear_307,111,val,9021,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,307,linear,anchor_holdout_linear_307,111,calibration,9021,1601,0,0,401,Pair-disjoint double-perturbation labels
+anchor_holdout,307,linear,anchor_holdout_linear_307,111,test,9021,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,307,xgb,anchor_holdout_xgb_307,112,val,9021,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,307,xgb,anchor_holdout_xgb_307,112,calibration,9021,1601,0,0,401,Pair-disjoint double-perturbation labels
+anchor_holdout,307,xgb,anchor_holdout_xgb_307,112,test,9021,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,307,target_graphless,anchor_holdout_target_graphless_307,113,val,9021,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,307,target_graphless,anchor_holdout_target_graphless_307,113,calibration,9021,1601,0,0,401,Pair-disjoint double-perturbation labels
+anchor_holdout,307,target_graphless,anchor_holdout_target_graphless_307,113,test,9021,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,307,target_string,anchor_holdout_target_string_307,114,val,9021,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,307,target_string,anchor_holdout_target_string_307,114,calibration,9021,1601,0,0,401,Pair-disjoint double-perturbation labels
+anchor_holdout,307,target_string,anchor_holdout_target_string_307,114,test,9021,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,307,pooled_graphless,anchor_holdout_pooled_graphless_307,115,val,203532,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,307,pooled_graphless,anchor_holdout_pooled_graphless_307,115,calibration,203532,1601,0,0,401,Pair-disjoint double-perturbation labels
+anchor_holdout,307,pooled_graphless,anchor_holdout_pooled_graphless_307,115,test,203532,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,307,pooled_string,anchor_holdout_pooled_string_307,116,val,203532,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,307,pooled_string,anchor_holdout_pooled_string_307,116,calibration,203532,1601,0,0,401,Pair-disjoint double-perturbation labels
+anchor_holdout,307,pooled_string,anchor_holdout_pooled_string_307,116,test,203532,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,307,pooled_multigraph,anchor_holdout_pooled_multigraph_307,117,val,203532,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,307,pooled_multigraph,anchor_holdout_pooled_multigraph_307,117,calibration,203532,1601,0,0,401,Pair-disjoint double-perturbation labels
+anchor_holdout,307,pooled_multigraph,anchor_holdout_pooled_multigraph_307,117,test,203532,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,307,naiad,anchor_holdout_naiad_307,118,val,9021,2403,0,0,398,Pair-disjoint double-perturbation labels
+anchor_holdout,307,naiad,anchor_holdout_naiad_307,118,calibration,9021,1601,0,0,401,Pair-disjoint double-perturbation labels
+anchor_holdout,307,naiad,anchor_holdout_naiad_307,118,test,9021,2403,0,0,398,Pair-disjoint double-perturbation labels
+transfer_ht29,101,linear,transfer_ht29_linear_101,119,val,146627,29283,0,0,458,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,101,linear,transfer_ht29_linear_101,119,calibration,146627,19484,0,0,458,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,101,linear,transfer_ht29_linear_101,119,test,146627,15864,0,46,31,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,101,twohead_gnn,transfer_ht29_twohead_gnn_101,120,val,146627,29283,0,0,458,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,101,twohead_gnn,transfer_ht29_twohead_gnn_101,120,calibration,146627,19484,0,0,458,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,101,twohead_gnn,transfer_ht29_twohead_gnn_101,120,test,146627,15864,0,46,31,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,101,pooled_graphless,transfer_ht29_pooled_graphless_101,121,val,146627,29283,0,0,458,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,101,pooled_graphless,transfer_ht29_pooled_graphless_101,121,calibration,146627,19484,0,0,458,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,101,pooled_graphless,transfer_ht29_pooled_graphless_101,121,test,146627,15864,0,46,31,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,101,pooled_string,transfer_ht29_pooled_string_101,122,val,146627,29283,0,0,458,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,101,pooled_string,transfer_ht29_pooled_string_101,122,calibration,146627,19484,0,0,458,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,101,pooled_string,transfer_ht29_pooled_string_101,122,test,146627,15864,0,46,31,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,101,pooled_multigraph,transfer_ht29_pooled_multigraph_101,123,val,146627,29283,0,0,458,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,101,pooled_multigraph,transfer_ht29_pooled_multigraph_101,123,calibration,146627,19484,0,0,458,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,101,pooled_multigraph,transfer_ht29_pooled_multigraph_101,123,test,146627,15864,0,46,31,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,101,naiad,transfer_ht29_naiad_101,124,val,146627,29283,0,0,458,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,101,naiad,transfer_ht29_naiad_101,124,calibration,146627,19484,0,0,458,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,101,naiad,transfer_ht29_naiad_101,124,test,146627,15864,0,46,31,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,211,linear,transfer_ht29_linear_211,125,val,146627,29283,0,0,458,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,211,linear,transfer_ht29_linear_211,125,calibration,146627,19484,0,0,458,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,211,linear,transfer_ht29_linear_211,125,test,146627,15864,0,46,31,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,211,twohead_gnn,transfer_ht29_twohead_gnn_211,126,val,146627,29283,0,0,458,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,211,twohead_gnn,transfer_ht29_twohead_gnn_211,126,calibration,146627,19484,0,0,458,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,211,twohead_gnn,transfer_ht29_twohead_gnn_211,126,test,146627,15864,0,46,31,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,211,pooled_graphless,transfer_ht29_pooled_graphless_211,127,val,146627,29283,0,0,458,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,211,pooled_graphless,transfer_ht29_pooled_graphless_211,127,calibration,146627,19484,0,0,458,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,211,pooled_graphless,transfer_ht29_pooled_graphless_211,127,test,146627,15864,0,46,31,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,211,pooled_string,transfer_ht29_pooled_string_211,128,val,146627,29283,0,0,458,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,211,pooled_string,transfer_ht29_pooled_string_211,128,calibration,146627,19484,0,0,458,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,211,pooled_string,transfer_ht29_pooled_string_211,128,test,146627,15864,0,46,31,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,211,pooled_multigraph,transfer_ht29_pooled_multigraph_211,129,val,146627,29283,0,0,458,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,211,pooled_multigraph,transfer_ht29_pooled_multigraph_211,129,calibration,146627,19484,0,0,458,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,211,pooled_multigraph,transfer_ht29_pooled_multigraph_211,129,test,146627,15864,0,46,31,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,211,naiad,transfer_ht29_naiad_211,130,val,146627,29283,0,0,458,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,211,naiad,transfer_ht29_naiad_211,130,calibration,146627,19484,0,0,458,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,211,naiad,transfer_ht29_naiad_211,130,test,146627,15864,0,46,31,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,307,linear,transfer_ht29_linear_307,131,val,146627,29283,0,0,458,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,307,linear,transfer_ht29_linear_307,131,calibration,146627,19484,0,0,458,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,307,linear,transfer_ht29_linear_307,131,test,146627,15864,0,46,31,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,307,twohead_gnn,transfer_ht29_twohead_gnn_307,132,val,146627,29283,0,0,458,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,307,twohead_gnn,transfer_ht29_twohead_gnn_307,132,calibration,146627,19484,0,0,458,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,307,twohead_gnn,transfer_ht29_twohead_gnn_307,132,test,146627,15864,0,46,31,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,307,pooled_graphless,transfer_ht29_pooled_graphless_307,133,val,146627,29283,0,0,458,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,307,pooled_graphless,transfer_ht29_pooled_graphless_307,133,calibration,146627,19484,0,0,458,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,307,pooled_graphless,transfer_ht29_pooled_graphless_307,133,test,146627,15864,0,46,31,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,307,pooled_string,transfer_ht29_pooled_string_307,134,val,146627,29283,0,0,458,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,307,pooled_string,transfer_ht29_pooled_string_307,134,calibration,146627,19484,0,0,458,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,307,pooled_string,transfer_ht29_pooled_string_307,134,test,146627,15864,0,46,31,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,307,pooled_multigraph,transfer_ht29_pooled_multigraph_307,135,val,146627,29283,0,0,458,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,307,pooled_multigraph,transfer_ht29_pooled_multigraph_307,135,calibration,146627,19484,0,0,458,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,307,pooled_multigraph,transfer_ht29_pooled_multigraph_307,135,test,146627,15864,0,46,31,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,307,naiad,transfer_ht29_naiad_307,136,val,146627,29283,0,0,458,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,307,naiad,transfer_ht29_naiad_307,136,calibration,146627,19484,0,0,458,Cross-cell transfer permits paired identities across different source contexts
+transfer_ht29,307,naiad,transfer_ht29_naiad_307,136,test,146627,15864,0,46,31,Cross-cell transfer permits paired identities across different source contexts

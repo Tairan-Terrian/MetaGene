@@ -1,0 +1,76 @@
+{
+  "metabolic_flux": {
+    "doi": "10.3390/cancers13164130",
+    "author_repository": "https://github.com/HAHerrmann/Hct116_DrugRes",
+    "commit": "3ba911ee3b931e0909add599beba48bdca9f69a9",
+    "author_bound_file_variant": "pTVA_*_clean.p",
+    "reaction_count": 4723,
+    "mapped_reactions": 192,
+    "covered_genes": 134,
+    "biomass_minimum_denominators": {
+      "Control": 10.748326262957912,
+      "OxR": 7.248973695220775
+    },
+    "normalization": "Divide each state bound by its HCC_biomass minimum, following author normalize_growth; log1p(max(abs(lower),abs(upper))), then equal mean over linked reactions.",
+    "mapping": "HCT_GEM.mat rxnGeneMat association -> HGNC Ensembl symbols; only exact shared reaction identifiers. GPR AND/OR semantics are not used to simulate knockout.",
+    "scope": "Author thermodynamic model feasible bounds constrained by metabolomics, not measured intracellular fluxes, statistical intervals, or gene-knockout effects. Clean snapshot reanalysis; not a reproduction of every published figure."
+  },
+  "epigenetic_map": {
+    "accession": "GSE138654",
+    "super_series": "GSE138657",
+    "genome": "hg19",
+    "promoter_mapped_genes": 889,
+    "samples": [
+      {
+        "sample": "GSM4115600",
+        "mark": "H3K4me3",
+        "state": "HCT116",
+        "peaks": 29983,
+        "genes_with_promoter_peak": 866,
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4115600"
+      },
+      {
+        "sample": "GSM4115601",
+        "mark": "H3K4me3",
+        "state": "HCT116OxR",
+        "peaks": 37651,
+        "genes_with_promoter_peak": 865,
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4115601"
+      },
+      {
+        "sample": "GSM4115602",
+        "mark": "H3K27ac",
+        "state": "HCT116",
+        "peaks": 78873,
+        "genes_with_promoter_peak": 873,
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4115602"
+      },
+      {
+        "sample": "GSM4115603",
+        "mark": "H3K27ac",
+        "state": "HCT116OxR",
+        "peaks": 78119,
+        "genes_with_promoter_peak": 875,
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4115603"
+      },
+      {
+        "sample": "GSM4115604",
+        "mark": "H3K27me3",
+        "state": "HCT116",
+        "peaks": 34019,
+        "genes_with_promoter_peak": 86,
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4115604"
+      },
+      {
+        "sample": "GSM4115605",
+        "mark": "H3K27me3",
+        "state": "HCT116OxR",
+        "peaks": 23231,
+        "genes_with_promoter_peak": 73,
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4115605"
+      }
+    ],
+    "summary": "Union of +/-2000bp windows around all exact-symbol RefGene TSS; count unique overlapping author MACS2 peaks and maximum fold enrichment, log1p transformed.",
+    "scope": "Six deposited processed peak tracks, one per mark/state. No replicate-based differential-binding test; missing called peak is not proof of absent modification. Differences are descriptive, with no cross-sample spike-in calibration. These HCT116/OxR lines are not assumed identical to collaborators or the separate flux study."
+  }
+}

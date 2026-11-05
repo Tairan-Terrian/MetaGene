@@ -1,0 +1,15 @@
+module,item,status,result,artifact,limitation
+对象定义,代谢酶×直接组蛋白修饰酶,已复核,38×15；排除20种既有设计后550对,data/evidence/genes_annotation.csv,当前建模基因范围
+标签,重复和位置匹配的对照校正dLFC,已重建,"14,853对，29个dLFC<-1事件",data/sl/label_definition.json,监督集合至少2个有效匹配重复
+输入,独立多组学特征与图,已计算并复用,"898基因×1,831维；STRING/Reactome/BioPlex",data/evidence/integrated_input_manifest.json,独立功能网络
+输入,DepMap/TCGA/CRC单细胞,已接入,基因依赖与表达背景,data/evidence/requested_sources/acquisition_manifest.json,基因级背景信息
+输入,HCT116/OxR通量与组蛋白峰,已接入,公开模型通量范围、三类组蛋白峰描述,data/evidence/flux_epigenome_manifest.json,作者模型范围及描述性图谱
+模型,直接强协同事件分类与排序,已评价,6种模型、3种留出、66次拟合,results/sl/benchmark_summary.csv,验证所选GNN：multigraph
+模型,概率与区间,已计算,"独立校准集1,485对，3阳性",results/sl/final_calibration.json,HT29强协同事件校准
+外测,独立组合研究,已评价,包含排除HT29已测配对的迁移子集,results/sl/external_metrics.csv,当前Top500外部覆盖0对
+耐药背景,表达与单基因筛选,已接入并标注,Top500有14对达到目标背景表达关联阈值,results/candidates/top500.csv,候选背景证据
+主动学习,12轮回顾性模拟,已评价,4策略×3种子；记录156次拟合,results/sl/active_learning_summary.csv,已有实测池回顾性查询
+候选,Top500排序与逐对解释,已交付,190单基因兼容、272缺测、38强单基因扩展,results/candidates/top500.csv,预测均值<-1的候选0对
+候选,Top30、Priority8与代表组合,已交付,多样性约束下30/8/3对,results/candidates/top30.csv,计算提名
+交接,基因配对与容量草案,已交付,"500配对；1,000占位",results/handoff/1000_slot_capacity_draft.csv,基因级靶点与容量安排
+交接,真实结果回传接口,已交付模板,包含单A/单B/双干预/对照及背景、重复、质控,results/handoff/measured_feedback_template.csv,合作方结果回传

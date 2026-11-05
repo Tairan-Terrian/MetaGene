@@ -1,0 +1,2 @@
+interval_n,interval_coverage,interval_mean_width,protocol,model,seed,nominal_coverage,radius,n_calibration
+2380,0.9176470588235294,0.4212110621058023,pair_holdout,pooled_multigraph,307,0.9,0.21060553105290108,1586

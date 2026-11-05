@@ -1,0 +1,126 @@
+{
+  "version": "sl_v2_2026-11-05",
+  "scope": "Current release code and reading documents. Input checksums are recorded separately; model fits are counted from this run or its compact result records.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 5216,
+      "sha256": "867c9a3d06f0274608a2a0104c6f39ca7782cdc3efe455ebad94edce9f17a9c3"
+    },
+    {
+      "path": "configs/experiment_sl.json",
+      "bytes": 2551,
+      "sha256": "cc85d0b19436ab3646dee62257cfb212bf3dc47b73e99d406d6cdd9b8ccf8b64"
+    },
+    {
+      "path": "docs/CANDIDATE_HANDOFF.md",
+      "bytes": 3862,
+      "sha256": "4205cebd1ddeb47534615928fdbc96677ff1a18f0e78fc541234ffe84d35c787"
+    },
+    {
+      "path": "docs/DATA_PROVENANCE.md",
+      "bytes": 10919,
+      "sha256": "3d716c4f51e26fb985c1dc90c1442c9a0ba8a7abaa7373ccd3ec8ac23dde6c30"
+    },
+    {
+      "path": "docs/REPRODUCIBILITY.md",
+      "bytes": 3398,
+      "sha256": "990f3ec2e54411655aa21e79067c5e73671231fa855b36a9d55dfa90021b03f9"
+    },
+    {
+      "path": "docs/RESEARCH_DESIGN.md",
+      "bytes": 4400,
+      "sha256": "9b01e3f90e941208fd39fe87577fa691e09e59584581424b2d0703c760279ddc"
+    },
+    {
+      "path": "metagene/__init__.py",
+      "bytes": 80,
+      "sha256": "977e7fa50da32aebff8fd16a5392211280e688914a0291fa06d2831746d8f58d"
+    },
+    {
+      "path": "metagene/evaluation.py",
+      "bytes": 9282,
+      "sha256": "ad502267b39a0ebda1b3cbe1e0768bc931111a337a922ee9eeecc23e9350141e"
+    },
+    {
+      "path": "metagene/metrics.py",
+      "bytes": 2840,
+      "sha256": "6246d47debadea4abed87d61fc2845c7308749cb6eca1b54e28f091b894be5e9"
+    },
+    {
+      "path": "metagene/models.py",
+      "bytes": 9106,
+      "sha256": "146fe1dd530df5b127df21b29900f3a039b12b32da65fc11598b7b609ac583d0"
+    },
+    {
+      "path": "metagene/reproducibility.py",
+      "bytes": 5088,
+      "sha256": "de79f43d6d0f0031c0437c686cb959b1f18c057f152ff3643af1f16ad553ed81"
+    },
+    {
+      "path": "metagene/residual_models.py",
+      "bytes": 3816,
+      "sha256": "9fdb9c6df4c56b0d1e4b85d0d73e18684f4818fa2f50ec020dc379b853e578d7"
+    },
+    {
+      "path": "metagene/residual_training.py",
+      "bytes": 15151,
+      "sha256": "4b969820f8899bed23e0102d9da0160d519e3a7933d00229604757bb42cfd700"
+    },
+    {
+      "path": "metagene/sl.py",
+      "bytes": 12360,
+      "sha256": "fb470e469f4ef916571423e12779c10d7a7795768cae91adc6f8ca964a594707"
+    },
+    {
+      "path": "metagene/splits.py",
+      "bytes": 3446,
+      "sha256": "b331a2adbef924996a103216728bc1856a41bfabb74f10349886264d8f4b61e3"
+    },
+    {
+      "path": "metagene/training.py",
+      "bytes": 24751,
+      "sha256": "2e98c0900ac255a7079b2e0fcdae75baa2dfee864c6d9c0eacdec25006b28665"
+    },
+    {
+      "path": "scripts/analyze_sl.py",
+      "bytes": 5050,
+      "sha256": "c8e1b1f69a9bb326c2cff71b8295182872a1aae045df53275af7ef7d62a1a30e"
+    },
+    {
+      "path": "scripts/audit_sl.py",
+      "bytes": 6094,
+      "sha256": "ab20f95fb4ba55c1304675ffc090c0728f1d1103f452ac6834f23289bf75a076"
+    },
+    {
+      "path": "scripts/deliver_sl.py",
+      "bytes": 18970,
+      "sha256": "89ffa59d316610243c8031ebb2dfbef666e49177a4ca9605510362b5c15e1c8d"
+    },
+    {
+      "path": "scripts/finalize_sl_release.py",
+      "bytes": 6187,
+      "sha256": "20d662a7a954cbca6f85ed54bc9375d8e8d3752640a09444150fffb18665e45d"
+    },
+    {
+      "path": "scripts/make_sl_report.py",
+      "bytes": 6577,
+      "sha256": "e22aa641340a701b5cdca66adc15eda8f1744f98c8a304bec811b60270d64051"
+    },
+    {
+      "path": "scripts/prepare_sl_labels.py",
+      "bytes": 6426,
+      "sha256": "9d19ca2ca4be1d870353841471376a536b9099d8158ab98628cb84544be9dc72"
+    },
+    {
+      "path": "scripts/run_sl_experiments.py",
+      "bytes": 14370,
+      "sha256": "fb06f3afab5605f056ab821224086c33433f97f4bbea71c715e4ecd6902d25f1"
+    },
+    {
+      "path": "scripts/write_sl_documents.py",
+      "bytes": 41024,
+      "sha256": "7ccc9e07546000011e85faa4291056270e065f0f39f8bc9bb3a165809e5415e5"
+    }
+  ]
+}

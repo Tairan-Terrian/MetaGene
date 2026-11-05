@@ -1,0 +1,8 @@
+{
+  "file": "GSM4115602_H3K27ac_HCT116_peaks.txt.gz",
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4115nnn/GSM4115602/suppl/GSM4115602_H3K27ac_HCT116_peaks.txt.gz",
+  "sha256": "9fd8b0b484456bd1603b7e6bc7f930a9de3a8589ef3e6d220f0dc735b0e73d12",
+  "bytes": 1626335,
+  "retrieved_utc": "2026-10-30T07:30:23.556083+00:00",
+  "status": "downloaded"
+}

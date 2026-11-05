@@ -1,0 +1,14 @@
+{
+  "model": "pooled_multigraph",
+  "seed": 101,
+  "engine": "residual",
+  "device": "cuda:0",
+  "completed": true,
+  "best_epoch": 3,
+  "elapsed_seconds": 10.974459499586374,
+  "n_train": 207267,
+  "n_val": 2380,
+  "n_calibration": 1586,
+  "partition_seed": 101,
+  "selection_uses_primary_validation": true
+}

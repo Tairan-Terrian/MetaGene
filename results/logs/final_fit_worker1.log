@@ -1,0 +1,10 @@
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"final_model": "pooled_multigraph", "seed": 211, "epoch": 1, "train_gi_loss": 0.7516545653343201, "val_gi_loss": 0.6553589105606079, "val_gi_rmse": 0.12190777633357541, "val_gi_spearman": 0.5270252707853957}
+{"final_model": "pooled_multigraph", "seed": 211, "epoch": 10, "train_gi_loss": 0.22126218676567078, "val_gi_loss": 0.6954284906387329, "val_gi_rmse": 0.12557929869660356, "val_gi_spearman": 0.5187587267738002}
+{"final_fit_complete": {"model": "pooled_multigraph", "seed": 211, "engine": "residual", "device": "cuda:1", "completed": true, "best_epoch": 4, "elapsed_seconds": 39.33095518499613, "n_train": 207267, "n_val": 2380, "n_calibration": 1586, "partition_seed": 101, "selection_uses_primary_validation": true}}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"final_model": "pooled_multigraph", "seed": 419, "epoch": 1, "train_gi_loss": 0.7453831434249878, "val_gi_loss": 0.6583102345466614, "val_gi_rmse": 0.12218196827473093, "val_gi_spearman": 0.525537748787736}
+{"final_model": "pooled_multigraph", "seed": 419, "epoch": 10, "train_gi_loss": 0.21868066489696503, "val_gi_loss": 0.7018422484397888, "val_gi_rmse": 0.12615706028689555, "val_gi_spearman": 0.5101655221855433}
+{"final_fit_complete": {"model": "pooled_multigraph", "seed": 419, "engine": "residual", "device": "cuda:1", "completed": true, "best_epoch": 3, "elapsed_seconds": 33.86098589096218, "n_train": 207267, "n_val": 2380, "n_calibration": 1586, "partition_seed": 101, "selection_uses_primary_validation": true}}

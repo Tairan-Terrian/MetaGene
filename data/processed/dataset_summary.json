@@ -1,0 +1,89 @@
+{
+  "horlbeck_k562": {
+    "input_rows": 101025,
+    "input_single_control_rows": 448,
+    "input_negative_negative_rows": 1,
+    "input_same_gene_dual_guide_rows": 448,
+    "input_missing_scores": 0,
+    "aggregation": "Mean measured scores across guide pairs and swapped orientations after symbol normalization. Horlbeck CSVs are already gene-pair aggregated; Norman gamma contains guide-pair records.",
+    "measured_distinct_gene_pairs": 100128,
+    "measured_single_genes": 448,
+    "pair_genes": 448,
+    "exclusions": {
+      "same_gene_dual_guide": 448
+    },
+    "author_gi_available_pairs": 0,
+    "joint_effect_min": -1.10038402465125,
+    "joint_effect_max": 0.04771379248464,
+    "joint_effect_mean": -0.5040397057197155,
+    "perturbation_type": "CRISPRi",
+    "label_type": "growth_gamma"
+  },
+  "horlbeck_jurkat": {
+    "input_rows": 96141,
+    "input_single_control_rows": 437,
+    "input_negative_negative_rows": 1,
+    "input_same_gene_dual_guide_rows": 437,
+    "input_missing_scores": 0,
+    "aggregation": "Mean measured scores across guide pairs and swapped orientations after symbol normalization. Horlbeck CSVs are already gene-pair aggregated; Norman gamma contains guide-pair records.",
+    "measured_distinct_gene_pairs": 95266,
+    "measured_single_genes": 437,
+    "pair_genes": 437,
+    "exclusions": {
+      "same_gene_dual_guide": 437
+    },
+    "author_gi_available_pairs": 0,
+    "joint_effect_min": -0.788003968073,
+    "joint_effect_max": 0.06175396207839,
+    "joint_effect_mean": -0.22536255164592395,
+    "perturbation_type": "CRISPRi",
+    "label_type": "growth_gamma"
+  },
+  "norman_k562": {
+    "input_rows": 51984,
+    "input_single_control_rows": 6390,
+    "input_negative_negative_rows": 225,
+    "input_same_gene_dual_guide_rows": 415,
+    "input_missing_scores": 0,
+    "aggregation": "Mean measured scores across guide pairs and swapped orientations after symbol normalization. Horlbeck CSVs are already gene-pair aggregated; Norman gamma contains guide-pair records.",
+    "measured_distinct_gene_pairs": 6216,
+    "measured_single_genes": 112,
+    "pair_genes": 112,
+    "exclusions": {
+      "same_gene_dual_guide": 112
+    },
+    "author_gi_available_pairs": 6216,
+    "joint_effect_min": -0.74874170075,
+    "joint_effect_max": 0.216129597,
+    "joint_effect_mean": -0.33185333316891896,
+    "perturbation_type": "CRISPRa",
+    "label_type": "growth_gamma"
+  },
+  "ht29_colo1": {
+    "input_gene_level_rows": 20311,
+    "input_guide_pair_annotation_rows": 78920,
+    "input_biological_replicates": [
+      "SIDM00136_CPID1020",
+      "SIDM00136_CPID1023",
+      "SIDM00136_CPID1026"
+    ],
+    "input_combination_designs": 17818,
+    "input_combination_designs_without_any_measured_replicate": 1209,
+    "input_same_gene_combination_designs": 40,
+    "aggregation": "Use deposited gene-level LFC; mean available biological replicates per orientation, then mean observed orientations of each unordered gene pair. Singleton controls: median of replicate means across ADAD1/CYLC2/KLK12 control arms; anchor position preferred when both positions exist, matching author R code.",
+    "author_gi_status": "Unavailable: final article uses GEMINI, but deposited main and Release2 analysis supply additive/HSA calculations rather than GEMINI result tables. author_gi is intentionally empty.",
+    "measured_distinct_gene_pairs": 15864,
+    "measured_single_genes": 471,
+    "pair_genes": 471,
+    "exclusions": {
+      "joint_effect_unmeasured": 1131,
+      "same_gene_dual_guide": 38
+    },
+    "author_gi_available_pairs": 0,
+    "joint_effect_min": -2.516164371176222,
+    "joint_effect_max": 0.7424689565945211,
+    "joint_effect_mean": -0.3504309336140591,
+    "perturbation_type": "CRISPRko",
+    "label_type": "log2_fold_change_vs_plasmid"
+  }
+}

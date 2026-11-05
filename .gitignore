@@ -1,0 +1,25 @@
+# Recreated environments, caches and new local reproduction runs
+.venv/
+.Rlib/
+.toolchain/
+__pycache__/
+*.py[cod]
+.DS_Store
+*.part
+.matplotlib-cache/
+/reproductions/
+
+# Credentials and local editor state
+.env
+.env.*
+!.env.example
+.aws/
+.ssh/
+.codex/
+.agents/
+
+# Local review-copy bookkeeping and the retired delivery archive
+/MetaGene交接包.tar.gz
+/results/local_storage_manifest.json
+/results/sl/document_revision_check.json
+/results/sl/package_verification.log

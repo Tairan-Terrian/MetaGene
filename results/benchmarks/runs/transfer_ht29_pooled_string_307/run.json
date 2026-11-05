@@ -1,0 +1,56 @@
+{
+  "protocol": "transfer_ht29",
+  "seed": 307,
+  "model": "pooled_string",
+  "name": "transfer_ht29_pooled_string_307",
+  "job_index": 134,
+  "engine": "residual",
+  "completed": true,
+  "device": "cuda:0",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "torch": "2.6.0+cu124",
+  "n_train": 146627,
+  "n_val": 29283,
+  "n_calibration": 19484,
+  "n_test": 15864,
+  "n_discarded_ht29": 0,
+  "validation_rmse": 0.3949262201786041,
+  "best_epoch": 27,
+  "elapsed_seconds": 12.331389201804996,
+  "test_evaluated_during_fit": false,
+  "learned_graph_gates": {
+    "string": 0.12306886166334152
+  },
+  "source_statistics": {
+    "global_training_reference": {
+      "joint_mean": -0.36786264181137085,
+      "joint_std": 0.18841418623924255,
+      "gi_mean": 0.12199445813894272,
+      "gi_std": 0.11734886467456818
+    },
+    "by_source": {
+      "0": {
+        "n_train": 75115,
+        "n_gi": 75115,
+        "joint_mean": -0.5036913156509399,
+        "joint_std": 0.12517735362052917,
+        "gi_mean": 0.19232876598834991,
+        "gi_std": 0.11558850854635239,
+        "single_mean": -0.3480101525783539,
+        "single_std": 0.14429914951324463
+      },
+      "1": {
+        "n_train": 71512,
+        "n_gi": 71512,
+        "joint_mean": -0.22519759833812714,
+        "joint_std": 0.12882918119430542,
+        "gi_mean": 0.048118505626916885,
+        "gi_std": 0.05956301465630531,
+        "single_mean": -0.13665787875652313,
+        "single_std": 0.11954237520694733
+      }
+    },
+    "active_gene_features": 1081,
+    "total_gene_features": 1831
+  }
+}

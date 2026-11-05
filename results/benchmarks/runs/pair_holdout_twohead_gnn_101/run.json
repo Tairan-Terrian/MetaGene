@@ -1,0 +1,21 @@
+{
+  "protocol": "pair_holdout",
+  "seed": 101,
+  "model": "twohead_gnn",
+  "name": "pair_holdout_twohead_gnn_101",
+  "job_index": 2,
+  "engine": "twohead",
+  "completed": true,
+  "device": "cuda:0",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "torch": "2.6.0+cu124",
+  "n_train": 9518,
+  "n_val": 2380,
+  "n_calibration": 1586,
+  "n_test": 2380,
+  "n_discarded_ht29": 0,
+  "validation_rmse": 0.1163688675495266,
+  "best_epoch": 9,
+  "elapsed_seconds": 1.321457410696894,
+  "test_evaluated_during_fit": false
+}

@@ -1,0 +1,8 @@
+{
+  "file": "TCGA_COAD_metadata.json",
+  "url": "https://tcga.xenahubs.net/download/TCGA.COAD.sampleMap/HiSeqV2.json",
+  "sha256": "8ca3bd54ffff19338370ab46396e9764afc1446d14c486b1914ccd5c422ae1c9",
+  "bytes": 2553,
+  "retrieved_utc": "2026-10-30T07:03:28.899081+00:00",
+  "status": "downloaded"
+}

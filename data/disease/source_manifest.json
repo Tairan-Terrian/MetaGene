@@ -1,0 +1,80 @@
+{
+  "prepared_utc": "2026-10-29T06:33:38.960269+00:00",
+  "sources": [
+    {
+      "file": "GSE299428_counts.xlsx",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE299nnn/GSE299428/suppl/GSE299428_20190218_HCT116_Ox_R_Consolidated_Counts.xlsx",
+      "bytes": 4024724,
+      "file_saved_utc": "2026-10-28T06:54:50.246080+00:00"
+    },
+    {
+      "file": "GSE289766_RAW.tar",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE289nnn/GSE289766/suppl/GSE289766_RAW.tar",
+      "bytes": 3993600,
+      "file_saved_utc": "2026-10-28T06:54:50.706039+00:00"
+    },
+    {
+      "file": "GSE254136_count_table.count.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE254nnn/GSE254136/suppl/GSE254136_count_table.count.txt.gz",
+      "bytes": 102544,
+      "file_saved_utc": "2026-10-28T07:01:17.267841+00:00"
+    },
+    {
+      "file": "GSE299428_samples.txt",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE299428&targ=gsm&form=text&view=brief",
+      "bytes": 81492,
+      "file_saved_utc": "2026-10-29T06:30:23.375046+00:00"
+    },
+    {
+      "file": "GSE42387_samples.txt",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE42387&targ=gsm&form=text&view=brief",
+      "bytes": 86391,
+      "file_saved_utc": "2026-10-29T06:27:13.288033+00:00"
+    },
+    {
+      "file": "GPL16297.txt",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL16297&targ=self&form=text&view=full",
+      "bytes": 1905702,
+      "file_saved_utc": "2026-10-29T06:27:11.870623+00:00"
+    },
+    {
+      "file": "GSE42387_series_matrix.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE42nnn/GSE42387/matrix/GSE42387_series_matrix.txt.gz",
+      "bytes": 4324007,
+      "file_saved_utc": "2026-10-29T06:28:35.875110+00:00"
+    },
+    {
+      "file": "GSE254136_metadata.txt",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE254136&targ=self&form=text&view=brief",
+      "bytes": 3795,
+      "file_saved_utc": "2026-10-29T06:27:14.151741+00:00"
+    },
+    {
+      "file": "GSE254136_samples.txt",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE254136&targ=gsm&form=text&view=brief",
+      "bytes": 11134,
+      "file_saved_utc": "2026-10-29T06:27:15.264797+00:00"
+    }
+  ],
+  "count_method": "exploratory",
+  "pydeseq2_version": null,
+  "count_design": "Each cell line and dose analyzed separately: ~condition, MD vs PAR and HD vs PAR, 3 vs 3. Genes with >=10 counts in >=3 samples retained for inferential DE. HD is excluded from primary cross-study direction concordance.",
+  "exploratory_count_effect": "Median-of-ratios library normalization from genes positive in all 6 contrast samples; log2((mean_treated+1)/(mean_control+1)); no p-values. Low-expression effects missing using the same >=10 counts in >=3 samples rule.",
+  "fpkm_method": "GSE289766: log2((mean OX FPKM+0.1)/(mean WT FPKM+0.1)); effects missing if both means <1 FPKM; 3 vs 3 separately for HCT116, SW480, DLD1; no count model and no p-values.",
+  "array_method": "GSE42387 official series matrix contains quantile-normalized log2 signals with systematic identifiers matching GPL16297; unambiguous platform symbols are resolved to HGNC and multiple rows per gene collapsed by median; mean OX minus mean parental, 3 vs 3 separately for HCT116/HT29/LoVo; no additional log transform or p-values.",
+  "array_mapping": {
+    "collapsed_rows_input": 32705,
+    "rows_mapped_to_gene": 22135,
+    "genes_after_median_collapse": 19203
+  },
+  "array_source_choice": "The pre-existing 41000-row probe_level_data supplementary file uses Agilent probe IDs and must NOT be joined directly to the 32705-row collapsed-systematic-ID GPL16297 table. The matching GEO series matrix is used instead.",
+  "screen_method": "GSE254136: total-library CPM per guide/sample, pseudocount 1 CPM; guide log2(treatment/PBS) in each treated replicate, mean across 3 treated replicates, median of guide mean effects per gene. Guides require PBS >= 30 reads. One PBS control prevents estimating control biological variation: no inferential p-values/FDR or causal claim from this effect alone.",
+  "screen_direction": "Negative screen log2FC indicates guide depletion under oxaliplatin (loss of gene may sensitize cells); positive indicates enrichment. This is not a direct gene-expression effect.",
+  "screen_metadata_note": "GEO describes human HCT116 and Homo sapiens but includes Assembly: mm10 in sample processing text; supplied gene symbols/counts are used without genome realignment. This deposited metadata inconsistency is preserved here.",
+  "concordance": "Primary cross-study HCT116 only: GSE299428 MD, GSE289766 OX, GSE42387 OX. Directional study requires abs(log2FC)>=0.5; concordance=max(up,down)/(up+down), missing unless >=2 directional studies. Three-study consistency requires all 3 effects exceeding threshold in one direction. Other cell lines and HD are retained in separate columns, never pooled.",
+  "interpretation": "Disease expression evidence is an independent prioritization/validation layer, not pairwise synthetic-lethality labels and not proof of causal targets. Single-gene CRISPR evidence also does not establish double-perturbation synergy.",
+  "n_genes": 35434,
+  "n_expression_contrasts": 10,
+  "n_screen_genes": 1797,
+  "n_samples": 82
+}

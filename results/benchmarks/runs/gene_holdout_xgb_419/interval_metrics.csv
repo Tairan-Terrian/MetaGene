@@ -1,0 +1,2 @@
+interval_n,interval_coverage,interval_mean_width,protocol,model,seed,nominal_coverage,radius,n_calibration
+425,0.8305882352941176,0.4687594811334997,gene_holdout,xgb,419,0.9,0.23437974056674993,160

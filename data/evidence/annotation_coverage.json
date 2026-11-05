@@ -1,0 +1,41 @@
+{
+  "n_model_genes": 898,
+  "model_gene_counts": {
+    "is_strict_metabolic_enzyme": 38,
+    "is_direct_histone_enzyme": 15,
+    "is_chromatin_regulator": 95,
+    "is_core_chromatin_factor": 46,
+    "is_extended_metabolic_signaling": 39
+  },
+  "ht29_single_gene_counts": {
+    "is_strict_metabolic_enzyme": 20,
+    "is_direct_histone_enzyme": 13,
+    "is_chromatin_regulator": 75,
+    "is_core_chromatin_factor": 36,
+    "is_extended_metabolic_signaling": 27
+  },
+  "direct_histone_genes": [
+    "BAP1",
+    "HDAC1",
+    "HDAC2",
+    "HDAC3",
+    "KAT5",
+    "KAT6A",
+    "KAT6B",
+    "KAT7",
+    "KDM1A",
+    "KDM3A",
+    "KDM3B",
+    "PHF8",
+    "PRMT5",
+    "RNF20",
+    "TAF1"
+  ],
+  "unresolved_model_symbols": [
+    "Ltn1",
+    "MICOS10-NBL1",
+    "QARS",
+    "TAZ"
+  ],
+  "scope": "Existing measured-pair gene universe only; not a genome-wide catalogue."
+}

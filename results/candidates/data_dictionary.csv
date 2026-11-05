@@ -1,0 +1,14 @@
+field,definition_zh
+synergy_probability,校准后的HT29 dLFC<-1筛选事件估计；校准集仅3个阳性，绝对值不稳定，不代表耐药细胞SL概率
+model_score,五种子GNN主分类头logit均值，越高越优先
+pred_dlfc,辅助回归头估计的对照校正dLFC；越负代表超出加性预期的抑制越强
+dlfc_pi90_lower/dlfc_pi90_upper,独立校准集绝对残差形成的名义90%预测区间；迁移背景覆盖率未保证
+single_effect_tier,0=两臂有测量且均>-0.5；1=有缺测且未观测到强单效应；2=至少一臂<=-0.5。是初筛标记，不证明非必需
+delivery_rank,单基因兼容层级优先，随后校准协同分数降序、预测dLFC升序、配对键；无绝对联合fitness门槛
+synergy_rank,不考虑单基因层级的分类头分数排序；提供纯协同信号比较
+evidence_level,A需单基因兼容、dLFC区间上界<-1且校准分数>=0.5；B/C/D为不同证据限制的探索队列
+pair_specific_fdr,未测配对无实验P值/FDR，留空；不由模型分数伪造
+target_resistance_association_count,HCT116/SW480的耐药表达关联细胞背景数；非双基因功能证据
+biological_rationale,逐对功能事实、机制假说、预测及局限；来源列链接UniProt审查记录
+seed_score_sd/seed_dlfc_sd,优化随机性，不是实验标准误、FDR或完整预测不确定性
+top30_rank,按交付顺序选择，单基因最多出现3次；多样性选择不改变Top500排序

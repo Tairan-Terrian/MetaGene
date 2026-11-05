@@ -1,0 +1,1 @@
+record_id,pair_key,gene_a,gene_b,cell_model,parental_or_resistant,drug_condition_label,replicate_id,lfc_single_a,lfc_single_b,lfc_double,lfc_control,effect_scale,control_normalization,quality_pass,source_file,measured_at

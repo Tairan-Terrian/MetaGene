@@ -1,0 +1,7 @@
+sample,mark,state,peaks,genes_with_promoter_peak,url
+GSM4115600,H3K4me3,HCT116,29983,866,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4115600
+GSM4115601,H3K4me3,HCT116OxR,37651,865,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4115601
+GSM4115602,H3K27ac,HCT116,78873,873,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4115602
+GSM4115603,H3K27ac,HCT116OxR,78119,875,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4115603
+GSM4115604,H3K27me3,HCT116,34019,86,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4115604
+GSM4115605,H3K27me3,HCT116OxR,23231,73,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4115605

@@ -1,0 +1,8 @@
+{
+  "model": "xgb",
+  "seed": 101,
+  "best_epoch": 31,
+  "elapsed_seconds": 55.677514960989356,
+  "n_train": 11140,
+  "n_calibration": 1485
+}

@@ -1,0 +1,11 @@
+torch==2.6.0
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.15.3
+scikit-learn==1.7.2
+openpyxl==3.1.5
+matplotlib==3.10.9
+pyreadr==0.5.8
+rdata==0.11.2
+pydeseq2==0.5.2
+xgboost==2.1.4

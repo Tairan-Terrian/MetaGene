@@ -1,0 +1,13 @@
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"final_model": "pooled_multigraph", "seed": 101, "epoch": 1, "train_gi_loss": 0.7460835576057434, "val_gi_loss": 0.6475377678871155, "val_gi_rmse": 0.12117816260041092, "val_gi_spearman": 0.5383613136033635}
+{"final_model": "pooled_multigraph", "seed": 101, "epoch": 10, "train_gi_loss": 0.21993207931518555, "val_gi_loss": 0.7019640207290649, "val_gi_rmse": 0.12616800175528198, "val_gi_spearman": 0.5131700791926244}
+{"final_fit_complete": {"model": "pooled_multigraph", "seed": 101, "engine": "residual", "device": "cuda:0", "completed": true, "best_epoch": 3, "elapsed_seconds": 10.974459499586374, "n_train": 207267, "n_val": 2380, "n_calibration": 1586, "partition_seed": 101, "selection_uses_primary_validation": true}}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"final_model": "pooled_multigraph", "seed": 307, "epoch": 1, "train_gi_loss": 0.744032621383667, "val_gi_loss": 0.665950357913971, "val_gi_rmse": 0.1228889181787931, "val_gi_spearman": 0.5264702336635806}
+{"final_model": "pooled_multigraph", "seed": 307, "epoch": 10, "train_gi_loss": 0.22157131135463715, "val_gi_loss": 0.7322203516960144, "val_gi_rmse": 0.12885839124886633, "val_gi_spearman": 0.5016631037964809}
+{"final_fit_complete": {"model": "pooled_multigraph", "seed": 307, "engine": "residual", "device": "cuda:0", "completed": true, "best_epoch": 2, "elapsed_seconds": 8.530015078373253, "n_train": 207267, "n_val": 2380, "n_calibration": 1586, "partition_seed": 101, "selection_uses_primary_validation": true}}
+{"final_model": "pooled_multigraph", "seed": 503, "epoch": 1, "train_gi_loss": 0.7618979215621948, "val_gi_loss": 0.6642310619354248, "val_gi_rmse": 0.12273018161733784, "val_gi_spearman": 0.525586537091836}
+{"final_model": "pooled_multigraph", "seed": 503, "epoch": 10, "train_gi_loss": 0.22336280345916748, "val_gi_loss": 0.687858521938324, "val_gi_rmse": 0.12489393552877548, "val_gi_spearman": 0.5094060458443866}
+{"final_fit_complete": {"model": "pooled_multigraph", "seed": 503, "engine": "residual", "device": "cuda:0", "completed": true, "best_epoch": 3, "elapsed_seconds": 8.995663695968688, "n_train": 207267, "n_val": 2380, "n_calibration": 1586, "partition_seed": 101, "selection_uses_primary_validation": true}}

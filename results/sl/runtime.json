@@ -1,0 +1,23 @@
+{
+  "version": "sl_v2_2026-11-05",
+  "completed_utc": "2026-11-05T12:33:36.234307+00:00",
+  "python": "3.10.20 (main, Mar 11 2026, 17:46:40) [GCC 14.3.0]",
+  "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "torch": "2.6.0+cu124",
+  "cuda": "12.4",
+  "gpus": [
+    "NVIDIA GeForce RTX 3090",
+    "NVIDIA GeForce RTX 3090"
+  ],
+  "actual_fits": {
+    "benchmark": 66,
+    "final": 10,
+    "active_learning": 156
+  },
+  "fit_count_source": "completed run.json files and recorded active-learning curve rows",
+  "total_fits": 232,
+  "llm_api_calls": 0,
+  "project_root": "/media/yjz/htr/MetaGene"
+}

@@ -1,0 +1,32 @@
+{
+  "version": "sl_v2",
+  "threshold": -1,
+  "event": "control-centered dLFC < -1 with at least 2 measured biological replicates",
+  "formula": "dLFC_r = LFC_AB,r - median(LFC_A+control,r at position1) - median(LFC_control+B,r at position2) + median(LFC_nonessential+nonessential,r)",
+  "baseline_nonessential_by_replicate": {
+    "SIDM00136_CPID1020": -0.12308162033347095,
+    "SIDM00136_CPID1023": -0.09173020841726559,
+    "SIDM00136_CPID1026": -0.1043292625342177
+  },
+  "baseline_nontarget_sensitivity": {
+    "SIDM00136_CPID1020": 0.050171972929428404,
+    "SIDM00136_CPID1023": 0.0268843460024573,
+    "SIDM00136_CPID1026": 0.05335661745705475
+  },
+  "baseline_pair_count": 136,
+  "position1_single_genes": 435,
+  "position2_single_genes": 68,
+  "distinct_pairs": 16993,
+  "model_pairs": 14853,
+  "positive_model_pairs": 29,
+  "replicate_significant_model_pairs": 27,
+  "excluded_insufficient_replicates": 2140,
+  "missing_label_policy": "Never zero-fill missing singles or missing pair outcomes; missing or one-replicate labels excluded from supervised fit.",
+  "statistical_scope": "Replicate t-test and BH are exploratory supporting annotations on aggregated gene-level LFC. They are not author GEMINI FDR, and do not propagate guide/control estimation error.",
+  "biological_scope": "Negative synergy is the primary learning event. Single-gene depletion is audited separately to distinguish SL-compatible candidates from synthetic-sick/strong-single combinations.",
+  "sources": [
+    "https://www.nature.com/articles/s41467-025-67256-9",
+    "https://www.nature.com/articles/s41467-024-47795-3",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11370406/"
+  ]
+}

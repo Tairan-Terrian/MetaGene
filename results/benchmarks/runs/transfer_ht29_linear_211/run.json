@@ -1,0 +1,21 @@
+{
+  "protocol": "transfer_ht29",
+  "seed": 211,
+  "model": "linear",
+  "name": "transfer_ht29_linear_211",
+  "job_index": 125,
+  "engine": "twohead",
+  "completed": true,
+  "device": "cuda:1",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "torch": "2.6.0+cu124",
+  "n_train": 146627,
+  "n_val": 29283,
+  "n_calibration": 19484,
+  "n_test": 15864,
+  "n_discarded_ht29": 0,
+  "validation_rmse": 0.5639441013336182,
+  "best_epoch": 53,
+  "elapsed_seconds": 15.502744663972408,
+  "test_evaluated_during_fit": false
+}

@@ -1,0 +1,21 @@
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"completed": "final_multigraph_211"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"completed": "final_multigraph_419"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/media/yjz/htr/MetaGene/.venv/lib/python3.10/site-packages/xgboost/core.py:723: FutureWarning: Pass `evals` as keyword args.
+  warnings.warn(msg, FutureWarning)
+{"completed": "final_xgb_101"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/media/yjz/htr/MetaGene/.venv/lib/python3.10/site-packages/xgboost/core.py:723: FutureWarning: Pass `evals` as keyword args.
+  warnings.warn(msg, FutureWarning)
+{"completed": "final_xgb_307"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/media/yjz/htr/MetaGene/.venv/lib/python3.10/site-packages/xgboost/core.py:723: FutureWarning: Pass `evals` as keyword args.
+  warnings.warn(msg, FutureWarning)
+{"completed": "final_xgb_503"}

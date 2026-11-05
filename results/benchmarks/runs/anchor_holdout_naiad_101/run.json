@@ -1,0 +1,21 @@
+{
+  "protocol": "anchor_holdout",
+  "seed": 101,
+  "model": "naiad",
+  "name": "anchor_holdout_naiad_101",
+  "job_index": 102,
+  "engine": "twohead",
+  "completed": true,
+  "device": "cuda:0",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "torch": "2.6.0+cu124",
+  "n_train": 9021,
+  "n_val": 2403,
+  "n_calibration": 1601,
+  "n_test": 2403,
+  "n_discarded_ht29": 436,
+  "validation_rmse": 0.12530384652030438,
+  "best_epoch": 23,
+  "elapsed_seconds": 0.8339027659967542,
+  "test_evaluated_during_fit": false
+}

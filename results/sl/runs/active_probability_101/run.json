@@ -1,0 +1,10 @@
+{
+  "completed": true,
+  "strategy": "probability",
+  "seed": 101,
+  "rounds": 12,
+  "model": "multigraph",
+  "pool_size": 8911,
+  "pool_hits": 17,
+  "calibration_and_test_labels_queried": false
+}

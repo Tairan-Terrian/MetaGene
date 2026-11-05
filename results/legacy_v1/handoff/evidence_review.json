@@ -1,0 +1,25 @@
+{
+  "reviewed_at": "2026-11-02T16:13+08:00",
+  "scope": "Recomputed evidence counts from saved results; no new fitting, threshold changes or reranking.",
+  "core_pairs": 551,
+  "top500_pairs": 500,
+  "top30_pairs": 30,
+  "representative_pairs": 3,
+  "top500_with_target_expression_association": 15,
+  "associated_pairs_excluded_by_missing_HT29_singles": 15,
+  "associated_metabolic_genes": [
+    "HCCS"
+  ],
+  "top30_with_target_expression_association": 0,
+  "representatives_with_target_expression_association": 0,
+  "top30_expression_comparison_coverage": {
+    "8": 30
+  },
+  "top30_external_measured_pairs": 0,
+  "top30_external_hit_rate": null,
+  "top30_external_hit_rate_reason": "Computed only among independently measured candidate pairs; undefined with no covered candidate. Absence is not a negative result.",
+  "top30_without_strong_single_effect": 30,
+  "active_learning_core_measured_pool": 10,
+  "active_learning_core_hit_k": 0,
+  "delivery_assessment": "Computational-stage report and exploratory candidate handoff; insufficient evidence for a finalized set of reliably predicted resistance-reversal combinations."
+}

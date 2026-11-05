@@ -1,0 +1,49 @@
+{
+  "prepared_utc": "2026-10-29T06:33:32.822200+00:00",
+  "sources": [
+    {
+      "file": "sources/ReactomePathways.gmt.zip",
+      "url": "https://reactome.org/download/current/ReactomePathways.gmt.zip",
+      "file_saved_utc": "2026-10-29T06:26:27.532099+00:00",
+      "bytes": 300128
+    },
+    {
+      "file": "sources/reactome_release.txt",
+      "url": "https://reactome.org/ContentService/data/database/version",
+      "file_saved_utc": "2026-10-29T06:26:50.052495+00:00",
+      "bytes": 2
+    },
+    {
+      "file": "sources/EpiGenes_main_v2.1.csv",
+      "url": "https://epifactors.autosome.org/public_data/v2.1/EpiGenes_main.csv",
+      "file_saved_utc": "2026-10-29T06:26:52.896185+00:00",
+      "bytes": 378810
+    },
+    {
+      "file": "sources/hgnc_complete_set.txt",
+      "url": "https://storage.googleapis.com/public-download-files/hgnc/tsv/tsv/hgnc_complete_set.txt",
+      "file_saved_utc": "2026-10-29T06:28:24.398088+00:00",
+      "bytes": 16986126
+    }
+  ],
+  "reactome_release": "98",
+  "epifactors_version": "2.1, September 10 2024",
+  "epifactors_citation": "https://doi.org/10.1093/nar/gkac989",
+  "epifactors_description": "https://epifactors.autosome.org/description",
+  "hgnc_version": "Complete approved gene snapshot; source file modification time above",
+  "metabolic_definition": "All HGNC-resolved genes in Reactome Metabolism R-HSA-1430728; broad metabolic pathway membership, not an enzyme-only label.",
+  "epigenetic_definition": "HGNC-resolved proteins in curated EpiFactors 2.1 main protein table; includes cofactors and RNA modification factors; not limited to chromatin enzymes.",
+  "graph_definition": "Undirected gene pairs sharing a Reactome pathway of 2-50 human HGNC-resolved genes; weight=sum(1/(pathway_size-1)). These are functional co-membership edges, not physical PPI evidence. Stored once with gene_a < gene_b; symmetrize for message passing.",
+  "feature_definition": "Binary sparse gene-pathway membership across full Reactome vocabulary. Features are available for unseen screen genes independently of labels. Unknown genes remain unannotated, not inferred from their name.",
+  "symbol_resolution": "EpiFactors proteins use their HGNC IDs first. For symbol inputs, approved HGNC symbols take precedence; previous and alias symbols are resolved only if unique; unresolved entries exported separately.",
+  "counts": {
+    "hgnc_genes": 45289,
+    "pathways": 2874,
+    "pathway_memberships": 140238,
+    "functional_edges": 210708,
+    "metabolic_genes": 2192,
+    "epigenetic_genes": 796,
+    "overlap": 36,
+    "epifactors_unmapped": 0
+  }
+}

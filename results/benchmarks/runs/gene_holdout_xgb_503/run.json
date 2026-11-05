@@ -1,0 +1,21 @@
+{
+  "protocol": "gene_holdout",
+  "seed": 503,
+  "model": "xgb",
+  "name": "gene_holdout_xgb_503",
+  "job_index": 88,
+  "engine": "xgb",
+  "completed": true,
+  "device": "cuda:0",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "torch": "2.6.0+cu124",
+  "n_train": 5743,
+  "n_val": 262,
+  "n_calibration": 160,
+  "n_test": 425,
+  "n_discarded_ht29": 9274,
+  "validation_rmse": 0.13951933914821554,
+  "best_epoch": 1,
+  "elapsed_seconds": 0.06937543395906687,
+  "test_evaluated_during_fit": false
+}

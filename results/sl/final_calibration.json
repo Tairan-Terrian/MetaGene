@@ -1,0 +1,9 @@
+{
+  "slope": 0.5713789278150192,
+  "intercept": -2.183055281662228,
+  "status": "platt_positive_slope",
+  "n": 1485,
+  "positives": 3,
+  "conformal_abs_residual_q90": 0.18663110768921903,
+  "coverage_assumption": "Exchangeability with HT29 calibration pairs; not guaranteed for two nonanchors or resistant cells"
+}

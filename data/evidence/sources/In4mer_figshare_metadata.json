@@ -1,0 +1,165 @@
+{
+  "title": "Efficient gene knockout and genetic interaction screening using the in4mer CRISPR/Cas12a multiplex knockout platform",
+  "doi": "10.6084/m9.figshare.24243832.v1",
+  "url": "https://api.figshare.com/v2/articles/24243832",
+  "url_public_html": "https://figshare.com/articles/dataset/Efficient_gene_knockout_and_genetic_interaction_screening_using_the_in4mer_CRISPR_Cas12a_multiplex_knockout_platform/24243832",
+  "description": "<p dir=\"ltr\">Figure 1: Meta-analysis of synthetic lethality screens.</p><p dir=\"ltr\">Figure 2: Multiplexing beyond 2 guides with enAsCas12a.</p><p dir=\"ltr\">Figure 3: In4mer platform for whole-genome screening</p><p dir=\"ltr\">Figure 4: Prototype and Inzolia screens</p><p dir=\"ltr\">Figure 5: Synthetic chemogenetic interactions</p><p dir=\"ltr\">Figure 6: Library size comparison</p><p dir=\"ltr\">Supplementary Table 1: dLFC and Cohen's D for five published paralog studies<br>Supplementary Table 2: 388 Identified synthetic lethals, 26 synthetic lethals and gold standard set<br>Supplementary Table 3: Raw read counts for 7mer screens<br>Supplementary Table 4: Prototype library sequence<br>Supplementary Table 5: Inzolia library sequence<br>Supplementary Table 6: Raw read counts for both Prototype and Inzolia library screens<br>Supplementary Table 7: Log fold change by gene for both Prototype and Inzolia library screens<br>Supplementary Table 8: DrugZ score for MELJUSO screen with MEK inhibitor selumetinib <br>Supplementary Table 9: GSEA result for MELJUSO screen with MEK inhibitor selumetinib</p>",
+  "files": [
+    {
+      "id": 44435612,
+      "name": "Figure_02_input_data_readcount-matrix-384-exact.txt",
+      "size": 24936,
+      "download_url": "https://ndownloader.figshare.com/files/44435612"
+    },
+    {
+      "id": 44435615,
+      "name": "Figure_02_input_data_readcount-matrix-filterR-384-final.txt",
+      "size": 28188,
+      "download_url": "https://ndownloader.figshare.com/files/44435615"
+    },
+    {
+      "id": 44435618,
+      "name": "Figure_04_Step01_PanelsA-D_Meljuso.ipynb",
+      "size": 147601,
+      "download_url": "https://ndownloader.figshare.com/files/44435618"
+    },
+    {
+      "id": 44435621,
+      "name": "Figure_04_Step02_PanelH.ipynb",
+      "size": 83500,
+      "download_url": "https://ndownloader.figshare.com/files/44435621"
+    },
+    {
+      "id": 44435624,
+      "name": "Figure_05_code.ipynb",
+      "size": 194757,
+      "download_url": "https://ndownloader.figshare.com/files/44435624"
+    },
+    {
+      "id": 44435627,
+      "name": "Figure_06_code.ipynb",
+      "size": 39880,
+      "download_url": "https://ndownloader.figshare.com/files/44435627"
+    },
+    {
+      "id": 44435633,
+      "name": "Supp_table1.xlsx",
+      "size": 2761994,
+      "download_url": "https://ndownloader.figshare.com/files/44435633"
+    },
+    {
+      "id": 44435630,
+      "name": "Supp_table2.xlsx",
+      "size": 19235,
+      "download_url": "https://ndownloader.figshare.com/files/44435630"
+    },
+    {
+      "id": 44435636,
+      "name": "Supp_table3.xlsx",
+      "size": 60282,
+      "download_url": "https://ndownloader.figshare.com/files/44435636"
+    },
+    {
+      "id": 44435645,
+      "name": "Supp_table4.txt",
+      "size": 6934060,
+      "download_url": "https://ndownloader.figshare.com/files/44435645"
+    },
+    {
+      "id": 44435651,
+      "name": "Supp_table5.txt",
+      "size": 7940340,
+      "download_url": "https://ndownloader.figshare.com/files/44435651"
+    },
+    {
+      "id": 44435639,
+      "name": "Supp_table7.txt",
+      "size": 794928,
+      "download_url": "https://ndownloader.figshare.com/files/44435639"
+    },
+    {
+      "id": 44435648,
+      "name": "Supp_table8.txt",
+      "size": 1377253,
+      "download_url": "https://ndownloader.figshare.com/files/44435648"
+    },
+    {
+      "id": 44435654,
+      "name": "Supp_table9.txt",
+      "size": 308842,
+      "download_url": "https://ndownloader.figshare.com/files/44435654"
+    },
+    {
+      "id": 44435657,
+      "name": "Data_for_Figure_01.xlsx",
+      "size": 145178,
+      "download_url": "https://ndownloader.figshare.com/files/44435657"
+    },
+    {
+      "id": 44435660,
+      "name": "Data_for_Figure_02.xlsx",
+      "size": 53014,
+      "download_url": "https://ndownloader.figshare.com/files/44435660"
+    },
+    {
+      "id": 44435672,
+      "name": "Data_for_Figure_03.xlsx",
+      "size": 18406756,
+      "download_url": "https://ndownloader.figshare.com/files/44435672"
+    },
+    {
+      "id": 44435663,
+      "name": "Data_for_Figure_04.xlsx",
+      "size": 236395,
+      "download_url": "https://ndownloader.figshare.com/files/44435663"
+    },
+    {
+      "id": 44435666,
+      "name": "Data_for_Figure_05.xlsx",
+      "size": 1346316,
+      "download_url": "https://ndownloader.figshare.com/files/44435666"
+    },
+    {
+      "id": 44436191,
+      "name": "Supp_table6.xlsx",
+      "size": 5197010,
+      "download_url": "https://ndownloader.figshare.com/files/44436191"
+    },
+    {
+      "id": 44436203,
+      "name": "Data_for_Figure_06.xlsx",
+      "size": 11006,
+      "download_url": "https://ndownloader.figshare.com/files/44436203"
+    },
+    {
+      "id": 44435678,
+      "name": "Figure_01_Step01_process_each_of_five_paralog_datasets.zip",
+      "size": 2549906,
+      "download_url": "https://ndownloader.figshare.com/files/44435678"
+    },
+    {
+      "id": 44435675,
+      "name": "Figure_01_Step02_Clean_the_datasets.ipynb",
+      "size": 8852,
+      "download_url": "https://ndownloader.figshare.com/files/44435675"
+    },
+    {
+      "id": 44435681,
+      "name": "Figure_01_Step03_Upset_plots.ipynb",
+      "size": 119219,
+      "download_url": "https://ndownloader.figshare.com/files/44435681"
+    },
+    {
+      "id": 44435684,
+      "name": "Figure_01_Step04_Score_and_MeljusoCell.ipynb",
+      "size": 211381,
+      "download_url": "https://ndownloader.figshare.com/files/44435684"
+    },
+    {
+      "id": 44435687,
+      "name": "Figure_02_code.ipynb",
+      "size": 231438,
+      "download_url": "https://ndownloader.figshare.com/files/44435687"
+    }
+  ]
+}

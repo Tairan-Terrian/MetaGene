@@ -1,0 +1,87 @@
+{
+  "prepared_utc": "2026-10-30T08:05:28.232419+00:00",
+  "n_input_predictions": 6756,
+  "n_current_ht29_measured_in_input": 0,
+  "class_counts": {
+    "signaling_extension": 3326,
+    "epigenetic_extension": 2879,
+    "core_metabolism_histone": 551
+  },
+  "n_strict_core_unmeasured": 551,
+  "n_top30": 30,
+  "n_priority8": 8,
+  "n_top500": 500,
+  "n_representative3": 3,
+  "top30_gene_max_appearances": 3,
+  "priority8_gene_max_appearances": 3,
+  "top30_strong_single_counts": {
+    "0": 30
+  },
+  "top30_unknown_scaled_single_pairs": 0,
+  "priority8_strong_single_counts": {
+    "0": 8
+  },
+  "priority8_unknown_scaled_single_pairs": 0,
+  "priority8_band_counts": {
+    "A_negative_GI_interval_below_zero_no_strong_single": 8
+  },
+  "priority8_interval_exploration_count": 0,
+  "priority8_handoff_exploration_count": 8,
+  "top30_handoff_exploration_count": 30,
+  "priority8_handoff_evidence_tiers": {
+    "hypothesis_design_extrapolation_and_unvalidated_resistant_context": 8
+  },
+  "priority8_positive_raw_joint_count": 0,
+  "source_proxy_distribution": {
+    "source": "data/processed/pairs.csv / ht29_colo1 / additive_gi_proxy",
+    "n_measured_pairs": 15864,
+    "fraction_below_zero": 0.9901033787191125,
+    "mean": -0.46434444795213975,
+    "median": -0.4729429748991826,
+    "use": "Descriptive source distribution only; no recentering, ranking change or biological null calibration."
+  },
+  "top30_external_covered_pairs": 0,
+  "top30_external_source_hit_pairs": 0,
+  "top30_gse76092_covered_genes_per_pair": {
+    "2": 30
+  },
+  "maximum_abs_joint_consistency_gap": 2.9779815724495506e-08,
+  "policy_file": "ranking_policy.json",
+  "prediction_source": {
+    "model": "pooled_multigraph",
+    "seeds": [
+      101,
+      211,
+      307,
+      419,
+      503
+    ],
+    "n_candidates": 6756,
+    "n_calibration": 1586,
+    "nominal_coverage": 0.9,
+    "calibration_radius": 0.193370586,
+    "single_partition_seed": 101,
+    "candidate_is_ht29_unmeasured": true,
+    "joint_definition": "measured singleton sum + ensemble predicted GI; missing when either HT29 singleton is unavailable",
+    "primary_scope": "strict metabolic enzymes x direct histone-modifying enzymes; broader pairs exported only as extensions",
+    "candidate_features": "Independent covariates for all model genes; no missing HT29 single-effect imputation in the GI predictor",
+    "interval_definition": "Absolute-residual split calibration of the five-fit ensemble; the same calibration labels excluded from primary architecture selection, all five final fits and early stopping",
+    "interval_scope": "Marginal calibration on observed screen design; candidate nonanchor and disease shifts can invalidate coverage",
+    "seed_sd_scope": "Training randomness conditional on the same final split; not a calibrated interval",
+    "llm_api_calls": 0
+  },
+  "disease_sources": [
+    "results/disease/resistant_vs_parental_untreated_gene_effects.csv",
+    "results/disease/GSE76092_gene_effects.csv",
+    "results/drug_evidence/disease_evidence.csv"
+  ],
+  "external_source": "data/evidence/external/external_pairs.csv",
+  "annotation_source": "data/evidence/genes_annotation.csv",
+  "pathway_contrast": "resistant_vs_parental_untreated",
+  "n_candidate_gene_pathway_records": 3243,
+  "n_candidate_pair_arm_pathway_records": 269464,
+  "n_candidate_shared_pathway_records": 3118,
+  "independent_cards": 30,
+  "cards_directory": "evidence_cards",
+  "llm_api_calls": 0
+}

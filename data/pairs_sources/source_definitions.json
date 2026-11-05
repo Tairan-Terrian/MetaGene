@@ -1,0 +1,78 @@
+{
+  "current_experiment": {
+    "version": "sl_v2_2026-11-05",
+    "label_script": "scripts/prepare_sl_labels.py",
+    "definition_file": "data/sl/label_definition.json",
+    "primary_target": "HT29 replicate- and position-matched control-centered dLFC < -1, at least two measured biological replicates",
+    "formula": "LFC_AB - LFC_A_control - LFC_control_B + LFC_nonessential_nonessential, per replicate",
+    "legacy_scope": "The definitions below describe preserved v1 source preparation. They do not override the current SL-v2 labels and experiment configuration."
+  },
+  "preparation_date": "2026-10-29",
+  "global_rules": {
+    "primary_target": "Measured combined perturbation growth phenotype, with lower values indicating less growth. Scores are preserved in source units without sign inversion or across-dataset normalization.",
+    "single_target": "Measured gene-plus-control phenotype; same-gene dual-guide records are not single-gene-control observations.",
+    "pair_definition": "Two distinct HGNC-normalized gene symbols, alphabetically ordered. Source identities are retained in source_pair_ids. Mean scores combine observed duplicate/orientation measurements after normalization.",
+    "absence": "Missing joint or singleton measurements are excluded and recorded; no absent pair becomes a negative label.",
+    "additive_gi_proxy": "joint_effect - single_a - single_b, in the dataset's phenotype units. This is a reconstructed additive residual, not a calibrated statistical interaction call or a GEMINI score. Source controls need not be centered at zero; library composition affects the baseline.",
+    "hsa_gi_proxy": "joint_effect - min(single_a, single_b). Negative values mean greater growth suppression than the stronger measured singleton.",
+    "modality": "CRISPRi, CRISPRa, and Cas9 knockout are separate dataset contexts. Norman CRISPRa must not be presented as knockout or inhibition evidence.",
+    "interpretation": "Growth inhibition in cancer cell lines does not establish tumor selectivity or clinical efficacy. The HT29 source lacks copy-number correction, and its absolute LFC baseline is library dependent."
+  },
+  "naiad": {
+    "repository": "https://github.com/NeptuneBio/NAIAD",
+    "preparation_tutorial": "https://github.com/NeptuneBio/NAIAD/blob/main/tutorials/data_preparation_tutorial.ipynb",
+    "loader_code": "https://github.com/NeptuneBio/NAIAD/blob/main/naiad/utils.py",
+    "archived_source_files": ["naiad_data_preparation.ipynb", "naiad_utils.py", "NAIAD_LICENSE"],
+    "attribution": "NAIAD authors' public data preparation tutorial and utils.load_phenotype_df/reorganize_single_treatment_effects. The project preparation code is an independent implementation of the documented aggregation rules.",
+    "single_definition": "Exactly one id is negative. Average the gene-plus-negative guide combinations. negative+negative is the null control. Two identical non-control gene ids are an actual same-gene double-guide perturbation, excluded from this distinct-gene benchmark.",
+    "tutorial_note": "The reorganize_single_treatment_effects docstring mentions same-gene double guides, but its executable logic selects exactly one non-control id. We follow the executable logic and tutorial's gene+negative specification."
+  },
+  "horlbeck_k562": {
+    "cell_line": "K562",
+    "perturbation_type": "CRISPRi",
+    "label_type": "growth_gamma",
+    "source_url": "https://raw.githubusercontent.com/NeptuneBio/NAIAD/main/tutorials/data/horlbeck_k562_gamma.csv",
+    "original_study": "https://doi.org/10.1016/j.cell.2018.06.010",
+    "preparation": "Public NAIAD gene-pair-aggregated gamma scores. Do not treat self pairs as singleton scores. No author GI supplied in this CSV."
+  },
+  "horlbeck_jurkat": {
+    "cell_line": "Jurkat",
+    "perturbation_type": "CRISPRi",
+    "label_type": "growth_gamma",
+    "source_url": "https://raw.githubusercontent.com/NeptuneBio/NAIAD/main/tutorials/data/horlbeck_jurkat_gamma.csv",
+    "original_study": "https://doi.org/10.1016/j.cell.2018.06.010",
+    "original_data": "https://data.mendeley.com/datasets/rdzk59n6j4/1",
+    "preparation": "Public NAIAD gene-pair-aggregated gamma scores. Tutorial describes averaging two triple-sequencing replicate scores per guide pair, then averaging guide pairs and reversed orientations."
+  },
+  "norman_k562": {
+    "cell_line": "K562",
+    "perturbation_type": "CRISPRa",
+    "label_type": "growth_gamma",
+    "joint_source_url": "https://raw.githubusercontent.com/NeptuneBio/NAIAD/main/tutorials/data/norman_gamma.csv",
+    "gi_source_url": "https://raw.githubusercontent.com/NeptuneBio/NAIAD/main/tutorials/data/norman_gi.csv",
+    "original_study": "https://doi.org/10.1126/science.aax4438",
+    "preparation": "The gamma file contains 51,984 guide-pair rows; average measured gene+negative and non-control unordered gene-pair scores. Per tutorial, gamma comes from Table S3 column 15, the triple-sequencing cell-viability calculation.",
+    "author_gi": "Join the separately supplied NAIAD norman_gi.csv score by canonical pair. This repository-provided GI is preserved verbatim and never substituted for joint growth gamma or reconstructed from our additive proxy."
+  },
+  "ht29_colo1": {
+    "cell_line": "HT29 (SIDM00136)",
+    "perturbation_type": "CRISPRko",
+    "label_type": "log2_fold_change_vs_plasmid",
+    "study": "https://www.nature.com/articles/s41467-025-67256-9",
+    "article_full_text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12808759/",
+    "deposited_release": "https://zenodo.org/records/17191951",
+    "gene_lfc_source": "https://raw.githubusercontent.com/ibarrioh/DualGuide_COLO1/main/Analysis/ENCORE/input/colo1_plm_GEN.rds",
+    "annotation_source": "https://raw.githubusercontent.com/ibarrioh/DualGuide_COLO1/main/Analysis/ENCORE/input/IDs_colo1.rds",
+    "definition_source": "https://github.com/ibarrioh/DualGuide_COLO1/blob/main/Analysis/ENCORE/input/readme.txt",
+    "analysis_source": "https://github.com/ibarrioh/DualGuide_COLO1/blob/main/Analysis/ENCORE/scripts/Rscript_final.R#L941-L1017",
+    "archived_source_files": ["HT29_gene_lfc.csv", "HT29_annotations.csv", "HT29_author_analysis.R", "HT29_input_readme.txt"],
+    "numeric_matrix": "Author-deposited 20,311-row gene-level LFC matrix, three biological replicate columns SIDM00136_CPID1020/1023/1026. Use the deposited gene-level values, not reconstructed counts.",
+    "annotation_matrix": "The RDS is a 78,920-by-7 column-major character matrix. The rdata character-vector conversion is reshaped using the R dim and dimnames attributes. Columns are ID, Note, MyNote, sgRNA1_ID, sgRNA2_ID, Gene1, Gene2.",
+    "joint_aggregation": "Select MyNote AnchorCombinations, LibraryCombinations, and GIControlsCombinations. Compute mean available biological replicates per source design. Canonicalize and average the observed reciprocal design rows. Keep only distinct pairs with finite measured joint and both singleton effects.",
+    "single_aggregation": "Median of gene-plus-ADAD1/CYLC2/KLK12 replicate-mean effects. AnchorSingletons and GIControlsSingletons with control Gene1 define position-2 singles; LibrarySingletons and GIControlsSingletons with control Gene2 define position-1 singles. If measured in both roles, take position 2 first, matching the author code's a_c1 then l_c1 concatenation and R first-match named indexing.",
+    "author_gi_status": "The final paper states GEMINI v1.5.1 was used. The public main and frozen Release2 repositories do not provide GEMINI result tables; the available R script instead calculates additive residual and HSA scores. Accordingly, author_gi remains empty and reconstructed quantities have explicit proxy column names.",
+    "baseline_definition": "The deposited input/readme and filename define plasmid as the reference. The paper describes day3 or plasmid depending on analysis; do not relabel this particular matrix as day3-normalized.",
+    "replicate_support": "13,786 final pairs have all 3 biological replicates, 1,418 have 2, and 660 have 1. Missing values are not zero-filled.",
+    "quality_limitations": "No copy-number correction was applied in the original study. LFCs use sum-normalized counts in a selected library; nonessential controls need not average zero. The effect label is depletion/growth, not measured apoptosis or drug response."
+  }
+}

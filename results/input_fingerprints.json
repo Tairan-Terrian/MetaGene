@@ -1,0 +1,18 @@
+{
+  "configs/experiment.json": "088c06a0c6c7d2747f772f3a3633350d7c5ea2e1058f890ccf52dc15cf2ebd8a",
+  "data/processed/model_arrays.npz": "514b5d2d0bd9a9d33b93b162ee5a7694a7232ae17888c493e8f1e2863ce4ad67",
+  "data/evidence/integrated_features.npz": "7706373a5dfdded73ff4f00554569595d68627f235d9293ebc36416c6a3b0455",
+  "data/evidence/graphs.npz": "da1e02978b7c76d240e961aa7a00bc0460249323be4f1a879aed7e9572747897",
+  "data/evidence/genes_annotation.csv": "3efee62533f97e630166cf5c7148fc7db12760f1ec14320880d050f57c6e2d83",
+  "metagene/splits.py": "b331a2adbef924996a103216728bc1856a41bfabb74f10349886264d8f4b61e3",
+  "metagene/__init__.py": "977e7fa50da32aebff8fd16a5392211280e688914a0291fa06d2831746d8f58d",
+  "metagene/residual_training.py": "4b969820f8899bed23e0102d9da0160d519e3a7933d00229604757bb42cfd700",
+  "metagene/residual_models.py": "9fdb9c6df4c56b0d1e4b85d0d73e18684f4818fa2f50ec020dc379b853e578d7",
+  "metagene/training.py": "2e98c0900ac255a7079b2e0fcdae75baa2dfee864c6d9c0eacdec25006b28665",
+  "metagene/models.py": "146fe1dd530df5b127df21b29900f3a039b12b32da65fc11598b7b609ac583d0",
+  "metagene/evaluation.py": "ad502267b39a0ebda1b3cbe1e0768bc931111a337a922ee9eeecc23e9350141e",
+  "metagene/metrics.py": "6246d47debadea4abed87d61fc2845c7308749cb6eca1b54e28f091b894be5e9",
+  "scripts/run_benchmarks.py": "e6bdde434e50020e7d8c7f80df13312703dc9d8b46d0c4f341fd2b37f80026fe",
+  "scripts/run_active.py": "c28f08a7a49950915ae9bc228735619d994e9f4ae59de808445d1bbfaf538a3d",
+  "scripts/finalize_revision.py": "d1e7de51f8735df75176d8ec059bfe810ad7dd12c58012c747ce657662bf8739"
+}

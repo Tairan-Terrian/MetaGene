@@ -1,0 +1,13 @@
+{
+  "fixed_inputs_verified": 9,
+  "labels_rebuilt_from_source_tables": true,
+  "label_hash_matches_reference": true,
+  "default_partitions_match_reference": {
+    "pair_holdout": true,
+    "gene_holdout": true,
+    "anchor_holdout": true
+  },
+  "cpu_model_fit_epochs": 2,
+  "cpu_predictions_finite_and_symmetric": true,
+  "reference_model_weights_used": false
+}

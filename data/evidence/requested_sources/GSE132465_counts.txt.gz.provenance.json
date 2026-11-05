@@ -1,0 +1,8 @@
+{
+  "file": "GSE132465_counts.txt.gz",
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE132nnn/GSE132465/suppl/GSE132465_GEO_processed_CRC_10X_raw_UMI_count_matrix.txt.gz",
+  "sha256": "deff856c7fe1d2c845af5b31e1c65a1dd95ea29541772a66c89bda3aaa8c0666",
+  "bytes": 128941455,
+  "retrieved_utc": "2026-10-30T07:14:13.019160+00:00",
+  "status": "downloaded"
+}

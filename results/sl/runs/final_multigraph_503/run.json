@@ -1,0 +1,8 @@
+{
+  "model": "multigraph",
+  "seed": 503,
+  "best_epoch": 4,
+  "elapsed_seconds": 2.232292678207159,
+  "n_train": 11140,
+  "n_calibration": 1485
+}

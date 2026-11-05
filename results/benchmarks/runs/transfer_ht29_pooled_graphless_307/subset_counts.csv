@@ -1,0 +1,5 @@
+protocol,model,seed,subset,n_test,metrics_evaluated
+transfer_ht29,pooled_graphless,307,all,15864,True
+transfer_ht29,pooled_graphless,307,strict_enzyme_chromatin,179,True
+transfer_ht29,pooled_graphless,307,core_metabolism_histone,19,True
+transfer_ht29,pooled_graphless,307,pair_unseen,15818,True

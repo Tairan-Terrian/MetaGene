@@ -1,0 +1,63 @@
+{
+  "version": "sl_v2_2026-11-05",
+  "scope": "Fixed analysis inputs for full from-scratch model training; no model weights or training caches",
+  "files": [
+    {
+      "path": "data/pairs_sources/HT29_gene_lfc.csv",
+      "bytes": 1737704,
+      "sha256": "a6baa007c9649228ef7a4fac9058c3f7764dfa82917ca600cafc6d7c0620f199",
+      "role": "Published replicate-level gene-pair LFC export used to reconstruct labels"
+    },
+    {
+      "path": "data/pairs_sources/HT29_annotations.csv",
+      "bytes": 6652361,
+      "sha256": "d0d657ead46a8a6d7932d653cd03cc5b98d95c3646adf1d34b0779f30e14cc51",
+      "role": "Deposited perturbation design and anchor annotations"
+    },
+    {
+      "path": "data/annotations/symbol_mapping.csv",
+      "bytes": 1555556,
+      "sha256": "39be451a551c6ea72fd0fcbe34ecfc76ffa53450707860c52e44f575c71bf7cc",
+      "role": "Frozen source-symbol to canonical-gene mapping"
+    },
+    {
+      "path": "data/processed/model_genes.csv",
+      "bytes": 68869,
+      "sha256": "b85d94058c4040848314331d58d4e3babb835f458d2a291c4b477e3b125cf4af",
+      "role": "Ordered model gene index"
+    },
+    {
+      "path": "data/evidence/integrated_features.npz",
+      "bytes": 143868,
+      "sha256": "7706373a5dfdded73ff4f00554569595d68627f235d9293ebc36416c6a3b0455",
+      "role": "Frozen processed covariates; no pretrained parameters"
+    },
+    {
+      "path": "data/evidence/graphs.npz",
+      "bytes": 23127,
+      "sha256": "da1e02978b7c76d240e961aa7a00bc0460249323be4f1a879aed7e9572747897",
+      "role": "Frozen independent biological networks"
+    },
+    {
+      "path": "data/evidence/external/external_pairs_model_domain.csv",
+      "bytes": 161929,
+      "sha256": "0e7ce10d002b4cea6940f2ae6477527243afa35e47aa2df6e5e083b6f014c0d8",
+      "role": "Independent-study evaluation pairs and source-defined outcomes"
+    },
+    {
+      "path": "data/evidence/genes_annotation.csv",
+      "bytes": 3078907,
+      "sha256": "3efee62533f97e630166cf5c7148fc7db12760f1ec14320880d050f57c6e2d83",
+      "role": "Reviewed catalytic classes and functional sources"
+    },
+    {
+      "path": "data/reference/candidate_annotations.csv",
+      "bytes": 2699839,
+      "sha256": "e53be6c3dd020632792eb29f848528f7b97fc2de057ce916ee11a43e7d2b78df",
+      "role": "551 candidate identities and static biological context; old model outputs removed"
+    }
+  ],
+  "candidate_rows": 551,
+  "candidate_columns": 306,
+  "total_bytes": 16122160
+}

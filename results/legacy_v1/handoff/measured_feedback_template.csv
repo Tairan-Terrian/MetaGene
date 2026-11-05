@@ -1,0 +1,1 @@
+record_id,candidate_id,gene_a,gene_b,cell_model,parental_or_resistant,drug_condition_label,replicate_id,single_a_effect,single_b_effect,joint_effect,effect_scale,control_normalization,quality_pass,source_file,measured_at

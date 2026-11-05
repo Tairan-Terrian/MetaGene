@@ -1,0 +1,50 @@
+{
+  "version": "sl_v2_2026-11-05",
+  "candidate_universe": 550,
+  "previously_assayed_removed": 1,
+  "top500": 500,
+  "top30": 30,
+  "priority8": 8,
+  "representatives": 3,
+  "top500_single_effect_tiers": {
+    "1": 272,
+    "0": 190,
+    "2": 38
+  },
+  "top500_evidence_levels": {
+    "C_单基因证据缺失探索": 272,
+    "B_单基因初筛兼容的探索候选": 190,
+    "D_强单基因背景协同探索": 38
+  },
+  "top500_high_support_count": 0,
+  "top500_predicted_dlfc_lt_minus1": 0,
+  "top500_interval_upper_lt_minus1": 0,
+  "top500_target_resistance_association": 14,
+  "top500_external_measured": 0,
+  "model_selection": {
+    "selected_gnn": "multigraph",
+    "best_unrestricted_model": "xgb",
+    "criterion": "mean validation AUPRC, primary dLFC < -1",
+    "validation_scores": {
+      "xgb": 0.07404977693419765,
+      "linear": 0.033940199919487754,
+      "multigraph": 0.014979967470888325,
+      "string": 0.012362969300064563,
+      "regression_only": 0.012133058695886274,
+      "graphless": 0.009860946927370683
+    },
+    "test_or_calibration_used": false
+  },
+  "calibration": {
+    "slope": 0.5713789278150192,
+    "intercept": -2.183055281662228,
+    "status": "platt_positive_slope",
+    "n": 1485,
+    "positives": 3,
+    "conformal_abs_residual_q90": 0.18663110768921903,
+    "coverage_assumption": "Exchangeability with HT29 calibration pairs; not guaranteed for two nonanchors or resistant cells"
+  },
+  "max_candidate_probability": 0.018220739981649935,
+  "top500_is_capacity_not_hit_count": true,
+  "absolute_joint_gate": false
+}

@@ -1,0 +1,4 @@
+protocol,model,seed,subset,n_test,metrics_evaluated
+anchor_holdout,target_string,101,all,2403,True
+anchor_holdout,target_string,101,strict_enzyme_chromatin,0,False
+anchor_holdout,target_string,101,core_metabolism_histone,0,False

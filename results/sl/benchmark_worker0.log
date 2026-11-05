@@ -1,0 +1,107 @@
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"completed": "pair_holdout_linear_101", "val_ap": 0.021975198211447233, "seconds": 2.4940497940406203}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"completed": "pair_holdout_linear_307", "val_ap": 0.019092634558824376, "seconds": 0.44338608300313354}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"completed": "pair_holdout_linear_503", "val_ap": 0.06496686143480454, "seconds": 0.44213191978633404}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/media/yjz/htr/MetaGene/.venv/lib/python3.10/site-packages/xgboost/core.py:723: FutureWarning: Pass `evals` as keyword args.
+  warnings.warn(msg, FutureWarning)
+{"completed": "pair_holdout_xgb_211", "val_ap": 0.08467983243566726, "seconds": 2.6770798810757697}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/media/yjz/htr/MetaGene/.venv/lib/python3.10/site-packages/xgboost/core.py:723: FutureWarning: Pass `evals` as keyword args.
+  warnings.warn(msg, FutureWarning)
+{"completed": "pair_holdout_xgb_419", "val_ap": 0.06153596394056305, "seconds": 2.516795584000647}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"completed": "pair_holdout_graphless_101", "val_ap": 0.004778041539999472, "seconds": 0.7603833880275488}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"completed": "pair_holdout_graphless_307", "val_ap": 0.005841621759327066, "seconds": 1.098404083866626}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"completed": "pair_holdout_graphless_503", "val_ap": 0.019630604781538896, "seconds": 0.6476224288344383}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"completed": "pair_holdout_string_211", "val_ap": 0.012761139767420299, "seconds": 1.0190018266439438}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"completed": "pair_holdout_string_419", "val_ap": 0.013807860274904018, "seconds": 0.8522503352724016}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"completed": "pair_holdout_multigraph_101", "val_ap": 0.012739434518702589, "seconds": 1.2099520401097834}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"completed": "pair_holdout_multigraph_307", "val_ap": 0.013356717083654351, "seconds": 1.2603336148895323}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"completed": "pair_holdout_multigraph_503", "val_ap": 0.01223764277143029, "seconds": 1.2234440580941737}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"completed": "pair_holdout_regression_only_211", "val_ap": 0.007598041296271514, "seconds": 0.5135733489878476}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"completed": "pair_holdout_regression_only_419", "val_ap": 0.011576577431686514, "seconds": 0.5358031569048762}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"completed": "gene_holdout_linear_101", "val_ap": 0.0013482781026640674, "seconds": 0.23999551124870777}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"completed": "gene_holdout_linear_307", "val_ap": 0.07216931216931216, "seconds": 0.24313435796648264}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/media/yjz/htr/MetaGene/.venv/lib/python3.10/site-packages/xgboost/core.py:723: FutureWarning: Pass `evals` as keyword args.
+  warnings.warn(msg, FutureWarning)
+{"completed": "gene_holdout_xgb_211", "val_ap": 0.0009685230024213075, "seconds": 1.1316622216254473}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"completed": "gene_holdout_graphless_101", "val_ap": 0.25106837606837606, "seconds": 0.4013291159644723}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"completed": "gene_holdout_graphless_307", "val_ap": 0.07280978689818468, "seconds": 1.005888409446925}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"completed": "gene_holdout_string_211", "val_ap": 0.16752063763165384, "seconds": 0.5040014679543674}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"completed": "gene_holdout_multigraph_101", "val_ap": 0.5006172839506173, "seconds": 0.6413820488378406}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"completed": "gene_holdout_multigraph_307", "val_ap": 0.010330066463895459, "seconds": 0.7191002797335386}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"completed": "gene_holdout_regression_only_211", "val_ap": 0.0017179010477466961, "seconds": 0.31816282495856285}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"completed": "anchor_holdout_linear_101", "val_ap": 0.0007789875881915518, "seconds": 0.5993155604228377}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"completed": "anchor_holdout_linear_307", "val_ap": 0.0009170838066467771, "seconds": 0.3242975817993283}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/media/yjz/htr/MetaGene/.venv/lib/python3.10/site-packages/xgboost/core.py:723: FutureWarning: Pass `evals` as keyword args.
+  warnings.warn(msg, FutureWarning)
+{"completed": "anchor_holdout_xgb_211", "val_ap": 0.0008179959100204499, "seconds": 2.1415954511612654}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"completed": "anchor_holdout_graphless_101", "val_ap": 0.0029834962901324454, "seconds": 0.7904177769087255}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"completed": "anchor_holdout_graphless_307", "val_ap": 0.0013137199133724437, "seconds": 0.8295186953619123}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"completed": "anchor_holdout_string_211", "val_ap": 0.006677125940867746, "seconds": 1.0128039480186999}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"completed": "anchor_holdout_multigraph_101", "val_ap": 0.0011833518108424349, "seconds": 1.1359857507050037}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"completed": "anchor_holdout_multigraph_307", "val_ap": 0.013897539707256306, "seconds": 1.1557855713181198}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"completed": "anchor_holdout_regression_only_211", "val_ap": 0.004338988867111454, "seconds": 0.4511467362754047}

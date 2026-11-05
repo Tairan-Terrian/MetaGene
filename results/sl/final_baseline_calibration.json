@@ -1,0 +1,9 @@
+{
+  "slope": 0.0,
+  "intercept": -6.048722162376513,
+  "status": "constant_prevalence_reversed_fit",
+  "n": 1485,
+  "positives": 3,
+  "conformal_abs_residual_q90": 0.1857026051914673,
+  "coverage_assumption": "Exchangeability with HT29 calibration pairs; not guaranteed for two nonanchors or resistant cells"
+}

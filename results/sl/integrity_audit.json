@@ -1,0 +1,419 @@
+{
+  "version": "sl_v2_2026-11-05",
+  "passed": true,
+  "checks": [
+    {
+      "check": "replicate_1_control_centered_contrast",
+      "passed": true
+    },
+    {
+      "check": "replicate_2_control_centered_contrast",
+      "passed": true
+    },
+    {
+      "check": "replicate_3_control_centered_contrast",
+      "passed": true
+    },
+    {
+      "check": "contrast_invariant_to_lfc_origin",
+      "passed": true
+    },
+    {
+      "check": "no_one_replicate_supervised_labels",
+      "passed": true
+    },
+    {
+      "check": "event_exactly_dlfc_below_minus1",
+      "passed": true
+    },
+    {
+      "check": "finite_supervised_labels",
+      "passed": true
+    },
+    {
+      "check": "unique_unordered_pairs",
+      "passed": true
+    },
+    {
+      "check": "pair_holdout_disjoint_rows",
+      "passed": true
+    },
+    {
+      "check": "pair_holdout_linear_101_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "pair_holdout_linear_211_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "pair_holdout_linear_307_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "pair_holdout_linear_419_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "pair_holdout_linear_503_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "pair_holdout_xgb_101_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "pair_holdout_xgb_211_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "pair_holdout_xgb_307_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "pair_holdout_xgb_419_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "pair_holdout_xgb_503_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "pair_holdout_graphless_101_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "pair_holdout_graphless_211_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "pair_holdout_graphless_307_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "pair_holdout_graphless_419_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "pair_holdout_graphless_503_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "pair_holdout_string_101_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "pair_holdout_string_211_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "pair_holdout_string_307_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "pair_holdout_string_419_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "pair_holdout_string_503_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "pair_holdout_multigraph_101_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "pair_holdout_multigraph_211_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "pair_holdout_multigraph_307_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "pair_holdout_multigraph_419_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "pair_holdout_multigraph_503_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "pair_holdout_regression_only_101_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "pair_holdout_regression_only_211_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "pair_holdout_regression_only_307_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "pair_holdout_regression_only_419_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "pair_holdout_regression_only_503_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "gene_holdout_disjoint_rows",
+      "passed": true
+    },
+    {
+      "check": "gene_holdout_every_test_pair_contains_held_gene",
+      "passed": true
+    },
+    {
+      "check": "gene_holdout_linear_101_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "gene_holdout_linear_211_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "gene_holdout_linear_307_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "gene_holdout_xgb_101_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "gene_holdout_xgb_211_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "gene_holdout_xgb_307_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "gene_holdout_graphless_101_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "gene_holdout_graphless_211_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "gene_holdout_graphless_307_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "gene_holdout_string_101_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "gene_holdout_string_211_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "gene_holdout_string_307_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "gene_holdout_multigraph_101_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "gene_holdout_multigraph_211_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "gene_holdout_multigraph_307_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "gene_holdout_regression_only_101_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "gene_holdout_regression_only_211_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "gene_holdout_regression_only_307_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "anchor_holdout_disjoint_rows",
+      "passed": true
+    },
+    {
+      "check": "anchor_holdout_every_test_pair_contains_held_gene",
+      "passed": true
+    },
+    {
+      "check": "anchor_holdout_linear_101_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "anchor_holdout_linear_211_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "anchor_holdout_linear_307_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "anchor_holdout_xgb_101_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "anchor_holdout_xgb_211_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "anchor_holdout_xgb_307_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "anchor_holdout_graphless_101_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "anchor_holdout_graphless_211_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "anchor_holdout_graphless_307_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "anchor_holdout_string_101_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "anchor_holdout_string_211_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "anchor_holdout_string_307_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "anchor_holdout_multigraph_101_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "anchor_holdout_multigraph_211_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "anchor_holdout_multigraph_307_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "anchor_holdout_regression_only_101_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "anchor_holdout_regression_only_211_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "anchor_holdout_regression_only_307_fixed_partitions",
+      "passed": true
+    },
+    {
+      "check": "prediction_gene_order_symmetry",
+      "passed": true
+    },
+    {
+      "check": "exactly500_unique_predictions",
+      "passed": true
+    },
+    {
+      "check": "only_strict_metabolic_and_direct_histone_enzymes",
+      "passed": true
+    },
+    {
+      "check": "no_previously_assayed_pairs_in_candidates",
+      "passed": true
+    },
+    {
+      "check": "finite_predictions_probabilities",
+      "passed": true
+    },
+    {
+      "check": "top500_follows_declared_order",
+      "passed": true
+    },
+    {
+      "check": "no_fabricated_pair_fdr",
+      "passed": true
+    },
+    {
+      "check": "every_pair_has_function_sources_and_rationale",
+      "passed": true
+    },
+    {
+      "check": "top30_diversity_cap",
+      "passed": true
+    },
+    {
+      "check": "capacity_plan_covers_all500",
+      "passed": true
+    },
+    {
+      "check": "empty_real_measurement_template",
+      "passed": true
+    },
+    {
+      "check": "active_random_101_queries_only_training_pool",
+      "passed": true
+    },
+    {
+      "check": "active_probability_101_queries_only_training_pool",
+      "passed": true
+    },
+    {
+      "check": "active_uncertainty_101_queries_only_training_pool",
+      "passed": true
+    },
+    {
+      "check": "active_upper_confidence_101_queries_only_training_pool",
+      "passed": true
+    },
+    {
+      "check": "active_random_211_queries_only_training_pool",
+      "passed": true
+    },
+    {
+      "check": "active_probability_211_queries_only_training_pool",
+      "passed": true
+    },
+    {
+      "check": "active_uncertainty_211_queries_only_training_pool",
+      "passed": true
+    },
+    {
+      "check": "active_upper_confidence_211_queries_only_training_pool",
+      "passed": true
+    },
+    {
+      "check": "active_random_307_queries_only_training_pool",
+      "passed": true
+    },
+    {
+      "check": "active_probability_307_queries_only_training_pool",
+      "passed": true
+    },
+    {
+      "check": "active_uncertainty_307_queries_only_training_pool",
+      "passed": true
+    },
+    {
+      "check": "active_upper_confidence_307_queries_only_training_pool",
+      "passed": true
+    },
+    {
+      "check": "frozen_inputs_unchanged",
+      "passed": true
+    }
+  ],
+  "count": 103
+}

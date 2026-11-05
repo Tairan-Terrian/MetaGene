@@ -1,0 +1,2 @@
+gene_a,gene_b,pair_key,reason
+CHKA,PRMT5,CHKA|PRMT5,"Already present in deposited HT29 combination designs, even if incomplete singleton/replicate support"

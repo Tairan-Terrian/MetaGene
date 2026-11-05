@@ -1,0 +1,129 @@
+{
+  "prepared_at_utc": "2026-10-29T09:32:17.356735+00:00",
+  "experimental_studies": {
+    "In4mer2024": {
+      "doi": "10.1038/s41467-024-47795-3",
+      "data_doi": "10.6084/m9.figshare.24243832.v1",
+      "table": "Supp_table7.txt",
+      "download_url": "https://ndownloader.figshare.com/files/44435639",
+      "source_code_url": "https://ndownloader.figshare.com/files/44435618",
+      "gi": "observed pair log2FC minus sum of two measured singleton log2FC",
+      "hit": "dLFC < -1; author-defined effect-size rule; no P value or FDR claim",
+      "platforms": "K562/A549 prototype library; MELJUSO/A375 Inzolia library"
+    },
+    "Dede2020_reanalysis2024": {
+      "original_doi": "10.1186/s13059-020-02173-2",
+      "reanalysis_doi": "10.1038/s41467-024-47795-3",
+      "data_doi": "10.6084/m9.figshare.24243832.v1",
+      "table": "Supp_table1.xlsx / Dede_A549, Dede_HT29, Dede_OVCAR8",
+      "download_url": "https://ndownloader.figshare.com/files/44435633",
+      "gi": "published deltaMean retained exactly, not recomputed from rounded singleton columns",
+      "hit": "deltaMean < -1 and CohenD > 0.8; threshold from 2024 reanalysis",
+      "source_rows_per_cell": 403,
+      "mapped_rows_per_cell": 402,
+      "unmapped_source_pair_excluded": "MPP2:MPP6 (MPP6 absent from project's approved HGNC symbol set)"
+    }
+  },
+  "preprocessing": "HGNC symbol mapping; canonical unordered pairs; pairs only (triples/quads and ambiguous multigene names excluded); retain only finite pair and both-singleton phenotypes; no selection by hit status",
+  "evaluation_only": true,
+  "training_or_tuning_use": false,
+  "single_gene_use": "Frozen external scoring may use independently measured source singleton phenotypes; explicitly report this as conditional on observed singles. Do not fit or tune on external pairs.",
+  "nonhit_definition": "measured pair not passing its source hit threshold; not a proven biological null; missing pairs are excluded, never encoded as zero/non-hit",
+  "applicability": "Dede HT29 is colorectal pairwise evidence under basal growth. Other cohorts assess study/platform/cell-context transfer. No cohort contains oxaliplatin or an acquired-resistant cell state.",
+  "overlap_rule": "Independent study can contain training-seen gene pairs. Report all-covered and pair-unseen subsets separately; no assertion of pair-level novelty from study independence alone.",
+  "model_domain_size": 898,
+  "coverage": [
+    {
+      "dataset": "dede2020_a549",
+      "cell_line": "A549",
+      "n_full_measured_pairs": 402,
+      "n_full_hits": 25,
+      "n_model_domain_pairs": 23,
+      "n_model_domain_hits": 3,
+      "n_unseen_model_domain_pairs": 12,
+      "n_unseen_model_domain_hits": 1,
+      "n_full_measured_nonhits": 377
+    },
+    {
+      "dataset": "dede2020_ht29",
+      "cell_line": "HT29",
+      "n_full_measured_pairs": 402,
+      "n_full_hits": 30,
+      "n_model_domain_pairs": 23,
+      "n_model_domain_hits": 4,
+      "n_unseen_model_domain_pairs": 12,
+      "n_unseen_model_domain_hits": 1,
+      "n_full_measured_nonhits": 372
+    },
+    {
+      "dataset": "dede2020_ovcar8",
+      "cell_line": "OVCAR8",
+      "n_full_measured_pairs": 402,
+      "n_full_hits": 28,
+      "n_model_domain_pairs": 23,
+      "n_model_domain_hits": 4,
+      "n_unseen_model_domain_pairs": 12,
+      "n_unseen_model_domain_hits": 1,
+      "n_full_measured_nonhits": 374
+    },
+    {
+      "dataset": "in4mer2024_a375",
+      "cell_line": "A375",
+      "n_full_measured_pairs": 4391,
+      "n_full_hits": 251,
+      "n_model_domain_pairs": 115,
+      "n_model_domain_hits": 11,
+      "n_unseen_model_domain_pairs": 70,
+      "n_unseen_model_domain_hits": 5,
+      "n_full_measured_nonhits": 4140
+    },
+    {
+      "dataset": "in4mer2024_a549",
+      "cell_line": "A549",
+      "n_full_measured_pairs": 2066,
+      "n_full_hits": 27,
+      "n_model_domain_pairs": 66,
+      "n_model_domain_hits": 4,
+      "n_unseen_model_domain_pairs": 37,
+      "n_unseen_model_domain_hits": 1,
+      "n_full_measured_nonhits": 2039
+    },
+    {
+      "dataset": "in4mer2024_k562",
+      "cell_line": "K562",
+      "n_full_measured_pairs": 2066,
+      "n_full_hits": 108,
+      "n_model_domain_pairs": 66,
+      "n_model_domain_hits": 9,
+      "n_unseen_model_domain_pairs": 37,
+      "n_unseen_model_domain_hits": 3,
+      "n_full_measured_nonhits": 1958
+    },
+    {
+      "dataset": "in4mer2024_meljuso",
+      "cell_line": "MELJUSO",
+      "n_full_measured_pairs": 4390,
+      "n_full_hits": 258,
+      "n_model_domain_pairs": 115,
+      "n_model_domain_hits": 12,
+      "n_unseen_model_domain_pairs": 70,
+      "n_unseen_model_domain_hits": 4,
+      "n_full_measured_nonhits": 4132
+    }
+  ],
+  "newer_candidate_sources": {
+    "COLO1_2025": {
+      "doi": "10.1038/s41467-025-67256-9",
+      "role": "already a training study; not independent external evaluation"
+    },
+    "Functional_modules": {
+      "doi": "10.64898/2025.12.18.695201",
+      "latest_checked_version": "v2 (2026-09-22)",
+      "title": "Functional modules predict genetic interactions, revealing evolutionary conservation and rewiring",
+      "data_repository": "https://github.com/hart-lab/Functional_modules_predict_genetic_interactions",
+      "availability": "Repository and public contents endpoint returned 404. No full measured gene-pair score table obtained; excluded from computational external validation.",
+      "v2_reported_hit_rule": "Zgi FDR < 0.25, normalized effect size > 0.15, and double knockout Zfc < -2",
+      "literature_role": "glycosylation network and 29-gene in vitro/3D/xenograft validation evidence; cannot calculate recall or FDR from a literature-only positive list"
+    }
+  }
+}

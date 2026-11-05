@@ -1,0 +1,4 @@
+strong_single_cutoff,strict_core_candidates,core_without_strong_single,core_negative_GI_without_strong_single,core_interval_below_zero_without_strong_single,core_with_unknown_scaled_single,top30_with_strong_single,top30_with_unknown_scaled_single,priority8_size,priority8_without_strong_single,priority8_with_strong_single,priority8_with_unknown_scaled_single,priority8_interval_exploration_count,priority8_handoff_exploration_count,priority8_overlap_with_default,priority8_pair_keys
+-0.3,551,152,152,145,310,6,0,8,8,0,0,0,8,8,HDAC1|PANK1;HDAC2|PANK1;HDAC2|NAMPT;KAT6A|NAMPT;HDAC1|NAMPT;KAT6A|PANK1;HDAC2|IMPDH2;HK2|KDM3A
+-0.5,551,190,190,178,310,0,0,8,8,0,0,0,8,8,HDAC1|PANK1;HDAC2|PANK1;HDAC2|NAMPT;KAT6A|NAMPT;HDAC1|NAMPT;KAT6A|PANK1;HDAC2|IMPDH2;HK2|KDM3A
+-0.7,551,221,221,207,310,0,0,8,8,0,0,0,8,8,HDAC1|PANK1;HDAC2|PANK1;HDAC2|NAMPT;KAT6A|NAMPT;HDAC1|NAMPT;KAT6A|PANK1;HDAC2|IMPDH2;HK2|KDM3A

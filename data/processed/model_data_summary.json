@@ -1,0 +1,32 @@
+{
+  "contexts": [
+    "horlbeck_k562",
+    "horlbeck_jurkat",
+    "ht29_colo1"
+  ],
+  "context_features": [
+    "myeloid",
+    "T_cell",
+    "colorectal",
+    "CRISPRi",
+    "CRISPR_KO"
+  ],
+  "secondary_target": "additive_gi_proxy = joint_effect - single_a - single_b",
+  "secondary_target_scope": "Source-scale additive reference; genetic-interaction prioritization proxy",
+  "gene_count": 898,
+  "pathway_feature_count": 1750,
+  "directed_functional_edges": 10002,
+  "labelled_pair_records": 211258,
+  "pairs_per_context": {
+    "horlbeck_jurkat": 95266,
+    "horlbeck_k562": 100128,
+    "ht29_colo1": 15864
+  },
+  "metabolic_epigenetic_pairs_per_context": {
+    "horlbeck_jurkat": 3167,
+    "horlbeck_k562": 3263,
+    "ht29_colo1": 588
+  },
+  "gene_features_without_reactome": 138,
+  "norman_role": "CRISPRa data prepared separately; primary inhibition/knockout model uses three contexts above"
+}

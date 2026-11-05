@@ -1,0 +1,10 @@
+{
+  "twohead_inconsistency_rms": 0.07515683279442618,
+  "twohead_gi_rmse": 0.12314779737010514,
+  "ht29_n_pairs": 15864,
+  "ht29_n_anchor_pairs": 15828,
+  "ht29_anchor_pair_fraction": 0.9977307110438729,
+  "record_overlap_max": 0,
+  "nontransfer_pair_overlap_max": 0,
+  "source": "Five primary-seed test predictions from the two-head GNN comparison"
+}

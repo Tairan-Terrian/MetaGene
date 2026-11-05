@@ -1,0 +1,21 @@
+# Large source/result files, model weights and numeric arrays
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.npz filter=lfs diff=lfs merge=lfs -text
+data/annotations/sources/hgnc_complete_set.txt filter=lfs diff=lfs merge=lfs -text
+data/evidence/requested_sources/DepMap_CRISPRGeneEffect.csv filter=lfs diff=lfs merge=lfs -text
+data/evidence/requested_sources/GSE132465_counts.txt.gz filter=lfs diff=lfs merge=lfs -text
+data/evidence/requested_sources/TCGA_COAD_expression.tsv.gz filter=lfs diff=lfs merge=lfs -text
+data/evidence/sources/BioPlex_293T_Network_10K_Dec_2019.tsv filter=lfs diff=lfs merge=lfs -text
+data/evidence/sources/go-basic.obo filter=lfs diff=lfs merge=lfs -text
+data/pairs_sources/prepared/pairs.csv filter=lfs diff=lfs merge=lfs -text
+data/processed/model_pairs.csv filter=lfs diff=lfs merge=lfs -text
+data/processed/pairs.csv filter=lfs diff=lfs merge=lfs -text
+results/disease/GSE76092_gene_effects.csv filter=lfs diff=lfs merge=lfs -text
+results/disease/parental_oxa_response_gene_effects.csv filter=lfs diff=lfs merge=lfs -text
+results/disease/resistant_oxa_response_gene_effects.csv filter=lfs diff=lfs merge=lfs -text
+results/disease/resistant_vs_parental_untreated_gene_effects.csv filter=lfs diff=lfs merge=lfs -text
+results/disease/state_by_oxa_interaction_gene_effects.csv filter=lfs diff=lfs merge=lfs -text
+results/legacy_v1/candidates/candidate_pair_pathway_evidence.csv filter=lfs diff=lfs merge=lfs -text
+results/legacy_v1/candidates/candidates_all.csv filter=lfs diff=lfs merge=lfs -text
+results/legacy_v1/candidates/epigenetic_extension.csv filter=lfs diff=lfs merge=lfs -text
+results/legacy_v1/candidates/signaling_extension.csv filter=lfs diff=lfs merge=lfs -text

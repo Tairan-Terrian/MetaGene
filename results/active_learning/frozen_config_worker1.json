@@ -1,0 +1,134 @@
+{
+  "objective": "AI active-learning prioritization of metabolic-enzyme \u00d7 direct histone-modifying-enzyme pairs for colorectal oxaliplatin-resistance research",
+  "primary_seeds": [
+    101,
+    211,
+    307,
+    419,
+    503
+  ],
+  "secondary_seeds": [
+    101,
+    211,
+    307
+  ],
+  "max_epochs": 100,
+  "patience": 15,
+  "batch_size": 4096,
+  "hidden_dim": 96,
+  "dropout": 0.15,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "source_weights": {
+    "0": 0.25,
+    "1": 0.25,
+    "2": 0.5
+  },
+  "fractions": {
+    "validation": 0.15,
+    "calibration": 0.1,
+    "test": 0.15
+  },
+  "selection": "Mean primary validation GI RMSE selects the best eligible GNN for the task; best overall baseline reported separately. No test or calibration outcomes used.",
+  "protocols": {
+    "pair_holdout": [
+      "linear",
+      "naiad",
+      "twohead_gnn",
+      "twohead_graphless",
+      "xgb",
+      "target_graphless",
+      "target_string",
+      "pooled_graphless",
+      "pooled_reactome",
+      "pooled_string",
+      "pooled_multigraph"
+    ],
+    "gene_holdout": [
+      "linear",
+      "xgb",
+      "target_graphless",
+      "target_string",
+      "pooled_graphless",
+      "pooled_string",
+      "pooled_multigraph",
+      "naiad"
+    ],
+    "anchor_holdout": [
+      "linear",
+      "xgb",
+      "target_graphless",
+      "target_string",
+      "pooled_graphless",
+      "pooled_string",
+      "pooled_multigraph",
+      "naiad"
+    ],
+    "transfer_ht29": [
+      "linear",
+      "twohead_gnn",
+      "pooled_graphless",
+      "pooled_string",
+      "pooled_multigraph",
+      "naiad"
+    ]
+  },
+  "xgboost": {
+    "max_depth": 4,
+    "eta": 0.05,
+    "max_bin": 64,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "lambda": 5,
+    "num_boost_round": 500,
+    "early_stopping_rounds": 25,
+    "tree_method": "hist"
+  },
+  "active_learning": {
+    "query_rounds": 12,
+    "initial_fraction": 0.05,
+    "query_fraction": 0.02,
+    "strategies": [
+      "random",
+      "effect",
+      "uncertainty",
+      "expected_improvement"
+    ],
+    "model_selection": "Choose target_graphless or target_string by primary validation RMSE.",
+    "mc_passes": 24,
+    "ei_observed_quantile": 0.1,
+    "acquisition_target": "lower measured additive GI proxy",
+    "labels": "Reveal only previously measured training-pool labels; keep fixed validation/calibration/test labels outside query pool",
+    "diversity": "No hard gene-frequency cap during discovery evaluation; diversity is applied only to the medical handoff shortlist",
+    "ei_estimator": "Analytic Gaussian EI from MC-dropout mean and SD, stable log-EI for acquisition ranking; deterministic effect tie-break for zero spread."
+  },
+  "uncertainty": {
+    "prediction_interval_level": 0.9,
+    "bootstrap_replicates": 500,
+    "metric_interval_level": 0.95,
+    "bootstrap_unit": "dyadic gene cluster weights; report repeated-seed spread separately"
+  },
+  "candidate_policy": {
+    "strict_only_top30": true,
+    "shortlist_size": 30,
+    "priority_size": 8,
+    "maximum_pairs_per_gene": 3,
+    "strong_single_cutoff": -0.5,
+    "strong_single_sensitivity": [
+      -0.3,
+      -0.5,
+      -0.7
+    ],
+    "top500_size": 500,
+    "representative_size": 3,
+    "scope": "Core metabolic enzyme \u00d7 direct histone-modifying enzyme only; all other epigenetic partners are separate extensions."
+  },
+  "test_use": "Public datasets and prior internal results were previously examined. This is a scope and input correction with repeated internal validation, not a new blinded external study.",
+  "llm_api_calls": 0,
+  "anchor_identifier_policy": "Retain source identifiers for unmapped anchor labels, including TAZ, while leaving gene-function identity unresolved.",
+  "partition_seed": 101,
+  "partition_policy": "Within each protocol all training seeds share the same fixed train/validation/calibration/test records. Seed repetition measures optimization randomness. Primary test/calibration labels stay outside architecture selection across all repetitions.",
+  "final_partition_policy": "After benchmark evaluation, fit final models on primary train plus primary test (75% HT29), retaining the same primary validation (15%) and calibration (10%). The same primary calibration labels stay outside architecture selection and final fitting.",
+  "input_policy": "Independent DepMap, TCGA-COAD, CRC single-cell, published HCT116/OxR model flux bounds, HCT116/OxR histone peak summaries and pathway gene features; STRING/Reactome/BioPlex topology. Main GNN does not consume measured source single effects, so all 551 core candidates share the same predictor.",
+  "frozen_utc": "2026-10-30; configuration frozen before integrated-input model fitting"
+}

@@ -1,0 +1,961 @@
+[
+  {
+    "protocol": "pair_holdout",
+    "seed": 101,
+    "model": "linear",
+    "name": "pair_holdout_linear_101",
+    "job_index": 0
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 101,
+    "model": "naiad",
+    "name": "pair_holdout_naiad_101",
+    "job_index": 1
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 101,
+    "model": "twohead_gnn",
+    "name": "pair_holdout_twohead_gnn_101",
+    "job_index": 2
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 101,
+    "model": "twohead_graphless",
+    "name": "pair_holdout_twohead_graphless_101",
+    "job_index": 3
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 101,
+    "model": "xgb",
+    "name": "pair_holdout_xgb_101",
+    "job_index": 4
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 101,
+    "model": "target_graphless",
+    "name": "pair_holdout_target_graphless_101",
+    "job_index": 5
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 101,
+    "model": "target_string",
+    "name": "pair_holdout_target_string_101",
+    "job_index": 6
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 101,
+    "model": "pooled_graphless",
+    "name": "pair_holdout_pooled_graphless_101",
+    "job_index": 7
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 101,
+    "model": "pooled_reactome",
+    "name": "pair_holdout_pooled_reactome_101",
+    "job_index": 8
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 101,
+    "model": "pooled_string",
+    "name": "pair_holdout_pooled_string_101",
+    "job_index": 9
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 101,
+    "model": "pooled_multigraph",
+    "name": "pair_holdout_pooled_multigraph_101",
+    "job_index": 10
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 211,
+    "model": "linear",
+    "name": "pair_holdout_linear_211",
+    "job_index": 11
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 211,
+    "model": "naiad",
+    "name": "pair_holdout_naiad_211",
+    "job_index": 12
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 211,
+    "model": "twohead_gnn",
+    "name": "pair_holdout_twohead_gnn_211",
+    "job_index": 13
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 211,
+    "model": "twohead_graphless",
+    "name": "pair_holdout_twohead_graphless_211",
+    "job_index": 14
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 211,
+    "model": "xgb",
+    "name": "pair_holdout_xgb_211",
+    "job_index": 15
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 211,
+    "model": "target_graphless",
+    "name": "pair_holdout_target_graphless_211",
+    "job_index": 16
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 211,
+    "model": "target_string",
+    "name": "pair_holdout_target_string_211",
+    "job_index": 17
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 211,
+    "model": "pooled_graphless",
+    "name": "pair_holdout_pooled_graphless_211",
+    "job_index": 18
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 211,
+    "model": "pooled_reactome",
+    "name": "pair_holdout_pooled_reactome_211",
+    "job_index": 19
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 211,
+    "model": "pooled_string",
+    "name": "pair_holdout_pooled_string_211",
+    "job_index": 20
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 211,
+    "model": "pooled_multigraph",
+    "name": "pair_holdout_pooled_multigraph_211",
+    "job_index": 21
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 307,
+    "model": "linear",
+    "name": "pair_holdout_linear_307",
+    "job_index": 22
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 307,
+    "model": "naiad",
+    "name": "pair_holdout_naiad_307",
+    "job_index": 23
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 307,
+    "model": "twohead_gnn",
+    "name": "pair_holdout_twohead_gnn_307",
+    "job_index": 24
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 307,
+    "model": "twohead_graphless",
+    "name": "pair_holdout_twohead_graphless_307",
+    "job_index": 25
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 307,
+    "model": "xgb",
+    "name": "pair_holdout_xgb_307",
+    "job_index": 26
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 307,
+    "model": "target_graphless",
+    "name": "pair_holdout_target_graphless_307",
+    "job_index": 27
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 307,
+    "model": "target_string",
+    "name": "pair_holdout_target_string_307",
+    "job_index": 28
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 307,
+    "model": "pooled_graphless",
+    "name": "pair_holdout_pooled_graphless_307",
+    "job_index": 29
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 307,
+    "model": "pooled_reactome",
+    "name": "pair_holdout_pooled_reactome_307",
+    "job_index": 30
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 307,
+    "model": "pooled_string",
+    "name": "pair_holdout_pooled_string_307",
+    "job_index": 31
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 307,
+    "model": "pooled_multigraph",
+    "name": "pair_holdout_pooled_multigraph_307",
+    "job_index": 32
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 419,
+    "model": "linear",
+    "name": "pair_holdout_linear_419",
+    "job_index": 33
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 419,
+    "model": "naiad",
+    "name": "pair_holdout_naiad_419",
+    "job_index": 34
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 419,
+    "model": "twohead_gnn",
+    "name": "pair_holdout_twohead_gnn_419",
+    "job_index": 35
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 419,
+    "model": "twohead_graphless",
+    "name": "pair_holdout_twohead_graphless_419",
+    "job_index": 36
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 419,
+    "model": "xgb",
+    "name": "pair_holdout_xgb_419",
+    "job_index": 37
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 419,
+    "model": "target_graphless",
+    "name": "pair_holdout_target_graphless_419",
+    "job_index": 38
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 419,
+    "model": "target_string",
+    "name": "pair_holdout_target_string_419",
+    "job_index": 39
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 419,
+    "model": "pooled_graphless",
+    "name": "pair_holdout_pooled_graphless_419",
+    "job_index": 40
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 419,
+    "model": "pooled_reactome",
+    "name": "pair_holdout_pooled_reactome_419",
+    "job_index": 41
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 419,
+    "model": "pooled_string",
+    "name": "pair_holdout_pooled_string_419",
+    "job_index": 42
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 419,
+    "model": "pooled_multigraph",
+    "name": "pair_holdout_pooled_multigraph_419",
+    "job_index": 43
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 503,
+    "model": "linear",
+    "name": "pair_holdout_linear_503",
+    "job_index": 44
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 503,
+    "model": "naiad",
+    "name": "pair_holdout_naiad_503",
+    "job_index": 45
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 503,
+    "model": "twohead_gnn",
+    "name": "pair_holdout_twohead_gnn_503",
+    "job_index": 46
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 503,
+    "model": "twohead_graphless",
+    "name": "pair_holdout_twohead_graphless_503",
+    "job_index": 47
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 503,
+    "model": "xgb",
+    "name": "pair_holdout_xgb_503",
+    "job_index": 48
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 503,
+    "model": "target_graphless",
+    "name": "pair_holdout_target_graphless_503",
+    "job_index": 49
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 503,
+    "model": "target_string",
+    "name": "pair_holdout_target_string_503",
+    "job_index": 50
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 503,
+    "model": "pooled_graphless",
+    "name": "pair_holdout_pooled_graphless_503",
+    "job_index": 51
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 503,
+    "model": "pooled_reactome",
+    "name": "pair_holdout_pooled_reactome_503",
+    "job_index": 52
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 503,
+    "model": "pooled_string",
+    "name": "pair_holdout_pooled_string_503",
+    "job_index": 53
+  },
+  {
+    "protocol": "pair_holdout",
+    "seed": 503,
+    "model": "pooled_multigraph",
+    "name": "pair_holdout_pooled_multigraph_503",
+    "job_index": 54
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 101,
+    "model": "linear",
+    "name": "gene_holdout_linear_101",
+    "job_index": 55
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 101,
+    "model": "xgb",
+    "name": "gene_holdout_xgb_101",
+    "job_index": 56
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 101,
+    "model": "target_graphless",
+    "name": "gene_holdout_target_graphless_101",
+    "job_index": 57
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 101,
+    "model": "target_string",
+    "name": "gene_holdout_target_string_101",
+    "job_index": 58
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 101,
+    "model": "pooled_graphless",
+    "name": "gene_holdout_pooled_graphless_101",
+    "job_index": 59
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 101,
+    "model": "pooled_string",
+    "name": "gene_holdout_pooled_string_101",
+    "job_index": 60
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 101,
+    "model": "pooled_multigraph",
+    "name": "gene_holdout_pooled_multigraph_101",
+    "job_index": 61
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 101,
+    "model": "naiad",
+    "name": "gene_holdout_naiad_101",
+    "job_index": 62
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 211,
+    "model": "linear",
+    "name": "gene_holdout_linear_211",
+    "job_index": 63
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 211,
+    "model": "xgb",
+    "name": "gene_holdout_xgb_211",
+    "job_index": 64
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 211,
+    "model": "target_graphless",
+    "name": "gene_holdout_target_graphless_211",
+    "job_index": 65
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 211,
+    "model": "target_string",
+    "name": "gene_holdout_target_string_211",
+    "job_index": 66
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 211,
+    "model": "pooled_graphless",
+    "name": "gene_holdout_pooled_graphless_211",
+    "job_index": 67
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 211,
+    "model": "pooled_string",
+    "name": "gene_holdout_pooled_string_211",
+    "job_index": 68
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 211,
+    "model": "pooled_multigraph",
+    "name": "gene_holdout_pooled_multigraph_211",
+    "job_index": 69
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 211,
+    "model": "naiad",
+    "name": "gene_holdout_naiad_211",
+    "job_index": 70
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 307,
+    "model": "linear",
+    "name": "gene_holdout_linear_307",
+    "job_index": 71
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 307,
+    "model": "xgb",
+    "name": "gene_holdout_xgb_307",
+    "job_index": 72
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 307,
+    "model": "target_graphless",
+    "name": "gene_holdout_target_graphless_307",
+    "job_index": 73
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 307,
+    "model": "target_string",
+    "name": "gene_holdout_target_string_307",
+    "job_index": 74
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 307,
+    "model": "pooled_graphless",
+    "name": "gene_holdout_pooled_graphless_307",
+    "job_index": 75
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 307,
+    "model": "pooled_string",
+    "name": "gene_holdout_pooled_string_307",
+    "job_index": 76
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 307,
+    "model": "pooled_multigraph",
+    "name": "gene_holdout_pooled_multigraph_307",
+    "job_index": 77
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 307,
+    "model": "naiad",
+    "name": "gene_holdout_naiad_307",
+    "job_index": 78
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 419,
+    "model": "linear",
+    "name": "gene_holdout_linear_419",
+    "job_index": 79
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 419,
+    "model": "xgb",
+    "name": "gene_holdout_xgb_419",
+    "job_index": 80
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 419,
+    "model": "target_graphless",
+    "name": "gene_holdout_target_graphless_419",
+    "job_index": 81
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 419,
+    "model": "target_string",
+    "name": "gene_holdout_target_string_419",
+    "job_index": 82
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 419,
+    "model": "pooled_graphless",
+    "name": "gene_holdout_pooled_graphless_419",
+    "job_index": 83
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 419,
+    "model": "pooled_string",
+    "name": "gene_holdout_pooled_string_419",
+    "job_index": 84
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 419,
+    "model": "pooled_multigraph",
+    "name": "gene_holdout_pooled_multigraph_419",
+    "job_index": 85
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 419,
+    "model": "naiad",
+    "name": "gene_holdout_naiad_419",
+    "job_index": 86
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 503,
+    "model": "linear",
+    "name": "gene_holdout_linear_503",
+    "job_index": 87
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 503,
+    "model": "xgb",
+    "name": "gene_holdout_xgb_503",
+    "job_index": 88
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 503,
+    "model": "target_graphless",
+    "name": "gene_holdout_target_graphless_503",
+    "job_index": 89
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 503,
+    "model": "target_string",
+    "name": "gene_holdout_target_string_503",
+    "job_index": 90
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 503,
+    "model": "pooled_graphless",
+    "name": "gene_holdout_pooled_graphless_503",
+    "job_index": 91
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 503,
+    "model": "pooled_string",
+    "name": "gene_holdout_pooled_string_503",
+    "job_index": 92
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 503,
+    "model": "pooled_multigraph",
+    "name": "gene_holdout_pooled_multigraph_503",
+    "job_index": 93
+  },
+  {
+    "protocol": "gene_holdout",
+    "seed": 503,
+    "model": "naiad",
+    "name": "gene_holdout_naiad_503",
+    "job_index": 94
+  },
+  {
+    "protocol": "anchor_holdout",
+    "seed": 101,
+    "model": "linear",
+    "name": "anchor_holdout_linear_101",
+    "job_index": 95
+  },
+  {
+    "protocol": "anchor_holdout",
+    "seed": 101,
+    "model": "xgb",
+    "name": "anchor_holdout_xgb_101",
+    "job_index": 96
+  },
+  {
+    "protocol": "anchor_holdout",
+    "seed": 101,
+    "model": "target_graphless",
+    "name": "anchor_holdout_target_graphless_101",
+    "job_index": 97
+  },
+  {
+    "protocol": "anchor_holdout",
+    "seed": 101,
+    "model": "target_string",
+    "name": "anchor_holdout_target_string_101",
+    "job_index": 98
+  },
+  {
+    "protocol": "anchor_holdout",
+    "seed": 101,
+    "model": "pooled_graphless",
+    "name": "anchor_holdout_pooled_graphless_101",
+    "job_index": 99
+  },
+  {
+    "protocol": "anchor_holdout",
+    "seed": 101,
+    "model": "pooled_string",
+    "name": "anchor_holdout_pooled_string_101",
+    "job_index": 100
+  },
+  {
+    "protocol": "anchor_holdout",
+    "seed": 101,
+    "model": "pooled_multigraph",
+    "name": "anchor_holdout_pooled_multigraph_101",
+    "job_index": 101
+  },
+  {
+    "protocol": "anchor_holdout",
+    "seed": 101,
+    "model": "naiad",
+    "name": "anchor_holdout_naiad_101",
+    "job_index": 102
+  },
+  {
+    "protocol": "anchor_holdout",
+    "seed": 211,
+    "model": "linear",
+    "name": "anchor_holdout_linear_211",
+    "job_index": 103
+  },
+  {
+    "protocol": "anchor_holdout",
+    "seed": 211,
+    "model": "xgb",
+    "name": "anchor_holdout_xgb_211",
+    "job_index": 104
+  },
+  {
+    "protocol": "anchor_holdout",
+    "seed": 211,
+    "model": "target_graphless",
+    "name": "anchor_holdout_target_graphless_211",
+    "job_index": 105
+  },
+  {
+    "protocol": "anchor_holdout",
+    "seed": 211,
+    "model": "target_string",
+    "name": "anchor_holdout_target_string_211",
+    "job_index": 106
+  },
+  {
+    "protocol": "anchor_holdout",
+    "seed": 211,
+    "model": "pooled_graphless",
+    "name": "anchor_holdout_pooled_graphless_211",
+    "job_index": 107
+  },
+  {
+    "protocol": "anchor_holdout",
+    "seed": 211,
+    "model": "pooled_string",
+    "name": "anchor_holdout_pooled_string_211",
+    "job_index": 108
+  },
+  {
+    "protocol": "anchor_holdout",
+    "seed": 211,
+    "model": "pooled_multigraph",
+    "name": "anchor_holdout_pooled_multigraph_211",
+    "job_index": 109
+  },
+  {
+    "protocol": "anchor_holdout",
+    "seed": 211,
+    "model": "naiad",
+    "name": "anchor_holdout_naiad_211",
+    "job_index": 110
+  },
+  {
+    "protocol": "anchor_holdout",
+    "seed": 307,
+    "model": "linear",
+    "name": "anchor_holdout_linear_307",
+    "job_index": 111
+  },
+  {
+    "protocol": "anchor_holdout",
+    "seed": 307,
+    "model": "xgb",
+    "name": "anchor_holdout_xgb_307",
+    "job_index": 112
+  },
+  {
+    "protocol": "anchor_holdout",
+    "seed": 307,
+    "model": "target_graphless",
+    "name": "anchor_holdout_target_graphless_307",
+    "job_index": 113
+  },
+  {
+    "protocol": "anchor_holdout",
+    "seed": 307,
+    "model": "target_string",
+    "name": "anchor_holdout_target_string_307",
+    "job_index": 114
+  },
+  {
+    "protocol": "anchor_holdout",
+    "seed": 307,
+    "model": "pooled_graphless",
+    "name": "anchor_holdout_pooled_graphless_307",
+    "job_index": 115
+  },
+  {
+    "protocol": "anchor_holdout",
+    "seed": 307,
+    "model": "pooled_string",
+    "name": "anchor_holdout_pooled_string_307",
+    "job_index": 116
+  },
+  {
+    "protocol": "anchor_holdout",
+    "seed": 307,
+    "model": "pooled_multigraph",
+    "name": "anchor_holdout_pooled_multigraph_307",
+    "job_index": 117
+  },
+  {
+    "protocol": "anchor_holdout",
+    "seed": 307,
+    "model": "naiad",
+    "name": "anchor_holdout_naiad_307",
+    "job_index": 118
+  },
+  {
+    "protocol": "transfer_ht29",
+    "seed": 101,
+    "model": "linear",
+    "name": "transfer_ht29_linear_101",
+    "job_index": 119
+  },
+  {
+    "protocol": "transfer_ht29",
+    "seed": 101,
+    "model": "twohead_gnn",
+    "name": "transfer_ht29_twohead_gnn_101",
+    "job_index": 120
+  },
+  {
+    "protocol": "transfer_ht29",
+    "seed": 101,
+    "model": "pooled_graphless",
+    "name": "transfer_ht29_pooled_graphless_101",
+    "job_index": 121
+  },
+  {
+    "protocol": "transfer_ht29",
+    "seed": 101,
+    "model": "pooled_string",
+    "name": "transfer_ht29_pooled_string_101",
+    "job_index": 122
+  },
+  {
+    "protocol": "transfer_ht29",
+    "seed": 101,
+    "model": "pooled_multigraph",
+    "name": "transfer_ht29_pooled_multigraph_101",
+    "job_index": 123
+  },
+  {
+    "protocol": "transfer_ht29",
+    "seed": 101,
+    "model": "naiad",
+    "name": "transfer_ht29_naiad_101",
+    "job_index": 124
+  },
+  {
+    "protocol": "transfer_ht29",
+    "seed": 211,
+    "model": "linear",
+    "name": "transfer_ht29_linear_211",
+    "job_index": 125
+  },
+  {
+    "protocol": "transfer_ht29",
+    "seed": 211,
+    "model": "twohead_gnn",
+    "name": "transfer_ht29_twohead_gnn_211",
+    "job_index": 126
+  },
+  {
+    "protocol": "transfer_ht29",
+    "seed": 211,
+    "model": "pooled_graphless",
+    "name": "transfer_ht29_pooled_graphless_211",
+    "job_index": 127
+  },
+  {
+    "protocol": "transfer_ht29",
+    "seed": 211,
+    "model": "pooled_string",
+    "name": "transfer_ht29_pooled_string_211",
+    "job_index": 128
+  },
+  {
+    "protocol": "transfer_ht29",
+    "seed": 211,
+    "model": "pooled_multigraph",
+    "name": "transfer_ht29_pooled_multigraph_211",
+    "job_index": 129
+  },
+  {
+    "protocol": "transfer_ht29",
+    "seed": 211,
+    "model": "naiad",
+    "name": "transfer_ht29_naiad_211",
+    "job_index": 130
+  },
+  {
+    "protocol": "transfer_ht29",
+    "seed": 307,
+    "model": "linear",
+    "name": "transfer_ht29_linear_307",
+    "job_index": 131
+  },
+  {
+    "protocol": "transfer_ht29",
+    "seed": 307,
+    "model": "twohead_gnn",
+    "name": "transfer_ht29_twohead_gnn_307",
+    "job_index": 132
+  },
+  {
+    "protocol": "transfer_ht29",
+    "seed": 307,
+    "model": "pooled_graphless",
+    "name": "transfer_ht29_pooled_graphless_307",
+    "job_index": 133
+  },
+  {
+    "protocol": "transfer_ht29",
+    "seed": 307,
+    "model": "pooled_string",
+    "name": "transfer_ht29_pooled_string_307",
+    "job_index": 134
+  },
+  {
+    "protocol": "transfer_ht29",
+    "seed": 307,
+    "model": "pooled_multigraph",
+    "name": "transfer_ht29_pooled_multigraph_307",
+    "job_index": 135
+  },
+  {
+    "protocol": "transfer_ht29",
+    "seed": 307,
+    "model": "naiad",
+    "name": "transfer_ht29_naiad_307",
+    "job_index": 136
+  }
+]

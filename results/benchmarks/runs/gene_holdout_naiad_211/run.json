@@ -1,0 +1,21 @@
+{
+  "protocol": "gene_holdout",
+  "seed": 211,
+  "model": "naiad",
+  "name": "gene_holdout_naiad_211",
+  "job_index": 70,
+  "engine": "twohead",
+  "completed": true,
+  "device": "cuda:0",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "torch": "2.6.0+cu124",
+  "n_train": 5743,
+  "n_val": 262,
+  "n_calibration": 160,
+  "n_test": 425,
+  "n_discarded_ht29": 9274,
+  "validation_rmse": 0.13766742540186838,
+  "best_epoch": 29,
+  "elapsed_seconds": 0.6702281134203076,
+  "test_evaluated_during_fit": false
+}

@@ -1,0 +1,21 @@
+{
+  "protocol": "pair_holdout",
+  "seed": 503,
+  "model": "xgb",
+  "name": "pair_holdout_xgb_503",
+  "job_index": 48,
+  "engine": "xgb",
+  "completed": true,
+  "device": "cuda:0",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "torch": "2.6.0+cu124",
+  "n_train": 9518,
+  "n_val": 2380,
+  "n_calibration": 1586,
+  "n_test": 2380,
+  "n_discarded_ht29": 0,
+  "validation_rmse": 0.11532041892131342,
+  "best_epoch": 492,
+  "elapsed_seconds": 1.1458401251584291,
+  "test_evaluated_during_fit": false
+}

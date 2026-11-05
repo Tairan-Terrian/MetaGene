@@ -1,0 +1,46 @@
+{
+  "protocol": "pair_holdout",
+  "seed": 101,
+  "model": "target_string",
+  "name": "pair_holdout_target_string_101",
+  "job_index": 6,
+  "engine": "residual",
+  "completed": true,
+  "device": "cuda:0",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "torch": "2.6.0+cu124",
+  "n_train": 9518,
+  "n_val": 2380,
+  "n_calibration": 1586,
+  "n_test": 2380,
+  "n_discarded_ht29": 0,
+  "validation_rmse": 0.12204398240892843,
+  "best_epoch": 8,
+  "elapsed_seconds": 0.7389382533729076,
+  "test_evaluated_during_fit": false,
+  "learned_graph_gates": {
+    "string": 0.09920389950275421
+  },
+  "source_statistics": {
+    "global_training_reference": {
+      "joint_mean": -0.3478991985321045,
+      "joint_std": 0.4898666739463806,
+      "gi_mean": -0.4646245539188385,
+      "gi_std": 0.1512075960636139
+    },
+    "by_source": {
+      "2": {
+        "n_train": 9518,
+        "n_gi": 9518,
+        "joint_mean": -0.3478991985321045,
+        "joint_std": 0.4898666739463806,
+        "gi_mean": -0.4646245539188385,
+        "gi_std": 0.1512075960636139,
+        "single_mean": 0.05836247280240059,
+        "single_std": 0.3605617880821228
+      }
+    },
+    "active_gene_features": 1640,
+    "total_gene_features": 1831
+  }
+}

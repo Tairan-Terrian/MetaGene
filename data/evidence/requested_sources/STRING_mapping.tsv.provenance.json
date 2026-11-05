@@ -1,0 +1,8 @@
+{
+  "file": "STRING_mapping.tsv",
+  "url": "https://version-12-5.string-db.org/api/tsv/get_string_ids",
+  "sha256": "1278b976cdae781ba9899bae30bd8ddfa5dc9a32de9dc8b907d1140e8b3db373",
+  "bytes": 428625,
+  "retrieved_utc": "2026-10-30T07:17:41.977688+00:00",
+  "status": "downloaded"
+}

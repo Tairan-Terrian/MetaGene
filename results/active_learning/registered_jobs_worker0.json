@@ -1,0 +1,142 @@
+[
+  {
+    "job_index": 0,
+    "seed": 101,
+    "strategy": "random",
+    "model": "target_graphless",
+    "name": "random_101"
+  },
+  {
+    "job_index": 1,
+    "seed": 101,
+    "strategy": "effect",
+    "model": "target_graphless",
+    "name": "effect_101"
+  },
+  {
+    "job_index": 2,
+    "seed": 101,
+    "strategy": "uncertainty",
+    "model": "target_graphless",
+    "name": "uncertainty_101"
+  },
+  {
+    "job_index": 3,
+    "seed": 101,
+    "strategy": "expected_improvement",
+    "model": "target_graphless",
+    "name": "expected_improvement_101"
+  },
+  {
+    "job_index": 4,
+    "seed": 211,
+    "strategy": "random",
+    "model": "target_graphless",
+    "name": "random_211"
+  },
+  {
+    "job_index": 5,
+    "seed": 211,
+    "strategy": "effect",
+    "model": "target_graphless",
+    "name": "effect_211"
+  },
+  {
+    "job_index": 6,
+    "seed": 211,
+    "strategy": "uncertainty",
+    "model": "target_graphless",
+    "name": "uncertainty_211"
+  },
+  {
+    "job_index": 7,
+    "seed": 211,
+    "strategy": "expected_improvement",
+    "model": "target_graphless",
+    "name": "expected_improvement_211"
+  },
+  {
+    "job_index": 8,
+    "seed": 307,
+    "strategy": "random",
+    "model": "target_graphless",
+    "name": "random_307"
+  },
+  {
+    "job_index": 9,
+    "seed": 307,
+    "strategy": "effect",
+    "model": "target_graphless",
+    "name": "effect_307"
+  },
+  {
+    "job_index": 10,
+    "seed": 307,
+    "strategy": "uncertainty",
+    "model": "target_graphless",
+    "name": "uncertainty_307"
+  },
+  {
+    "job_index": 11,
+    "seed": 307,
+    "strategy": "expected_improvement",
+    "model": "target_graphless",
+    "name": "expected_improvement_307"
+  },
+  {
+    "job_index": 12,
+    "seed": 419,
+    "strategy": "random",
+    "model": "target_graphless",
+    "name": "random_419"
+  },
+  {
+    "job_index": 13,
+    "seed": 419,
+    "strategy": "effect",
+    "model": "target_graphless",
+    "name": "effect_419"
+  },
+  {
+    "job_index": 14,
+    "seed": 419,
+    "strategy": "uncertainty",
+    "model": "target_graphless",
+    "name": "uncertainty_419"
+  },
+  {
+    "job_index": 15,
+    "seed": 419,
+    "strategy": "expected_improvement",
+    "model": "target_graphless",
+    "name": "expected_improvement_419"
+  },
+  {
+    "job_index": 16,
+    "seed": 503,
+    "strategy": "random",
+    "model": "target_graphless",
+    "name": "random_503"
+  },
+  {
+    "job_index": 17,
+    "seed": 503,
+    "strategy": "effect",
+    "model": "target_graphless",
+    "name": "effect_503"
+  },
+  {
+    "job_index": 18,
+    "seed": 503,
+    "strategy": "uncertainty",
+    "model": "target_graphless",
+    "name": "uncertainty_503"
+  },
+  {
+    "job_index": 19,
+    "seed": 503,
+    "strategy": "expected_improvement",
+    "model": "target_graphless",
+    "name": "expected_improvement_503"
+  }
+]

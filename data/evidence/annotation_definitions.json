@@ -1,0 +1,8 @@
+{
+  "primary": "Direct metabolic catalyst x direct histone-modifying catalytic enzyme. Requires individually reviewed mechanism, not a broad pathway or complex label.",
+  "epigenetic_extension": "Metabolic enzyme x other chromatin/epigenetic regulator, including readers, chaperones, remodelers and DNA methyltransferases. Never included in primary Top500.",
+  "signaling_extension": "Extended metabolic signaling regulator x chromatin/epigenetic factor; separate exploratory output.",
+  "KDM8": "Mechanism caveat retained; excluded from primary histone writer/eraser scope.",
+  "universe": "38 strictly reviewed metabolic enzymes and the directly annotated histone enzymes among the existing model genes. No missing annotation is interpreted as absent biology.",
+  "label_independence": true
+}

@@ -1,0 +1,8 @@
+dataset,cell_line,n_full_measured_pairs,n_full_hits,n_model_domain_pairs,n_model_domain_hits,n_unseen_model_domain_pairs,n_unseen_model_domain_hits,n_full_measured_nonhits
+dede2020_a549,A549,402,25,23,3,12,1,377
+dede2020_ht29,HT29,402,30,23,4,12,1,372
+dede2020_ovcar8,OVCAR8,402,28,23,4,12,1,374
+in4mer2024_a375,A375,4391,251,115,11,70,5,4140
+in4mer2024_a549,A549,2066,27,66,4,37,1,2039
+in4mer2024_k562,K562,2066,108,66,9,37,3,1958
+in4mer2024_meljuso,MELJUSO,4390,258,115,12,70,4,4132

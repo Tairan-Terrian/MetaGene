@@ -1,0 +1,21 @@
+{
+  "protocol": "pair_holdout",
+  "seed": 419,
+  "model": "linear",
+  "name": "pair_holdout_linear_419",
+  "job_index": 33,
+  "engine": "twohead",
+  "completed": true,
+  "device": "cuda:1",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "torch": "2.6.0+cu124",
+  "n_train": 9518,
+  "n_val": 2380,
+  "n_calibration": 1586,
+  "n_test": 2380,
+  "n_discarded_ht29": 0,
+  "validation_rmse": 0.11728545827548967,
+  "best_epoch": 73,
+  "elapsed_seconds": 2.2750820610672235,
+  "test_evaluated_during_fit": false
+}

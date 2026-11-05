@@ -1,0 +1,137 @@
+{"selection_before_test": "pooled_multigraph"}
+{"starting_job": {"protocol": "pair_holdout", "seed": 101, "model": "naiad", "name": "pair_holdout_naiad_101", "job_index": 1}, "phase": "evaluate"}
+{"evaluated_job": "pair_holdout_naiad_101"}
+{"starting_job": {"protocol": "pair_holdout", "seed": 101, "model": "twohead_graphless", "name": "pair_holdout_twohead_graphless_101", "job_index": 3}, "phase": "evaluate"}
+{"evaluated_job": "pair_holdout_twohead_graphless_101"}
+{"starting_job": {"protocol": "pair_holdout", "seed": 101, "model": "target_graphless", "name": "pair_holdout_target_graphless_101", "job_index": 5}, "phase": "evaluate"}
+{"evaluated_job": "pair_holdout_target_graphless_101"}
+{"starting_job": {"protocol": "pair_holdout", "seed": 101, "model": "pooled_graphless", "name": "pair_holdout_pooled_graphless_101", "job_index": 7}, "phase": "evaluate"}
+{"evaluated_job": "pair_holdout_pooled_graphless_101"}
+{"starting_job": {"protocol": "pair_holdout", "seed": 101, "model": "pooled_string", "name": "pair_holdout_pooled_string_101", "job_index": 9}, "phase": "evaluate"}
+{"evaluated_job": "pair_holdout_pooled_string_101"}
+{"starting_job": {"protocol": "pair_holdout", "seed": 211, "model": "linear", "name": "pair_holdout_linear_211", "job_index": 11}, "phase": "evaluate"}
+{"evaluated_job": "pair_holdout_linear_211"}
+{"starting_job": {"protocol": "pair_holdout", "seed": 211, "model": "twohead_gnn", "name": "pair_holdout_twohead_gnn_211", "job_index": 13}, "phase": "evaluate"}
+{"evaluated_job": "pair_holdout_twohead_gnn_211"}
+{"starting_job": {"protocol": "pair_holdout", "seed": 211, "model": "xgb", "name": "pair_holdout_xgb_211", "job_index": 15}, "phase": "evaluate"}
+{"evaluated_job": "pair_holdout_xgb_211"}
+{"starting_job": {"protocol": "pair_holdout", "seed": 211, "model": "target_string", "name": "pair_holdout_target_string_211", "job_index": 17}, "phase": "evaluate"}
+{"evaluated_job": "pair_holdout_target_string_211"}
+{"starting_job": {"protocol": "pair_holdout", "seed": 211, "model": "pooled_reactome", "name": "pair_holdout_pooled_reactome_211", "job_index": 19}, "phase": "evaluate"}
+{"evaluated_job": "pair_holdout_pooled_reactome_211"}
+{"starting_job": {"protocol": "pair_holdout", "seed": 211, "model": "pooled_multigraph", "name": "pair_holdout_pooled_multigraph_211", "job_index": 21}, "phase": "evaluate"}
+{"evaluated_job": "pair_holdout_pooled_multigraph_211"}
+{"starting_job": {"protocol": "pair_holdout", "seed": 307, "model": "naiad", "name": "pair_holdout_naiad_307", "job_index": 23}, "phase": "evaluate"}
+{"evaluated_job": "pair_holdout_naiad_307"}
+{"starting_job": {"protocol": "pair_holdout", "seed": 307, "model": "twohead_graphless", "name": "pair_holdout_twohead_graphless_307", "job_index": 25}, "phase": "evaluate"}
+{"evaluated_job": "pair_holdout_twohead_graphless_307"}
+{"starting_job": {"protocol": "pair_holdout", "seed": 307, "model": "target_graphless", "name": "pair_holdout_target_graphless_307", "job_index": 27}, "phase": "evaluate"}
+{"evaluated_job": "pair_holdout_target_graphless_307"}
+{"starting_job": {"protocol": "pair_holdout", "seed": 307, "model": "pooled_graphless", "name": "pair_holdout_pooled_graphless_307", "job_index": 29}, "phase": "evaluate"}
+{"evaluated_job": "pair_holdout_pooled_graphless_307"}
+{"starting_job": {"protocol": "pair_holdout", "seed": 307, "model": "pooled_string", "name": "pair_holdout_pooled_string_307", "job_index": 31}, "phase": "evaluate"}
+{"evaluated_job": "pair_holdout_pooled_string_307"}
+{"starting_job": {"protocol": "pair_holdout", "seed": 419, "model": "linear", "name": "pair_holdout_linear_419", "job_index": 33}, "phase": "evaluate"}
+{"evaluated_job": "pair_holdout_linear_419"}
+{"starting_job": {"protocol": "pair_holdout", "seed": 419, "model": "twohead_gnn", "name": "pair_holdout_twohead_gnn_419", "job_index": 35}, "phase": "evaluate"}
+{"evaluated_job": "pair_holdout_twohead_gnn_419"}
+{"starting_job": {"protocol": "pair_holdout", "seed": 419, "model": "xgb", "name": "pair_holdout_xgb_419", "job_index": 37}, "phase": "evaluate"}
+{"evaluated_job": "pair_holdout_xgb_419"}
+{"starting_job": {"protocol": "pair_holdout", "seed": 419, "model": "target_string", "name": "pair_holdout_target_string_419", "job_index": 39}, "phase": "evaluate"}
+{"evaluated_job": "pair_holdout_target_string_419"}
+{"starting_job": {"protocol": "pair_holdout", "seed": 419, "model": "pooled_reactome", "name": "pair_holdout_pooled_reactome_419", "job_index": 41}, "phase": "evaluate"}
+{"evaluated_job": "pair_holdout_pooled_reactome_419"}
+{"starting_job": {"protocol": "pair_holdout", "seed": 419, "model": "pooled_multigraph", "name": "pair_holdout_pooled_multigraph_419", "job_index": 43}, "phase": "evaluate"}
+{"evaluated_job": "pair_holdout_pooled_multigraph_419"}
+{"starting_job": {"protocol": "pair_holdout", "seed": 503, "model": "naiad", "name": "pair_holdout_naiad_503", "job_index": 45}, "phase": "evaluate"}
+{"evaluated_job": "pair_holdout_naiad_503"}
+{"starting_job": {"protocol": "pair_holdout", "seed": 503, "model": "twohead_graphless", "name": "pair_holdout_twohead_graphless_503", "job_index": 47}, "phase": "evaluate"}
+{"evaluated_job": "pair_holdout_twohead_graphless_503"}
+{"starting_job": {"protocol": "pair_holdout", "seed": 503, "model": "target_graphless", "name": "pair_holdout_target_graphless_503", "job_index": 49}, "phase": "evaluate"}
+{"evaluated_job": "pair_holdout_target_graphless_503"}
+{"starting_job": {"protocol": "pair_holdout", "seed": 503, "model": "pooled_graphless", "name": "pair_holdout_pooled_graphless_503", "job_index": 51}, "phase": "evaluate"}
+{"evaluated_job": "pair_holdout_pooled_graphless_503"}
+{"starting_job": {"protocol": "pair_holdout", "seed": 503, "model": "pooled_string", "name": "pair_holdout_pooled_string_503", "job_index": 53}, "phase": "evaluate"}
+{"evaluated_job": "pair_holdout_pooled_string_503"}
+{"starting_job": {"protocol": "gene_holdout", "seed": 101, "model": "linear", "name": "gene_holdout_linear_101", "job_index": 55}, "phase": "evaluate"}
+{"evaluated_job": "gene_holdout_linear_101"}
+{"starting_job": {"protocol": "gene_holdout", "seed": 101, "model": "target_graphless", "name": "gene_holdout_target_graphless_101", "job_index": 57}, "phase": "evaluate"}
+{"evaluated_job": "gene_holdout_target_graphless_101"}
+{"starting_job": {"protocol": "gene_holdout", "seed": 101, "model": "pooled_graphless", "name": "gene_holdout_pooled_graphless_101", "job_index": 59}, "phase": "evaluate"}
+{"evaluated_job": "gene_holdout_pooled_graphless_101"}
+{"starting_job": {"protocol": "gene_holdout", "seed": 101, "model": "pooled_multigraph", "name": "gene_holdout_pooled_multigraph_101", "job_index": 61}, "phase": "evaluate"}
+{"evaluated_job": "gene_holdout_pooled_multigraph_101"}
+{"starting_job": {"protocol": "gene_holdout", "seed": 211, "model": "linear", "name": "gene_holdout_linear_211", "job_index": 63}, "phase": "evaluate"}
+{"evaluated_job": "gene_holdout_linear_211"}
+{"starting_job": {"protocol": "gene_holdout", "seed": 211, "model": "target_graphless", "name": "gene_holdout_target_graphless_211", "job_index": 65}, "phase": "evaluate"}
+{"evaluated_job": "gene_holdout_target_graphless_211"}
+{"starting_job": {"protocol": "gene_holdout", "seed": 211, "model": "pooled_graphless", "name": "gene_holdout_pooled_graphless_211", "job_index": 67}, "phase": "evaluate"}
+{"evaluated_job": "gene_holdout_pooled_graphless_211"}
+{"starting_job": {"protocol": "gene_holdout", "seed": 211, "model": "pooled_multigraph", "name": "gene_holdout_pooled_multigraph_211", "job_index": 69}, "phase": "evaluate"}
+{"evaluated_job": "gene_holdout_pooled_multigraph_211"}
+{"starting_job": {"protocol": "gene_holdout", "seed": 307, "model": "linear", "name": "gene_holdout_linear_307", "job_index": 71}, "phase": "evaluate"}
+{"evaluated_job": "gene_holdout_linear_307"}
+{"starting_job": {"protocol": "gene_holdout", "seed": 307, "model": "target_graphless", "name": "gene_holdout_target_graphless_307", "job_index": 73}, "phase": "evaluate"}
+{"evaluated_job": "gene_holdout_target_graphless_307"}
+{"starting_job": {"protocol": "gene_holdout", "seed": 307, "model": "pooled_graphless", "name": "gene_holdout_pooled_graphless_307", "job_index": 75}, "phase": "evaluate"}
+{"evaluated_job": "gene_holdout_pooled_graphless_307"}
+{"starting_job": {"protocol": "gene_holdout", "seed": 307, "model": "pooled_multigraph", "name": "gene_holdout_pooled_multigraph_307", "job_index": 77}, "phase": "evaluate"}
+{"evaluated_job": "gene_holdout_pooled_multigraph_307"}
+{"starting_job": {"protocol": "gene_holdout", "seed": 419, "model": "linear", "name": "gene_holdout_linear_419", "job_index": 79}, "phase": "evaluate"}
+{"evaluated_job": "gene_holdout_linear_419"}
+{"starting_job": {"protocol": "gene_holdout", "seed": 419, "model": "target_graphless", "name": "gene_holdout_target_graphless_419", "job_index": 81}, "phase": "evaluate"}
+{"evaluated_job": "gene_holdout_target_graphless_419"}
+{"starting_job": {"protocol": "gene_holdout", "seed": 419, "model": "pooled_graphless", "name": "gene_holdout_pooled_graphless_419", "job_index": 83}, "phase": "evaluate"}
+{"evaluated_job": "gene_holdout_pooled_graphless_419"}
+{"starting_job": {"protocol": "gene_holdout", "seed": 419, "model": "pooled_multigraph", "name": "gene_holdout_pooled_multigraph_419", "job_index": 85}, "phase": "evaluate"}
+{"evaluated_job": "gene_holdout_pooled_multigraph_419"}
+{"starting_job": {"protocol": "gene_holdout", "seed": 503, "model": "linear", "name": "gene_holdout_linear_503", "job_index": 87}, "phase": "evaluate"}
+{"evaluated_job": "gene_holdout_linear_503"}
+{"starting_job": {"protocol": "gene_holdout", "seed": 503, "model": "target_graphless", "name": "gene_holdout_target_graphless_503", "job_index": 89}, "phase": "evaluate"}
+{"evaluated_job": "gene_holdout_target_graphless_503"}
+{"starting_job": {"protocol": "gene_holdout", "seed": 503, "model": "pooled_graphless", "name": "gene_holdout_pooled_graphless_503", "job_index": 91}, "phase": "evaluate"}
+{"evaluated_job": "gene_holdout_pooled_graphless_503"}
+{"starting_job": {"protocol": "gene_holdout", "seed": 503, "model": "pooled_multigraph", "name": "gene_holdout_pooled_multigraph_503", "job_index": 93}, "phase": "evaluate"}
+{"evaluated_job": "gene_holdout_pooled_multigraph_503"}
+{"starting_job": {"protocol": "anchor_holdout", "seed": 101, "model": "linear", "name": "anchor_holdout_linear_101", "job_index": 95}, "phase": "evaluate"}
+{"evaluated_job": "anchor_holdout_linear_101"}
+{"starting_job": {"protocol": "anchor_holdout", "seed": 101, "model": "target_graphless", "name": "anchor_holdout_target_graphless_101", "job_index": 97}, "phase": "evaluate"}
+{"evaluated_job": "anchor_holdout_target_graphless_101"}
+{"starting_job": {"protocol": "anchor_holdout", "seed": 101, "model": "pooled_graphless", "name": "anchor_holdout_pooled_graphless_101", "job_index": 99}, "phase": "evaluate"}
+{"evaluated_job": "anchor_holdout_pooled_graphless_101"}
+{"starting_job": {"protocol": "anchor_holdout", "seed": 101, "model": "pooled_multigraph", "name": "anchor_holdout_pooled_multigraph_101", "job_index": 101}, "phase": "evaluate"}
+{"evaluated_job": "anchor_holdout_pooled_multigraph_101"}
+{"starting_job": {"protocol": "anchor_holdout", "seed": 211, "model": "linear", "name": "anchor_holdout_linear_211", "job_index": 103}, "phase": "evaluate"}
+{"evaluated_job": "anchor_holdout_linear_211"}
+{"starting_job": {"protocol": "anchor_holdout", "seed": 211, "model": "target_graphless", "name": "anchor_holdout_target_graphless_211", "job_index": 105}, "phase": "evaluate"}
+{"evaluated_job": "anchor_holdout_target_graphless_211"}
+{"starting_job": {"protocol": "anchor_holdout", "seed": 211, "model": "pooled_graphless", "name": "anchor_holdout_pooled_graphless_211", "job_index": 107}, "phase": "evaluate"}
+{"evaluated_job": "anchor_holdout_pooled_graphless_211"}
+{"starting_job": {"protocol": "anchor_holdout", "seed": 211, "model": "pooled_multigraph", "name": "anchor_holdout_pooled_multigraph_211", "job_index": 109}, "phase": "evaluate"}
+{"evaluated_job": "anchor_holdout_pooled_multigraph_211"}
+{"starting_job": {"protocol": "anchor_holdout", "seed": 307, "model": "linear", "name": "anchor_holdout_linear_307", "job_index": 111}, "phase": "evaluate"}
+{"evaluated_job": "anchor_holdout_linear_307"}
+{"starting_job": {"protocol": "anchor_holdout", "seed": 307, "model": "target_graphless", "name": "anchor_holdout_target_graphless_307", "job_index": 113}, "phase": "evaluate"}
+{"evaluated_job": "anchor_holdout_target_graphless_307"}
+{"starting_job": {"protocol": "anchor_holdout", "seed": 307, "model": "pooled_graphless", "name": "anchor_holdout_pooled_graphless_307", "job_index": 115}, "phase": "evaluate"}
+{"evaluated_job": "anchor_holdout_pooled_graphless_307"}
+{"starting_job": {"protocol": "anchor_holdout", "seed": 307, "model": "pooled_multigraph", "name": "anchor_holdout_pooled_multigraph_307", "job_index": 117}, "phase": "evaluate"}
+{"evaluated_job": "anchor_holdout_pooled_multigraph_307"}
+{"starting_job": {"protocol": "transfer_ht29", "seed": 101, "model": "linear", "name": "transfer_ht29_linear_101", "job_index": 119}, "phase": "evaluate"}
+{"evaluated_job": "transfer_ht29_linear_101"}
+{"starting_job": {"protocol": "transfer_ht29", "seed": 101, "model": "pooled_graphless", "name": "transfer_ht29_pooled_graphless_101", "job_index": 121}, "phase": "evaluate"}
+{"evaluated_job": "transfer_ht29_pooled_graphless_101"}
+{"starting_job": {"protocol": "transfer_ht29", "seed": 101, "model": "pooled_multigraph", "name": "transfer_ht29_pooled_multigraph_101", "job_index": 123}, "phase": "evaluate"}
+{"evaluated_job": "transfer_ht29_pooled_multigraph_101"}
+{"starting_job": {"protocol": "transfer_ht29", "seed": 211, "model": "linear", "name": "transfer_ht29_linear_211", "job_index": 125}, "phase": "evaluate"}
+{"evaluated_job": "transfer_ht29_linear_211"}
+{"starting_job": {"protocol": "transfer_ht29", "seed": 211, "model": "pooled_graphless", "name": "transfer_ht29_pooled_graphless_211", "job_index": 127}, "phase": "evaluate"}
+{"evaluated_job": "transfer_ht29_pooled_graphless_211"}
+{"starting_job": {"protocol": "transfer_ht29", "seed": 211, "model": "pooled_multigraph", "name": "transfer_ht29_pooled_multigraph_211", "job_index": 129}, "phase": "evaluate"}
+{"evaluated_job": "transfer_ht29_pooled_multigraph_211"}
+{"starting_job": {"protocol": "transfer_ht29", "seed": 307, "model": "linear", "name": "transfer_ht29_linear_307", "job_index": 131}, "phase": "evaluate"}
+{"evaluated_job": "transfer_ht29_linear_307"}
+{"starting_job": {"protocol": "transfer_ht29", "seed": 307, "model": "pooled_graphless", "name": "transfer_ht29_pooled_graphless_307", "job_index": 133}, "phase": "evaluate"}
+{"evaluated_job": "transfer_ht29_pooled_graphless_307"}
+{"starting_job": {"protocol": "transfer_ht29", "seed": 307, "model": "pooled_multigraph", "name": "transfer_ht29_pooled_multigraph_307", "job_index": 135}, "phase": "evaluate"}
+{"evaluated_job": "transfer_ht29_pooled_multigraph_307"}

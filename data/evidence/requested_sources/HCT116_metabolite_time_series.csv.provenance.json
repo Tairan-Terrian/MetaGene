@@ -1,0 +1,8 @@
+{
+  "file": "HCT116_metabolite_time_series.csv",
+  "url": "https://raw.githubusercontent.com/HAHerrmann/Hct116_DrugRes/3ba911ee3b931e0909add599beba48bdca9f69a9/Data/metabolites_nM_timeSeriesAnnotated.csv",
+  "sha256": "e92207fc67edcb0cf6b82334d850458b738290f60ba1572b40e52d512225b2fd",
+  "bytes": 43060,
+  "retrieved_utc": "2026-10-30T07:30:03.043995+00:00",
+  "status": "downloaded"
+}

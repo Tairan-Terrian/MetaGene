@@ -1,0 +1,88 @@
+{
+  "prepared_at_utc": "2026-10-30T07:18:56.496765+00:00",
+  "study": "GSE76092",
+  "platform": "GPL21253",
+  "publication_pmid": "27091625",
+  "urls": {
+    "series": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE76092",
+    "platform": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL21253",
+    "matrix": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE76nnn/GSE76092/matrix/GSE76092_series_matrix.txt.gz",
+    "sample_metadata": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE76092&targ=gsm&form=text&view=brief"
+  },
+  "design": "2 cell states x 3 treatments x 3 independent biological replicates = 18 samples",
+  "primary_contrast": "untreated HTOXAR3 minus untreated HT29; independent 3 versus 3 fit",
+  "secondary_contrasts": [
+    "HT29 OXA minus untreated",
+    "HTOXAR3 OXA minus untreated",
+    "(HTOXAR3 OXA - untreated) - (HT29 OXA - untreated)"
+  ],
+  "secondary_fit": "four groups, 12 samples; state by drug response interaction",
+  "dose_caveat": "HT29 10 uM and HTOXAR3 30 uM oxaliplatin for 24 h, each at its own IC50; interaction is dose-confounded and is not a same-dose sensitization effect",
+  "curcumin_caveat": "OXA+curcumin samples are retained in exported matrices and QC but excluded from primary and secondary inference; no curcumin-only arm exists",
+  "primary_interpretation": "association with acquired resistance; not a causal sensitization or gene-knockout effect",
+  "supplied_preprocessing": "normexp background correction; log2; quantile normalization; common gene-identifier collapse; control probes excluded by authors",
+  "additional_preprocessing": "HGNC symbol canonicalization; retain approved symbols; median collapse only where identifiers map to the same current symbol; no re-normalization",
+  "intensity_interpretation": "within-array relative intensity percentile, not absolute expression or measured present/absent calls",
+  "n_input_identifiers": 36204,
+  "n_mapped_identifiers": 21243,
+  "n_approved_genes": 21188,
+  "n_samples": 18,
+  "pca_variance_explained": [
+    0.43454892046412014,
+    0.3066191434441743,
+    0.10229015029737398
+  ],
+  "n_tested_reactome_pathways": 1739,
+  "pathway_universe": "all HGNC-mapped genes tested in the corresponding expression fit; pathway size 10-500 within this universe",
+  "differential_method": "limma lmFit + contrasts.fit + eBayes(trend=TRUE, robust=TRUE)",
+  "multiple_testing": "BH and BY within each contrast across all tested genes; original publication used BY",
+  "pathway_methods": "CAMERA competitive gene-set test (inter.gene.cor=0.01) and directional hypergeometric ORA (BH<0.05, |log2FC|>=1); pathway BH correction within contrast and direction",
+  "independent_evidence_role": "disease prioritization only; no pairwise model training, tuning, or outcome relabeling",
+  "inference_status": "limma_completed",
+  "contrast_summary": [
+    {
+      "contrast": "resistant_vs_parental_untreated",
+      "role": "primary_acquired_resistance_association",
+      "n_samples": 6,
+      "n_genes": 21188,
+      "n_bh_005": 6440,
+      "n_by_005": 3982,
+      "n_high_effect_bh": 451,
+      "n_up_high_effect_bh": 263,
+      "n_down_high_effect_bh": 188
+    },
+    {
+      "contrast": "parental_oxa_response",
+      "role": "secondary_unequal_oxa_doses",
+      "n_samples": 12,
+      "n_genes": 21188,
+      "n_bh_005": 7666,
+      "n_by_005": 5356,
+      "n_high_effect_bh": 510,
+      "n_up_high_effect_bh": 253,
+      "n_down_high_effect_bh": 257
+    },
+    {
+      "contrast": "resistant_oxa_response",
+      "role": "secondary_unequal_oxa_doses",
+      "n_samples": 12,
+      "n_genes": 21188,
+      "n_bh_005": 6233,
+      "n_by_005": 3812,
+      "n_high_effect_bh": 186,
+      "n_up_high_effect_bh": 105,
+      "n_down_high_effect_bh": 81
+    },
+    {
+      "contrast": "state_by_oxa_interaction",
+      "role": "secondary_unequal_oxa_doses",
+      "n_samples": 12,
+      "n_genes": 21188,
+      "n_bh_005": 1345,
+      "n_by_005": 521,
+      "n_high_effect_bh": 114,
+      "n_up_high_effect_bh": 80,
+      "n_down_high_effect_bh": 34
+    }
+  ]
+}

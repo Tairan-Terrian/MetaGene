@@ -1,0 +1,5 @@
+strategy,rounds,mean_score_zero_fraction,mean_selected_score_zero_fraction,all_zero_rounds,mean_cutoff_ties
+effect,60,0.0,0.0,0,1.3333333333333333
+expected_improvement,60,0.0,0.0,0,1.0
+random,60,0.0,0.0,0,1.0
+uncertainty,60,0.0,0.0,0,1.0

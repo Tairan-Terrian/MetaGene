@@ -1,0 +1,8 @@
+{
+  "file": "hg19_refGene.txt.gz",
+  "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/refGene.txt.gz",
+  "sha256": "28e7fe22cf1923a6887c7b60e6004c75987f810b8374d4d396021a34ac0410d1",
+  "bytes": 8043766,
+  "retrieved_utc": "2026-10-30T07:30:31.627330+00:00",
+  "status": "downloaded"
+}

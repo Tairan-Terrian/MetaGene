@@ -1,0 +1,110 @@
+{
+  "job_index": 14,
+  "seed": 419,
+  "strategy": "uncertainty",
+  "model": "target_graphless",
+  "name": "uncertainty_419",
+  "completed": true,
+  "device": "cuda:0",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "started_utc": "2026-10-30T08:05:18.377675+00:00",
+  "selection": {
+    "selected_model": "pooled_multigraph",
+    "best_overall_model": "naiad",
+    "selected_al_model": "target_graphless",
+    "deployment_scope": "Validation-best GNN without source-specific observed single effects; matches the requested graph model and predicts all core gene pairs. Best unrestricted baseline reported separately.",
+    "validation_metric": "Mean HT29 validation GI RMSE; smaller is better",
+    "candidate_scores": [
+      {
+        "model": "naiad",
+        "mean_validation_rmse": 0.11429088337376567,
+        "sd_validation_rmse": 0.0003083837285790687,
+        "n_seeds": 5
+      },
+      {
+        "model": "xgb",
+        "mean_validation_rmse": 0.11513328343706333,
+        "sd_validation_rmse": 0.00018953966992530874,
+        "n_seeds": 5
+      },
+      {
+        "model": "twohead_graphless",
+        "mean_validation_rmse": 0.11701332642170428,
+        "sd_validation_rmse": 0.0005716363361613564,
+        "n_seeds": 5
+      },
+      {
+        "model": "twohead_gnn",
+        "mean_validation_rmse": 0.11708870308222201,
+        "sd_validation_rmse": 0.0006676599982894801,
+        "n_seeds": 5
+      },
+      {
+        "model": "linear",
+        "mean_validation_rmse": 0.11712620499261531,
+        "sd_validation_rmse": 0.00018210172168651935,
+        "n_seeds": 5
+      },
+      {
+        "model": "pooled_multigraph",
+        "mean_validation_rmse": 0.1178509008863697,
+        "sd_validation_rmse": 0.0012070863542474775,
+        "n_seeds": 5
+      },
+      {
+        "model": "pooled_string",
+        "mean_validation_rmse": 0.11856587915726266,
+        "sd_validation_rmse": 0.0009290760739724442,
+        "n_seeds": 5
+      },
+      {
+        "model": "pooled_reactome",
+        "mean_validation_rmse": 0.11863769691942294,
+        "sd_validation_rmse": 0.0008553642223586285,
+        "n_seeds": 5
+      },
+      {
+        "model": "pooled_graphless",
+        "mean_validation_rmse": 0.11913139104488787,
+        "sd_validation_rmse": 0.001384769033803975,
+        "n_seeds": 5
+      },
+      {
+        "model": "target_graphless",
+        "mean_validation_rmse": 0.12042185084850987,
+        "sd_validation_rmse": 0.0007812990218513786,
+        "n_seeds": 5
+      },
+      {
+        "model": "target_string",
+        "mean_validation_rmse": 0.1207867233962185,
+        "sd_validation_rmse": 0.000843900674854258,
+        "n_seeds": 5
+      }
+    ],
+    "selection_time_utc": "2026-10-30T08:01:56.076329+00:00",
+    "test_metrics_used": false
+  },
+  "pool_size": 9518,
+  "initial_size": 476,
+  "query_size": 190,
+  "query_rounds": 12,
+  "validation_size": 2380,
+  "calibration_size": 1586,
+  "test_size": 2380,
+  "gi_target": "measured additive_gi_proxy",
+  "label_source": "ht29_colo1 public measured double-perturbation table",
+  "unknown_double_targets_masked": true,
+  "singleton_covariates_available": true,
+  "test_metrics_used_for_training_or_acquisition": false,
+  "calibration_labels_used": false,
+  "gene_frequency_penalty": null,
+  "query_decision_schema": {
+    "selected_rank": "1..query_size for selected pairs; zero means unselected",
+    "spread": "MC dropout standard deviation; NaN when not computed for random/effect",
+    "truth": "No truth in query_decisions; selected truth appears only in revealed_labels"
+  },
+  "completed_utc": "2026-10-30T08:05:23.482130+00:00",
+  "final_observed": 2756,
+  "rounds_saved": 13
+}

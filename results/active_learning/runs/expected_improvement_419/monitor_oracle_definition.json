@@ -1,0 +1,22 @@
+{
+  "targets": {
+    "all": {
+      "pool_n": 9518,
+      "hit_k": 100
+    },
+    "strict": {
+      "pool_n": 115,
+      "hit_k": 12,
+      "minimum_pool_n": 20,
+      "role": "secondary; not used for acquisition"
+    },
+    "core": {
+      "pool_n": 10,
+      "hit_k": 0,
+      "minimum_pool_n": 20,
+      "role": "secondary; not used for acquisition"
+    }
+  },
+  "access": "evaluation only; not passed to acquisition",
+  "secondary_hit_rule": "Lowest GI k=min(100,max(1,round(0.1*n_subset))); require n_subset>=20"
+}

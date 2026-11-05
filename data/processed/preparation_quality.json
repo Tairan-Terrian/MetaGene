@@ -1,0 +1,9 @@
+{
+  "total_measured_distinct_pairs": 217474,
+  "duplicate_dataset_gene_pairs": 0,
+  "nonfinite_primary_labels": 0,
+  "noncanonical_or_self_rows": 0,
+  "single_rows": 1468,
+  "duplicate_single_genes_per_dataset": 0,
+  "missing_as_negative_labels_added": 0
+}

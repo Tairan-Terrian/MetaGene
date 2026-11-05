@@ -1,0 +1,4 @@
+representative_rank,pair_key,metabolic_gene,chromatin_gene,pred_gi,pred_joint,single_a,single_b,nomination_status
+1,HDAC1|PANK1,PANK1,HDAC1,-0.5404625,-0.0645446539105876,0.1632139509285139,0.3127038890573829,First-round exploratory nomination; no pair-specific resistant-cell validation
+2,HDAC2|NAMPT,NAMPT,HDAC2,-0.5254772,-0.4486508122316229,-0.1073459407942656,0.1841722995068566,First-round exploratory nomination; no pair-specific resistant-cell validation
+3,HK2|KDM3A,HK2,KDM3A,-0.37825632,-0.2484501588911315,0.1510480118081392,-0.0212418497459016,First-round exploratory nomination; no pair-specific resistant-cell validation

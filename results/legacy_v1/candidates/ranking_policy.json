@@ -1,0 +1,63 @@
+{
+  "primary_universe": "Strict metabolic enzyme x direct histone-modifying catalytic enzyme; unmeasured in current HT29 pair screen.",
+  "top500": "First 500 core pairs ordered by predicted additive GI, then canonical pair key. Never fill using readers, cofactors or signaling extensions.",
+  "top30": "Among Top500 with both HT29 single effects observed: evidence triage using explicit sort below, with at most 3 occurrences per gene.",
+  "priority8": "First 8 diversified rows of the same Top30 evidence order.",
+  "representative3": "Lexicographically earliest feasible 3-rank tuple within Priority8 with no repeated gene; exploratory handoff only.",
+  "sort_columns": [
+    "scaled_single_unknown_count",
+    "strong_single_count",
+    "raw_joint_unfavorable",
+    "DepMap_strong_single_count",
+    "priority_band_order",
+    "seed_sd_band_order",
+    "target_resistance_association_count",
+    "gse76092_high_effect_bh_gene_count",
+    "gse76092_bh005_gene_count",
+    "pred_gi",
+    "pair_key"
+  ],
+  "ascending": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    true,
+    true
+  ],
+  "single_cutoff": -0.5,
+  "joint_use": "Positive or missing raw joint is deprioritized in the evidence shortlist. Source raw-LFC zero is not an absolute killing threshold; this is triage, not SL validation.",
+  "GI_use": "Source-relative empirical percentile is descriptive. Neither negative GI nor an entirely negative interval is interpreted as a synthetic-lethality probability.",
+  "missing_singles": "Main GNN uses independent features, not observed HT29 single inputs. Missing raw single/joint values stay missing; candidate interval calibration may fail under gene/design shifts.",
+  "resistant_context": "HCT116/SW480 resistance expression and HT29/HTOXAR3 expression are associations. DepMap parental cells do not stand in for HCT116-R/SW480-R.",
+  "extensions": "Other epigenetic factors and metabolic signaling combinations are separate CSVs, excluded from core Top500 and core hit metrics.",
+  "source_proxy_distribution": {
+    "source": "data/processed/pairs.csv / ht29_colo1 / additive_gi_proxy",
+    "n_measured_pairs": 15864,
+    "fraction_below_zero": 0.9901033787191125,
+    "mean": -0.46434444795213975,
+    "median": -0.4729429748991826,
+    "use": "Descriptive source distribution only; no recentering, ranking change or biological null calibration."
+  },
+  "config_source": "configs/experiment.json",
+  "frozen_candidate_policy": {
+    "strict_only_top30": true,
+    "shortlist_size": 30,
+    "priority_size": 8,
+    "maximum_pairs_per_gene": 3,
+    "strong_single_cutoff": -0.5,
+    "strong_single_sensitivity": [
+      -0.3,
+      -0.5,
+      -0.7
+    ],
+    "top500_size": 500,
+    "representative_size": 3,
+    "scope": "Core metabolic enzyme × direct histone-modifying enzyme only; all other epigenetic partners are separate extensions."
+  }
+}

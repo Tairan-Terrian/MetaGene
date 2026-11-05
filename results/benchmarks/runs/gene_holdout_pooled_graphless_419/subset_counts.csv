@@ -1,0 +1,4 @@
+protocol,model,seed,subset,n_test,metrics_evaluated
+gene_holdout,pooled_graphless,419,all,425,True
+gene_holdout,pooled_graphless,419,strict_enzyme_chromatin,6,True
+gene_holdout,pooled_graphless,419,core_metabolism_histone,2,False

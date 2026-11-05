@@ -1,0 +1,559 @@
+{"starting_job": {"protocol": "pair_holdout", "seed": 101, "model": "linear", "name": "pair_holdout_linear_101", "job_index": 0}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "pair_holdout_linear_101", "epoch": 1, "train_loss": 1.6619243621826172, "val_loss": 1.0630457401275635}
+{"job": "pair_holdout_linear_101", "epoch": 10, "train_loss": 0.4253239035606384, "val_loss": 0.39748910069465637}
+{"job": "pair_holdout_linear_101", "epoch": 20, "train_loss": 0.3814166188240051, "val_loss": 0.3588978350162506}
+{"job": "pair_holdout_linear_101", "epoch": 30, "train_loss": 0.37738293409347534, "val_loss": 0.35312706232070923}
+{"job": "pair_holdout_linear_101", "epoch": 40, "train_loss": 0.3618452548980713, "val_loss": 0.34519052505493164}
+{"job": "pair_holdout_linear_101", "epoch": 50, "train_loss": 0.36299771070480347, "val_loss": 0.3439873456954956}
+{"job": "pair_holdout_linear_101", "epoch": 60, "train_loss": 0.3633190393447876, "val_loss": 0.3383253812789917}
+{"job": "pair_holdout_linear_101", "epoch": 70, "train_loss": 0.3580344617366791, "val_loss": 0.3402257561683655}
+{"job": "pair_holdout_linear_101", "epoch": 80, "train_loss": 0.3495062291622162, "val_loss": 0.3394275903701782}
+{"job": "pair_holdout_linear_101", "epoch": 90, "train_loss": 0.3422228991985321, "val_loss": 0.3386722803115845}
+{"job": "pair_holdout_linear_101", "epoch": 100, "train_loss": 0.34599941968917847, "val_loss": 0.3343219757080078}
+{"completed_job": "pair_holdout_linear_101", "validation_rmse": 0.11712957539473172}
+{"starting_job": {"protocol": "pair_holdout", "seed": 101, "model": "twohead_gnn", "name": "pair_holdout_twohead_gnn_101", "job_index": 2}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "pair_holdout_twohead_gnn_101", "epoch": 1, "train_loss": 0.8929409384727478, "val_loss": 0.6632585525512695}
+{"job": "pair_holdout_twohead_gnn_101", "epoch": 10, "train_loss": 0.27263545989990234, "val_loss": 0.33625495433807373}
+{"job": "pair_holdout_twohead_gnn_101", "epoch": 20, "train_loss": 0.15788257122039795, "val_loss": 0.4006240665912628}
+{"completed_job": "pair_holdout_twohead_gnn_101", "validation_rmse": 0.1163688675495266}
+{"starting_job": {"protocol": "pair_holdout", "seed": 101, "model": "xgb", "name": "pair_holdout_xgb_101", "job_index": 4}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+[0]	validation-rmse:0.95740
+[50]	validation-rmse:0.83429
+[100]	validation-rmse:0.80605
+[150]	validation-rmse:0.79077
+[200]	validation-rmse:0.78131
+[250]	validation-rmse:0.77484
+[300]	validation-rmse:0.76988
+[350]	validation-rmse:0.76724
+[400]	validation-rmse:0.76505
+[450]	validation-rmse:0.76217
+[499]	validation-rmse:0.75982
+{"completed_job": "pair_holdout_xgb_101", "validation_rmse": 0.11489049842769833}
+{"starting_job": {"protocol": "pair_holdout", "seed": 101, "model": "target_string", "name": "pair_holdout_target_string_101", "job_index": 6}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "pair_holdout_target_string_101", "epoch": 1, "train_gi_loss": 0.9456523656845093, "val_gi_loss": 0.8070434331893921, "val_gi_rmse": 0.13583824524893373, "val_gi_spearman": 0.40280804098432327}
+{"job": "pair_holdout_target_string_101", "epoch": 10, "train_gi_loss": 0.41824182868003845, "val_gi_loss": 0.6667693257331848, "val_gi_rmse": 0.12346998904869011, "val_gi_spearman": 0.527069222685178}
+{"job": "pair_holdout_target_string_101", "epoch": 20, "train_gi_loss": 0.2187759280204773, "val_gi_loss": 0.7647387981414795, "val_gi_rmse": 0.1322300568430812, "val_gi_spearman": 0.48146499696317396}
+{"completed_job": "pair_holdout_target_string_101", "validation_rmse": 0.12204398240892843}
+{"starting_job": {"protocol": "pair_holdout", "seed": 101, "model": "pooled_reactome", "name": "pair_holdout_pooled_reactome_101", "job_index": 8}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "pair_holdout_pooled_reactome_101", "epoch": 1, "train_gi_loss": 0.7624437212944031, "val_gi_loss": 0.6759914755821228, "val_gi_rmse": 0.12432092076360313, "val_gi_spearman": 0.5059070011013937}
+{"job": "pair_holdout_pooled_reactome_101", "epoch": 10, "train_gi_loss": 0.2393142580986023, "val_gi_loss": 0.7655944228172302, "val_gi_rmse": 0.1323040058418723, "val_gi_spearman": 0.4720730884388541}
+{"completed_job": "pair_holdout_pooled_reactome_101", "validation_rmse": 0.11897533055341297}
+{"starting_job": {"protocol": "pair_holdout", "seed": 101, "model": "pooled_multigraph", "name": "pair_holdout_pooled_multigraph_101", "job_index": 10}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "pair_holdout_pooled_multigraph_101", "epoch": 1, "train_gi_loss": 0.7574020624160767, "val_gi_loss": 0.6732921600341797, "val_gi_rmse": 0.12407245933780509, "val_gi_spearman": 0.5144004698517417}
+{"job": "pair_holdout_pooled_multigraph_101", "epoch": 10, "train_gi_loss": 0.23581933975219727, "val_gi_loss": 0.763702392578125, "val_gi_rmse": 0.13214041677702681, "val_gi_spearman": 0.4872149819158749}
+{"completed_job": "pair_holdout_pooled_multigraph_101", "validation_rmse": 0.11712246852064423}
+{"starting_job": {"protocol": "pair_holdout", "seed": 211, "model": "naiad", "name": "pair_holdout_naiad_211", "job_index": 12}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "pair_holdout_naiad_211", "epoch": 1, "train_loss": 0.7714998722076416, "val_loss": 0.5561017990112305}
+{"job": "pair_holdout_naiad_211", "epoch": 10, "train_loss": 0.45980414748191833, "val_loss": 0.421146422624588}
+{"job": "pair_holdout_naiad_211", "epoch": 20, "train_loss": 0.4277920424938202, "val_loss": 0.39761656522750854}
+{"job": "pair_holdout_naiad_211", "epoch": 30, "train_loss": 0.41803714632987976, "val_loss": 0.382781982421875}
+{"job": "pair_holdout_naiad_211", "epoch": 40, "train_loss": 0.4035932719707489, "val_loss": 0.36424994468688965}
+{"job": "pair_holdout_naiad_211", "epoch": 50, "train_loss": 0.3914570212364197, "val_loss": 0.35270845890045166}
+{"job": "pair_holdout_naiad_211", "epoch": 60, "train_loss": 0.38159283995628357, "val_loss": 0.3395233452320099}
+{"job": "pair_holdout_naiad_211", "epoch": 70, "train_loss": 0.3569863736629486, "val_loss": 0.33068811893463135}
+{"job": "pair_holdout_naiad_211", "epoch": 80, "train_loss": 0.3540983200073242, "val_loss": 0.3220505118370056}
+{"job": "pair_holdout_naiad_211", "epoch": 90, "train_loss": 0.352385014295578, "val_loss": 0.3187563717365265}
+{"job": "pair_holdout_naiad_211", "epoch": 100, "train_loss": 0.34689778089523315, "val_loss": 0.31408336758613586}
+{"completed_job": "pair_holdout_naiad_211", "validation_rmse": 0.11410995704292429}
+{"starting_job": {"protocol": "pair_holdout", "seed": 211, "model": "twohead_graphless", "name": "pair_holdout_twohead_graphless_211", "job_index": 14}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "pair_holdout_twohead_graphless_211", "epoch": 1, "train_loss": 0.9223209619522095, "val_loss": 0.6934632658958435}
+{"job": "pair_holdout_twohead_graphless_211", "epoch": 10, "train_loss": 0.29695847630500793, "val_loss": 0.34382709860801697}
+{"job": "pair_holdout_twohead_graphless_211", "epoch": 20, "train_loss": 0.1849474161863327, "val_loss": 0.37971073389053345}
+{"completed_job": "pair_holdout_twohead_graphless_211", "validation_rmse": 0.1179944715305792}
+{"starting_job": {"protocol": "pair_holdout", "seed": 211, "model": "target_graphless", "name": "pair_holdout_target_graphless_211", "job_index": 16}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "pair_holdout_target_graphless_211", "epoch": 1, "train_gi_loss": 0.9421095848083496, "val_gi_loss": 0.7870884537696838, "val_gi_rmse": 0.1341483596642501, "val_gi_spearman": 0.42471613221267934}
+{"job": "pair_holdout_target_graphless_211", "epoch": 10, "train_gi_loss": 0.3931170403957367, "val_gi_loss": 0.6416875720024109, "val_gi_rmse": 0.12112545879902292, "val_gi_spearman": 0.5363651033485873}
+{"job": "pair_holdout_target_graphless_211", "epoch": 20, "train_gi_loss": 0.1918501853942871, "val_gi_loss": 0.7355496883392334, "val_gi_rmse": 0.12968197532739367, "val_gi_spearman": 0.48442310049672693}
+{"completed_job": "pair_holdout_target_graphless_211", "validation_rmse": 0.11913067135219226}
+{"starting_job": {"protocol": "pair_holdout", "seed": 211, "model": "pooled_graphless", "name": "pair_holdout_pooled_graphless_211", "job_index": 18}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "pair_holdout_pooled_graphless_211", "epoch": 1, "train_gi_loss": 0.7479994297027588, "val_gi_loss": 0.6746266484260559, "val_gi_rmse": 0.1241953561747966, "val_gi_spearman": 0.5055030063738243}
+{"job": "pair_holdout_pooled_graphless_211", "epoch": 10, "train_gi_loss": 0.24459043145179749, "val_gi_loss": 0.6734136343002319, "val_gi_rmse": 0.12408365308021807, "val_gi_spearman": 0.5132269446467153}
+{"completed_job": "pair_holdout_pooled_graphless_211", "validation_rmse": 0.11804557957898651}
+{"starting_job": {"protocol": "pair_holdout", "seed": 211, "model": "pooled_string", "name": "pair_holdout_pooled_string_211", "job_index": 20}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "pair_holdout_pooled_string_211", "epoch": 1, "train_gi_loss": 0.7452176213264465, "val_gi_loss": 0.6715935468673706, "val_gi_rmse": 0.1239158550961239, "val_gi_spearman": 0.5083893856906222}
+{"job": "pair_holdout_pooled_string_211", "epoch": 10, "train_gi_loss": 0.2696087062358856, "val_gi_loss": 0.6872354745864868, "val_gi_rmse": 0.12535059185012187, "val_gi_spearman": 0.5255521080204043}
+{"completed_job": "pair_holdout_pooled_string_211", "validation_rmse": 0.1192462097113721}
+{"starting_job": {"protocol": "pair_holdout", "seed": 307, "model": "linear", "name": "pair_holdout_linear_307", "job_index": 22}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "pair_holdout_linear_307", "epoch": 1, "train_loss": 1.4374889135360718, "val_loss": 0.8618185520172119}
+{"job": "pair_holdout_linear_307", "epoch": 10, "train_loss": 0.4129820466041565, "val_loss": 0.3870314359664917}
+{"job": "pair_holdout_linear_307", "epoch": 20, "train_loss": 0.3883543908596039, "val_loss": 0.3531728684902191}
+{"job": "pair_holdout_linear_307", "epoch": 30, "train_loss": 0.3765861988067627, "val_loss": 0.34526270627975464}
+{"job": "pair_holdout_linear_307", "epoch": 40, "train_loss": 0.36172258853912354, "val_loss": 0.3435022234916687}
+{"job": "pair_holdout_linear_307", "epoch": 50, "train_loss": 0.3620089888572693, "val_loss": 0.3399037718772888}
+{"job": "pair_holdout_linear_307", "epoch": 60, "train_loss": 0.35396718978881836, "val_loss": 0.33909741044044495}
+{"job": "pair_holdout_linear_307", "epoch": 70, "train_loss": 0.36425578594207764, "val_loss": 0.3380339741706848}
+{"job": "pair_holdout_linear_307", "epoch": 80, "train_loss": 0.3585430979728699, "val_loss": 0.33559685945510864}
+{"job": "pair_holdout_linear_307", "epoch": 90, "train_loss": 0.3606237769126892, "val_loss": 0.3348626494407654}
+{"job": "pair_holdout_linear_307", "epoch": 100, "train_loss": 0.34548425674438477, "val_loss": 0.3351041078567505}
+{"completed_job": "pair_holdout_linear_307", "validation_rmse": 0.11698483468506747}
+{"starting_job": {"protocol": "pair_holdout", "seed": 307, "model": "twohead_gnn", "name": "pair_holdout_twohead_gnn_307", "job_index": 24}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "pair_holdout_twohead_gnn_307", "epoch": 1, "train_loss": 0.9263586401939392, "val_loss": 0.6894909143447876}
+{"job": "pair_holdout_twohead_gnn_307", "epoch": 10, "train_loss": 0.29050177335739136, "val_loss": 0.33420154452323914}
+{"job": "pair_holdout_twohead_gnn_307", "epoch": 20, "train_loss": 0.17249469459056854, "val_loss": 0.365643173456192}
+{"completed_job": "pair_holdout_twohead_gnn_307", "validation_rmse": 0.11667376212221266}
+{"starting_job": {"protocol": "pair_holdout", "seed": 307, "model": "xgb", "name": "pair_holdout_xgb_307", "job_index": 26}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+[0]	validation-rmse:0.95558
+[50]	validation-rmse:0.83496
+[100]	validation-rmse:0.80711
+[150]	validation-rmse:0.79258
+[200]	validation-rmse:0.78437
+[250]	validation-rmse:0.77734
+[300]	validation-rmse:0.77267
+[350]	validation-rmse:0.76871
+[400]	validation-rmse:0.76429
+[441]	validation-rmse:0.76287
+{"completed_job": "pair_holdout_xgb_307", "validation_rmse": 0.11532313789079146}
+{"starting_job": {"protocol": "pair_holdout", "seed": 307, "model": "target_string", "name": "pair_holdout_target_string_307", "job_index": 28}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "pair_holdout_target_string_307", "epoch": 1, "train_gi_loss": 0.9582516551017761, "val_gi_loss": 0.7955357432365417, "val_gi_rmse": 0.1348663003461148, "val_gi_spearman": 0.40727165960620876}
+{"job": "pair_holdout_target_string_307", "epoch": 10, "train_gi_loss": 0.38530588150024414, "val_gi_loss": 0.6906556487083435, "val_gi_rmse": 0.1256621239759248, "val_gi_spearman": 0.5089192777775043}
+{"job": "pair_holdout_target_string_307", "epoch": 20, "train_gi_loss": 0.19994646310806274, "val_gi_loss": 0.7850684523582458, "val_gi_rmse": 0.13397610941868088, "val_gi_spearman": 0.46692773512311375}
+{"completed_job": "pair_holdout_target_string_307", "validation_rmse": 0.12098056123576222}
+{"starting_job": {"protocol": "pair_holdout", "seed": 307, "model": "pooled_reactome", "name": "pair_holdout_pooled_reactome_307", "job_index": 30}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "pair_holdout_pooled_reactome_307", "epoch": 1, "train_gi_loss": 0.7511422038078308, "val_gi_loss": 0.6807340383529663, "val_gi_rmse": 0.12475626000657769, "val_gi_spearman": 0.5131644780233559}
+{"job": "pair_holdout_pooled_reactome_307", "epoch": 10, "train_gi_loss": 0.25173574686050415, "val_gi_loss": 0.7431973218917847, "val_gi_rmse": 0.13035439298757723, "val_gi_spearman": 0.47436227870731434}
+{"completed_job": "pair_holdout_pooled_reactome_307", "validation_rmse": 0.11927179948688216}
+{"starting_job": {"protocol": "pair_holdout", "seed": 307, "model": "pooled_multigraph", "name": "pair_holdout_pooled_multigraph_307", "job_index": 32}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "pair_holdout_pooled_multigraph_307", "epoch": 1, "train_gi_loss": 0.7472327947616577, "val_gi_loss": 0.6879263520240784, "val_gi_rmse": 0.1254135814360513, "val_gi_spearman": 0.5108518489838736}
+{"job": "pair_holdout_pooled_multigraph_307", "epoch": 10, "train_gi_loss": 0.26556792855262756, "val_gi_loss": 0.6945822834968567, "val_gi_rmse": 0.12601883664175695, "val_gi_spearman": 0.5216686379013957}
+{"completed_job": "pair_holdout_pooled_multigraph_307", "validation_rmse": 0.11654659698135535}
+{"starting_job": {"protocol": "pair_holdout", "seed": 419, "model": "naiad", "name": "pair_holdout_naiad_419", "job_index": 34}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "pair_holdout_naiad_419", "epoch": 1, "train_loss": 0.731362521648407, "val_loss": 0.5762321949005127}
+{"job": "pair_holdout_naiad_419", "epoch": 10, "train_loss": 0.45354947447776794, "val_loss": 0.4216114580631256}
+{"job": "pair_holdout_naiad_419", "epoch": 20, "train_loss": 0.438218355178833, "val_loss": 0.400158166885376}
+{"job": "pair_holdout_naiad_419", "epoch": 30, "train_loss": 0.41773122549057007, "val_loss": 0.37963247299194336}
+{"job": "pair_holdout_naiad_419", "epoch": 40, "train_loss": 0.40358173847198486, "val_loss": 0.3629952669143677}
+{"job": "pair_holdout_naiad_419", "epoch": 50, "train_loss": 0.3919681906700134, "val_loss": 0.3493824303150177}
+{"job": "pair_holdout_naiad_419", "epoch": 60, "train_loss": 0.37331461906433105, "val_loss": 0.33695167303085327}
+{"job": "pair_holdout_naiad_419", "epoch": 70, "train_loss": 0.37062811851501465, "val_loss": 0.32938051223754883}
+{"job": "pair_holdout_naiad_419", "epoch": 80, "train_loss": 0.3579094409942627, "val_loss": 0.3221088647842407}
+{"job": "pair_holdout_naiad_419", "epoch": 90, "train_loss": 0.35204586386680603, "val_loss": 0.3182072937488556}
+{"job": "pair_holdout_naiad_419", "epoch": 100, "train_loss": 0.34433168172836304, "val_loss": 0.3141289949417114}
+{"completed_job": "pair_holdout_naiad_419", "validation_rmse": 0.11426160960032654}
+{"starting_job": {"protocol": "pair_holdout", "seed": 419, "model": "twohead_graphless", "name": "pair_holdout_twohead_graphless_419", "job_index": 36}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "pair_holdout_twohead_graphless_419", "epoch": 1, "train_loss": 0.9162828326225281, "val_loss": 0.6505249738693237}
+{"job": "pair_holdout_twohead_graphless_419", "epoch": 10, "train_loss": 0.2891075015068054, "val_loss": 0.3390890955924988}
+{"job": "pair_holdout_twohead_graphless_419", "epoch": 20, "train_loss": 0.1786155104637146, "val_loss": 0.37150484323501587}
+{"completed_job": "pair_holdout_twohead_graphless_419", "validation_rmse": 0.11669897101999324}
+{"starting_job": {"protocol": "pair_holdout", "seed": 419, "model": "target_graphless", "name": "pair_holdout_target_graphless_419", "job_index": 38}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "pair_holdout_target_graphless_419", "epoch": 1, "train_gi_loss": 0.9917420148849487, "val_gi_loss": 0.8113166689872742, "val_gi_rmse": 0.13619740034970462, "val_gi_spearman": 0.40943035678385026}
+{"job": "pair_holdout_target_graphless_419", "epoch": 10, "train_gi_loss": 0.40968823432922363, "val_gi_loss": 0.6707624197006226, "val_gi_rmse": 0.12383914821876729, "val_gi_spearman": 0.510691742419442}
+{"job": "pair_holdout_target_graphless_419", "epoch": 20, "train_gi_loss": 0.2096954584121704, "val_gi_loss": 0.7896328568458557, "val_gi_rmse": 0.13436501535979417, "val_gi_spearman": 0.48223754704214516}
+{"completed_job": "pair_holdout_target_graphless_419", "validation_rmse": 0.12032176019239828}
+{"starting_job": {"protocol": "pair_holdout", "seed": 419, "model": "pooled_graphless", "name": "pair_holdout_pooled_graphless_419", "job_index": 40}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "pair_holdout_pooled_graphless_419", "epoch": 1, "train_gi_loss": 0.7511005997657776, "val_gi_loss": 0.6562047600746155, "val_gi_rmse": 0.12248793192446428, "val_gi_spearman": 0.5205829703941942}
+{"job": "pair_holdout_pooled_graphless_419", "epoch": 10, "train_gi_loss": 0.24852021038532257, "val_gi_loss": 0.7210702300071716, "val_gi_rmse": 0.12839921931277587, "val_gi_spearman": 0.5157682717869293}
+{"completed_job": "pair_holdout_pooled_graphless_419", "validation_rmse": 0.11779912766083515}
+{"starting_job": {"protocol": "pair_holdout", "seed": 419, "model": "pooled_string", "name": "pair_holdout_pooled_string_419", "job_index": 42}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "pair_holdout_pooled_string_419", "epoch": 1, "train_gi_loss": 0.7515777349472046, "val_gi_loss": 0.6639825105667114, "val_gi_rmse": 0.12321169479441174, "val_gi_spearman": 0.5172283936449551}
+{"job": "pair_holdout_pooled_string_419", "epoch": 10, "train_gi_loss": 0.24044209718704224, "val_gi_loss": 0.6972910165786743, "val_gi_rmse": 0.12626432388478825, "val_gi_spearman": 0.4971948853285148}
+{"completed_job": "pair_holdout_pooled_string_419", "validation_rmse": 0.11715788016436367}
+{"starting_job": {"protocol": "pair_holdout", "seed": 503, "model": "linear", "name": "pair_holdout_linear_503", "job_index": 44}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "pair_holdout_linear_503", "epoch": 1, "train_loss": 1.4793546199798584, "val_loss": 0.9774737358093262}
+{"job": "pair_holdout_linear_503", "epoch": 10, "train_loss": 0.42396068572998047, "val_loss": 0.3890238106250763}
+{"job": "pair_holdout_linear_503", "epoch": 20, "train_loss": 0.38884061574935913, "val_loss": 0.35780924558639526}
+{"job": "pair_holdout_linear_503", "epoch": 30, "train_loss": 0.38095784187316895, "val_loss": 0.35114237666130066}
+{"job": "pair_holdout_linear_503", "epoch": 40, "train_loss": 0.3698756694793701, "val_loss": 0.3451586365699768}
+{"job": "pair_holdout_linear_503", "epoch": 50, "train_loss": 0.35728663206100464, "val_loss": 0.3421333134174347}
+{"job": "pair_holdout_linear_503", "epoch": 60, "train_loss": 0.36387938261032104, "val_loss": 0.3431927561759949}
+{"job": "pair_holdout_linear_503", "epoch": 70, "train_loss": 0.3551105856895447, "val_loss": 0.33825668692588806}
+{"job": "pair_holdout_linear_503", "epoch": 80, "train_loss": 0.3581972122192383, "val_loss": 0.34150516986846924}
+{"job": "pair_holdout_linear_503", "epoch": 90, "train_loss": 0.3557095527648926, "val_loss": 0.3403002917766571}
+{"completed_job": "pair_holdout_linear_503", "validation_rmse": 0.11732421646383291}
+{"starting_job": {"protocol": "pair_holdout", "seed": 503, "model": "twohead_gnn", "name": "pair_holdout_twohead_gnn_503", "job_index": 46}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "pair_holdout_twohead_gnn_503", "epoch": 1, "train_loss": 0.9150263667106628, "val_loss": 0.6703382134437561}
+{"job": "pair_holdout_twohead_gnn_503", "epoch": 10, "train_loss": 0.27513405680656433, "val_loss": 0.3386901021003723}
+{"job": "pair_holdout_twohead_gnn_503", "epoch": 20, "train_loss": 0.1616312712430954, "val_loss": 0.3904903531074524}
+{"completed_job": "pair_holdout_twohead_gnn_503", "validation_rmse": 0.1173578735778568}
+{"starting_job": {"protocol": "pair_holdout", "seed": 503, "model": "xgb", "name": "pair_holdout_xgb_503", "job_index": 48}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+[0]	validation-rmse:0.95678
+[50]	validation-rmse:0.83276
+[100]	validation-rmse:0.80558
+[150]	validation-rmse:0.79213
+[200]	validation-rmse:0.78284
+[250]	validation-rmse:0.77550
+[300]	validation-rmse:0.77106
+[350]	validation-rmse:0.76814
+[400]	validation-rmse:0.76569
+[450]	validation-rmse:0.76342
+[499]	validation-rmse:0.76279
+{"completed_job": "pair_holdout_xgb_503", "validation_rmse": 0.11532041892131342}
+{"starting_job": {"protocol": "pair_holdout", "seed": 503, "model": "target_string", "name": "pair_holdout_target_string_503", "job_index": 50}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "pair_holdout_target_string_503", "epoch": 1, "train_gi_loss": 0.9586231112480164, "val_gi_loss": 0.7839981317520142, "val_gi_rmse": 0.13388475694436686, "val_gi_spearman": 0.42851374612125714}
+{"job": "pair_holdout_target_string_503", "epoch": 10, "train_gi_loss": 0.3911762237548828, "val_gi_loss": 0.6754617691040039, "val_gi_rmse": 0.12427219824227898, "val_gi_spearman": 0.5108880475333502}
+{"job": "pair_holdout_target_string_503", "epoch": 20, "train_gi_loss": 0.20002257823944092, "val_gi_loss": 0.8017993569374084, "val_gi_rmse": 0.1353961915630464, "val_gi_spearman": 0.4565666046861212}
+{"completed_job": "pair_holdout_target_string_503", "validation_rmse": 0.12087752863610918}
+{"starting_job": {"protocol": "pair_holdout", "seed": 503, "model": "pooled_reactome", "name": "pair_holdout_pooled_reactome_503", "job_index": 52}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "pair_holdout_pooled_reactome_503", "epoch": 1, "train_gi_loss": 0.7626382112503052, "val_gi_loss": 0.6619888544082642, "val_gi_rmse": 0.12302658346154516, "val_gi_spearman": 0.5090209680226898}
+{"job": "pair_holdout_pooled_reactome_503", "epoch": 10, "train_gi_loss": 0.24326181411743164, "val_gi_loss": 0.6872451305389404, "val_gi_rmse": 0.12535147509227684, "val_gi_spearman": 0.5067629381878989}
+{"completed_job": "pair_holdout_pooled_reactome_503", "validation_rmse": 0.11825273158871612}
+{"starting_job": {"protocol": "pair_holdout", "seed": 503, "model": "pooled_multigraph", "name": "pair_holdout_pooled_multigraph_503", "job_index": 54}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "pair_holdout_pooled_multigraph_503", "epoch": 1, "train_gi_loss": 0.7711585164070129, "val_gi_loss": 0.6661374568939209, "val_gi_rmse": 0.12341146974958583, "val_gi_spearman": 0.5207963371814582}
+{"job": "pair_holdout_pooled_multigraph_503", "epoch": 10, "train_gi_loss": 0.25229689478874207, "val_gi_loss": 0.7138298749923706, "val_gi_rmse": 0.12775295643558948, "val_gi_spearman": 0.5119509555807866}
+{"completed_job": "pair_holdout_pooled_multigraph_503", "validation_rmse": 0.11966593053036619}
+{"starting_job": {"protocol": "gene_holdout", "seed": 101, "model": "xgb", "name": "gene_holdout_xgb_101", "job_index": 56}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+[0]	validation-rmse:0.95033
+[27]	validation-rmse:0.96043
+{"completed_job": "gene_holdout_xgb_101", "validation_rmse": 0.13958388886875817}
+{"starting_job": {"protocol": "gene_holdout", "seed": 101, "model": "target_string", "name": "gene_holdout_target_string_101", "job_index": 58}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "gene_holdout_target_string_101", "epoch": 1, "train_gi_loss": 0.9712522029876709, "val_gi_loss": 1.0454342365264893, "val_gi_rmse": 0.15056538170921385, "val_gi_spearman": -0.14013688507253494}
+{"job": "gene_holdout_target_string_101", "epoch": 10, "train_gi_loss": 0.4279451370239258, "val_gi_loss": 1.370139241218567, "val_gi_rmse": 0.17236899198173639, "val_gi_spearman": -0.07654274857293891}
+{"completed_job": "gene_holdout_target_string_101", "validation_rmse": 0.15056539875607952}
+{"starting_job": {"protocol": "gene_holdout", "seed": 101, "model": "pooled_string", "name": "gene_holdout_pooled_string_101", "job_index": 60}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "gene_holdout_pooled_string_101", "epoch": 1, "train_gi_loss": 0.7364596128463745, "val_gi_loss": 1.1324677467346191, "val_gi_rmse": 0.1567074682567977, "val_gi_spearman": -0.10646463436669078}
+{"job": "gene_holdout_pooled_string_101", "epoch": 10, "train_gi_loss": 0.19507622718811035, "val_gi_loss": 1.383859395980835, "val_gi_rmse": 0.17322986152940167, "val_gi_spearman": -0.013797251859402674}
+{"completed_job": "gene_holdout_pooled_string_101", "validation_rmse": 0.15562982793916724}
+{"starting_job": {"protocol": "gene_holdout", "seed": 101, "model": "naiad", "name": "gene_holdout_naiad_101", "job_index": 62}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "gene_holdout_naiad_101", "epoch": 1, "train_loss": 0.8716350793838501, "val_loss": 0.5246080756187439}
+{"job": "gene_holdout_naiad_101", "epoch": 10, "train_loss": 0.48445889353752136, "val_loss": 0.4858902394771576}
+{"job": "gene_holdout_naiad_101", "epoch": 20, "train_loss": 0.4426729679107666, "val_loss": 0.48193153738975525}
+{"completed_job": "gene_holdout_naiad_101", "validation_rmse": 0.13749891295493968}
+{"starting_job": {"protocol": "gene_holdout", "seed": 211, "model": "xgb", "name": "gene_holdout_xgb_211", "job_index": 64}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+[0]	validation-rmse:0.94808
+[27]	validation-rmse:0.95857
+{"completed_job": "gene_holdout_xgb_211", "validation_rmse": 0.13953881194227843}
+{"starting_job": {"protocol": "gene_holdout", "seed": 211, "model": "target_string", "name": "gene_holdout_target_string_211", "job_index": 66}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "gene_holdout_target_string_211", "epoch": 1, "train_gi_loss": 0.9990606904029846, "val_gi_loss": 0.9285140633583069, "val_gi_rmse": 0.14189628141784816, "val_gi_spearman": -0.06393786635795927}
+{"job": "gene_holdout_target_string_211", "epoch": 10, "train_gi_loss": 0.4437336027622223, "val_gi_loss": 1.1907857656478882, "val_gi_rmse": 0.16069176351565773, "val_gi_spearman": -0.10707345793093676}
+{"completed_job": "gene_holdout_target_string_211", "validation_rmse": 0.14189626514947049}
+{"starting_job": {"protocol": "gene_holdout", "seed": 211, "model": "pooled_string", "name": "gene_holdout_pooled_string_211", "job_index": 68}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "gene_holdout_pooled_string_211", "epoch": 1, "train_gi_loss": 0.7343976497650146, "val_gi_loss": 1.1215664148330688, "val_gi_rmse": 0.15595139869281027, "val_gi_spearman": -0.09419900750966304}
+{"job": "gene_holdout_pooled_string_211", "epoch": 10, "train_gi_loss": 0.19668620824813843, "val_gi_loss": 1.3379566669464111, "val_gi_rmse": 0.17033260717326648, "val_gi_spearman": 0.06909535353625375}
+{"completed_job": "gene_holdout_pooled_string_211", "validation_rmse": 0.15521187404537717}
+{"starting_job": {"protocol": "gene_holdout", "seed": 211, "model": "naiad", "name": "gene_holdout_naiad_211", "job_index": 70}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "gene_holdout_naiad_211", "epoch": 1, "train_loss": 0.8015778064727783, "val_loss": 0.5062589645385742}
+{"job": "gene_holdout_naiad_211", "epoch": 10, "train_loss": 0.4702288508415222, "val_loss": 0.4881335496902466}
+{"job": "gene_holdout_naiad_211", "epoch": 20, "train_loss": 0.43573758006095886, "val_loss": 0.4817287027835846}
+{"job": "gene_holdout_naiad_211", "epoch": 30, "train_loss": 0.40929320454597473, "val_loss": 0.48142629861831665}
+{"job": "gene_holdout_naiad_211", "epoch": 40, "train_loss": 0.41153615713119507, "val_loss": 0.4839668571949005}
+{"completed_job": "gene_holdout_naiad_211", "validation_rmse": 0.13766742540186838}
+{"starting_job": {"protocol": "gene_holdout", "seed": 307, "model": "xgb", "name": "gene_holdout_xgb_307", "job_index": 72}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+[0]	validation-rmse:0.94992
+[25]	validation-rmse:0.95697
+{"completed_job": "gene_holdout_xgb_307", "validation_rmse": 0.13988262459333017}
+{"starting_job": {"protocol": "gene_holdout", "seed": 307, "model": "target_string", "name": "gene_holdout_target_string_307", "job_index": 74}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "gene_holdout_target_string_307", "epoch": 1, "train_gi_loss": 0.9496864080429077, "val_gi_loss": 0.9954335689544678, "val_gi_rmse": 0.14692067701722955, "val_gi_spearman": -0.13485651602991736}
+{"job": "gene_holdout_target_string_307", "epoch": 10, "train_gi_loss": 0.3986148238182068, "val_gi_loss": 1.301642894744873, "val_gi_rmse": 0.168005187368248, "val_gi_spearman": -0.1560664039954581}
+{"completed_job": "gene_holdout_target_string_307", "validation_rmse": 0.1469206488232229}
+{"starting_job": {"protocol": "gene_holdout", "seed": 307, "model": "pooled_string", "name": "gene_holdout_pooled_string_307", "job_index": 76}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "gene_holdout_pooled_string_307", "epoch": 1, "train_gi_loss": 0.7310695052146912, "val_gi_loss": 1.2103033065795898, "val_gi_rmse": 0.16200330810201002, "val_gi_spearman": -0.17084118803255413}
+{"job": "gene_holdout_pooled_string_307", "epoch": 10, "train_gi_loss": 0.20585621893405914, "val_gi_loss": 1.313430905342102, "val_gi_rmse": 0.16876422363194088, "val_gi_spearman": -0.03468493888307973}
+{"completed_job": "gene_holdout_pooled_string_307", "validation_rmse": 0.15890173770344998}
+{"starting_job": {"protocol": "gene_holdout", "seed": 307, "model": "naiad", "name": "gene_holdout_naiad_307", "job_index": 78}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "gene_holdout_naiad_307", "epoch": 1, "train_loss": 0.9127135872840881, "val_loss": 0.5525838732719421}
+{"job": "gene_holdout_naiad_307", "epoch": 10, "train_loss": 0.470050573348999, "val_loss": 0.4963657855987549}
+{"job": "gene_holdout_naiad_307", "epoch": 20, "train_loss": 0.4338008761405945, "val_loss": 0.4824637174606323}
+{"job": "gene_holdout_naiad_307", "epoch": 30, "train_loss": 0.40713363885879517, "val_loss": 0.4830408990383148}
+{"job": "gene_holdout_naiad_307", "epoch": 40, "train_loss": 0.4050184488296509, "val_loss": 0.4787064492702484}
+{"job": "gene_holdout_naiad_307", "epoch": 50, "train_loss": 0.38419485092163086, "val_loss": 0.47419455647468567}
+{"job": "gene_holdout_naiad_307", "epoch": 60, "train_loss": 0.37301257252693176, "val_loss": 0.4802190661430359}
+{"completed_job": "gene_holdout_naiad_307", "validation_rmse": 0.1359876648082874}
+{"starting_job": {"protocol": "gene_holdout", "seed": 419, "model": "xgb", "name": "gene_holdout_xgb_419", "job_index": 80}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+[0]	validation-rmse:0.94952
+[27]	validation-rmse:0.95447
+{"completed_job": "gene_holdout_xgb_419", "validation_rmse": 0.13977376734472297}
+{"starting_job": {"protocol": "gene_holdout", "seed": 419, "model": "target_string", "name": "gene_holdout_target_string_419", "job_index": 82}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "gene_holdout_target_string_419", "epoch": 1, "train_gi_loss": 0.9763452410697937, "val_gi_loss": 0.9666565656661987, "val_gi_rmse": 0.1447814407674919, "val_gi_spearman": -0.1157996789894463}
+{"job": "gene_holdout_target_string_419", "epoch": 10, "train_gi_loss": 0.4274233877658844, "val_gi_loss": 1.1714298725128174, "val_gi_rmse": 0.15938041202810282, "val_gi_spearman": -0.059297526864863295}
+{"completed_job": "gene_holdout_target_string_419", "validation_rmse": 0.1447814147397854}
+{"starting_job": {"protocol": "gene_holdout", "seed": 419, "model": "pooled_string", "name": "gene_holdout_pooled_string_419", "job_index": 84}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "gene_holdout_pooled_string_419", "epoch": 1, "train_gi_loss": 0.7266920208930969, "val_gi_loss": 1.1707501411437988, "val_gi_rmse": 0.15933415608890833, "val_gi_spearman": -0.18548465390268826}
+{"job": "gene_holdout_pooled_string_419", "epoch": 10, "train_gi_loss": 0.20915494859218597, "val_gi_loss": 1.4903141260147095, "val_gi_rmse": 0.1797693629564634, "val_gi_spearman": -0.12242006346150348}
+{"completed_job": "gene_holdout_pooled_string_419", "validation_rmse": 0.1587339450188398}
+{"starting_job": {"protocol": "gene_holdout", "seed": 419, "model": "naiad", "name": "gene_holdout_naiad_419", "job_index": 86}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "gene_holdout_naiad_419", "epoch": 1, "train_loss": 0.8385298252105713, "val_loss": 0.5692055225372314}
+{"job": "gene_holdout_naiad_419", "epoch": 10, "train_loss": 0.46495652198791504, "val_loss": 0.5008299946784973}
+{"job": "gene_holdout_naiad_419", "epoch": 20, "train_loss": 0.435560405254364, "val_loss": 0.49044522643089294}
+{"job": "gene_holdout_naiad_419", "epoch": 30, "train_loss": 0.42524197697639465, "val_loss": 0.48528480529785156}
+{"job": "gene_holdout_naiad_419", "epoch": 40, "train_loss": 0.4107803702354431, "val_loss": 0.48521125316619873}
+{"completed_job": "gene_holdout_naiad_419", "validation_rmse": 0.137366767724267}
+{"starting_job": {"protocol": "gene_holdout", "seed": 503, "model": "xgb", "name": "gene_holdout_xgb_503", "job_index": 88}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+[0]	validation-rmse:0.94745
+[24]	validation-rmse:0.95292
+{"completed_job": "gene_holdout_xgb_503", "validation_rmse": 0.13951933914821554}
+{"starting_job": {"protocol": "gene_holdout", "seed": 503, "model": "target_string", "name": "gene_holdout_target_string_503", "job_index": 90}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "gene_holdout_target_string_503", "epoch": 1, "train_gi_loss": 0.9804117679595947, "val_gi_loss": 1.0126113891601562, "val_gi_rmse": 0.1481829287469374, "val_gi_spearman": -0.11810663205901753}
+{"job": "gene_holdout_target_string_503", "epoch": 10, "train_gi_loss": 0.4347507953643799, "val_gi_loss": 1.2780311107635498, "val_gi_rmse": 0.16647442298354242, "val_gi_spearman": -0.11719523715240086}
+{"completed_job": "gene_holdout_target_string_503", "validation_rmse": 0.14818292413197184}
+{"starting_job": {"protocol": "gene_holdout", "seed": 503, "model": "pooled_string", "name": "gene_holdout_pooled_string_503", "job_index": 92}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "gene_holdout_pooled_string_503", "epoch": 1, "train_gi_loss": 0.7239007353782654, "val_gi_loss": 1.168627142906189, "val_gi_rmse": 0.1591896304162752, "val_gi_spearman": -0.10530860064333537}
+{"job": "gene_holdout_pooled_string_503", "epoch": 10, "train_gi_loss": 0.19637523591518402, "val_gi_loss": 1.309990644454956, "val_gi_rmse": 0.16854305529117752, "val_gi_spearman": 0.007138828665609965}
+{"completed_job": "gene_holdout_pooled_string_503", "validation_rmse": 0.15303534740428082}
+{"starting_job": {"protocol": "gene_holdout", "seed": 503, "model": "naiad", "name": "gene_holdout_naiad_503", "job_index": 94}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "gene_holdout_naiad_503", "epoch": 1, "train_loss": 0.9180005192756653, "val_loss": 0.5455418229103088}
+{"job": "gene_holdout_naiad_503", "epoch": 10, "train_loss": 0.4818623661994934, "val_loss": 0.49335014820098877}
+{"job": "gene_holdout_naiad_503", "epoch": 20, "train_loss": 0.4466966688632965, "val_loss": 0.4795123338699341}
+{"job": "gene_holdout_naiad_503", "epoch": 30, "train_loss": 0.43526047468185425, "val_loss": 0.48144006729125977}
+{"job": "gene_holdout_naiad_503", "epoch": 40, "train_loss": 0.41314542293548584, "val_loss": 0.4812571704387665}
+{"completed_job": "gene_holdout_naiad_503", "validation_rmse": 0.1369611738102768}
+{"starting_job": {"protocol": "anchor_holdout", "seed": 101, "model": "xgb", "name": "anchor_holdout_xgb_101", "job_index": 96}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+[0]	validation-rmse:0.89948
+[48]	validation-rmse:0.85471
+{"completed_job": "anchor_holdout_xgb_101", "validation_rmse": 0.13172701260651629}
+{"starting_job": {"protocol": "anchor_holdout", "seed": 101, "model": "target_string", "name": "anchor_holdout_target_string_101", "job_index": 98}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "anchor_holdout_target_string_101", "epoch": 1, "train_gi_loss": 0.9510307312011719, "val_gi_loss": 0.9089356660842896, "val_gi_rmse": 0.14893410061604584, "val_gi_spearman": -0.06503319679269702}
+{"job": "anchor_holdout_target_string_101", "epoch": 10, "train_gi_loss": 0.44090360403060913, "val_gi_loss": 1.2622969150543213, "val_gi_rmse": 0.17551261638982396, "val_gi_spearman": 0.19604158869119218}
+{"completed_job": "anchor_holdout_target_string_101", "validation_rmse": 0.14893404697530863}
+{"starting_job": {"protocol": "anchor_holdout", "seed": 101, "model": "pooled_string", "name": "anchor_holdout_pooled_string_101", "job_index": 100}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "anchor_holdout_pooled_string_101", "epoch": 1, "train_gi_loss": 0.7499910593032837, "val_gi_loss": 0.960574209690094, "val_gi_rmse": 0.1531062918394568, "val_gi_spearman": 0.15390855288674005}
+{"job": "anchor_holdout_pooled_string_101", "epoch": 10, "train_gi_loss": 0.21796295046806335, "val_gi_loss": 1.094892978668213, "val_gi_rmse": 0.16346072031807068, "val_gi_spearman": 0.18026101194476638}
+{"completed_job": "anchor_holdout_pooled_string_101", "validation_rmse": 0.14409830840082932}
+{"starting_job": {"protocol": "anchor_holdout", "seed": 101, "model": "naiad", "name": "anchor_holdout_naiad_101", "job_index": 102}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "anchor_holdout_naiad_101", "epoch": 1, "train_loss": 0.7019776105880737, "val_loss": 0.5890430808067322}
+{"job": "anchor_holdout_naiad_101", "epoch": 10, "train_loss": 0.4388671815395355, "val_loss": 0.39827609062194824}
+{"job": "anchor_holdout_naiad_101", "epoch": 20, "train_loss": 0.4073117971420288, "val_loss": 0.36120089888572693}
+{"job": "anchor_holdout_naiad_101", "epoch": 30, "train_loss": 0.38254237174987793, "val_loss": 0.3863826394081116}
+{"completed_job": "anchor_holdout_naiad_101", "validation_rmse": 0.12530384652030438}
+{"starting_job": {"protocol": "anchor_holdout", "seed": 211, "model": "xgb", "name": "anchor_holdout_xgb_211", "job_index": 104}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+[0]	validation-rmse:0.89955
+[50]	validation-rmse:0.86164
+[55]	validation-rmse:0.87419
+{"completed_job": "anchor_holdout_xgb_211", "validation_rmse": 0.13102126422498997}
+{"starting_job": {"protocol": "anchor_holdout", "seed": 211, "model": "target_string", "name": "anchor_holdout_target_string_211", "job_index": 106}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "anchor_holdout_target_string_211", "epoch": 1, "train_gi_loss": 0.973103940486908, "val_gi_loss": 0.8749957084655762, "val_gi_rmse": 0.14612702146628465, "val_gi_spearman": -0.030979308973288832}
+{"job": "anchor_holdout_target_string_211", "epoch": 10, "train_gi_loss": 0.4299003481864929, "val_gi_loss": 1.2170825004577637, "val_gi_rmse": 0.17234059236891142, "val_gi_spearman": 0.15976738936325985}
+{"completed_job": "anchor_holdout_target_string_211", "validation_rmse": 0.14612700499400008}
+{"starting_job": {"protocol": "anchor_holdout", "seed": 211, "model": "pooled_string", "name": "anchor_holdout_pooled_string_211", "job_index": 108}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "anchor_holdout_pooled_string_211", "epoch": 1, "train_gi_loss": 0.753061830997467, "val_gi_loss": 0.9586852788925171, "val_gi_rmse": 0.15295567316731962, "val_gi_spearman": 0.1949209338958442}
+{"job": "anchor_holdout_pooled_string_211", "epoch": 10, "train_gi_loss": 0.21320496499538422, "val_gi_loss": 1.1193610429763794, "val_gi_rmse": 0.16527710179980204, "val_gi_spearman": 0.21828787638375372}
+{"completed_job": "anchor_holdout_pooled_string_211", "validation_rmse": 0.14496793150553103}
+{"starting_job": {"protocol": "anchor_holdout", "seed": 211, "model": "naiad", "name": "anchor_holdout_naiad_211", "job_index": 110}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "anchor_holdout_naiad_211", "epoch": 1, "train_loss": 0.8022823333740234, "val_loss": 0.5548533797264099}
+{"job": "anchor_holdout_naiad_211", "epoch": 10, "train_loss": 0.43532347679138184, "val_loss": 0.37519851326942444}
+{"job": "anchor_holdout_naiad_211", "epoch": 20, "train_loss": 0.4126127362251282, "val_loss": 0.3675866723060608}
+{"job": "anchor_holdout_naiad_211", "epoch": 30, "train_loss": 0.3806908130645752, "val_loss": 0.36217889189720154}
+{"completed_job": "anchor_holdout_naiad_211", "validation_rmse": 0.12550058046753015}
+{"starting_job": {"protocol": "anchor_holdout", "seed": 307, "model": "xgb", "name": "anchor_holdout_xgb_307", "job_index": 112}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+[0]	validation-rmse:0.90407
+[50]	validation-rmse:0.88268
+[53]	validation-rmse:0.88949
+{"completed_job": "anchor_holdout_xgb_307", "validation_rmse": 0.1333554709517963}
+{"starting_job": {"protocol": "anchor_holdout", "seed": 307, "model": "target_string", "name": "anchor_holdout_target_string_307", "job_index": 114}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "anchor_holdout_target_string_307", "epoch": 1, "train_gi_loss": 0.9394183158874512, "val_gi_loss": 0.8825047612190247, "val_gi_rmse": 0.14675269977321648, "val_gi_spearman": 0.016859336385076047}
+{"job": "anchor_holdout_target_string_307", "epoch": 10, "train_gi_loss": 0.4370037317276001, "val_gi_loss": 1.179492473602295, "val_gi_rmse": 0.1696583211247713, "val_gi_spearman": 0.18097613985966488}
+{"completed_job": "anchor_holdout_target_string_307", "validation_rmse": 0.14675264653405498}
+{"starting_job": {"protocol": "anchor_holdout", "seed": 307, "model": "pooled_string", "name": "anchor_holdout_pooled_string_307", "job_index": 116}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "anchor_holdout_pooled_string_307", "epoch": 1, "train_gi_loss": 0.747263491153717, "val_gi_loss": 1.0602989196777344, "val_gi_rmse": 0.1608576505097119, "val_gi_spearman": 0.13514303837062566}
+{"job": "anchor_holdout_pooled_string_307", "epoch": 10, "train_gi_loss": 0.21886277198791504, "val_gi_loss": 1.139935851097107, "val_gi_rmse": 0.1667891359819862, "val_gi_spearman": 0.16123457595281743}
+{"completed_job": "anchor_holdout_pooled_string_307", "validation_rmse": 0.15979545818741633}
+{"starting_job": {"protocol": "anchor_holdout", "seed": 307, "model": "naiad", "name": "anchor_holdout_naiad_307", "job_index": 118}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "anchor_holdout_naiad_307", "epoch": 1, "train_loss": 0.6866511106491089, "val_loss": 0.53123539686203}
+{"job": "anchor_holdout_naiad_307", "epoch": 10, "train_loss": 0.433247447013855, "val_loss": 0.36321890354156494}
+{"job": "anchor_holdout_naiad_307", "epoch": 20, "train_loss": 0.4021016061306, "val_loss": 0.3650180995464325}
+{"job": "anchor_holdout_naiad_307", "epoch": 30, "train_loss": 0.38537174463272095, "val_loss": 0.3731338083744049}
+{"job": "anchor_holdout_naiad_307", "epoch": 40, "train_loss": 0.3714161813259125, "val_loss": 0.39662060141563416}
+{"completed_job": "anchor_holdout_naiad_307", "validation_rmse": 0.1266619354743713}
+{"starting_job": {"protocol": "transfer_ht29", "seed": 101, "model": "twohead_gnn", "name": "transfer_ht29_twohead_gnn_101", "job_index": 120}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "transfer_ht29_twohead_gnn_101", "epoch": 1, "train_loss": 0.5027561783790588, "val_loss": 0.23295193910598755}
+{"job": "transfer_ht29_twohead_gnn_101", "epoch": 10, "train_loss": 0.12107372283935547, "val_loss": 0.11799037456512451}
+{"job": "transfer_ht29_twohead_gnn_101", "epoch": 20, "train_loss": 0.10614537447690964, "val_loss": 0.11197233945131302}
+{"job": "transfer_ht29_twohead_gnn_101", "epoch": 30, "train_loss": 0.09792300313711166, "val_loss": 0.11016534268856049}
+{"completed_job": "transfer_ht29_twohead_gnn_101", "validation_rmse": 0.3793315291404724}
+{"starting_job": {"protocol": "transfer_ht29", "seed": 101, "model": "pooled_string", "name": "transfer_ht29_pooled_string_101", "job_index": 122}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "transfer_ht29_pooled_string_101", "epoch": 1, "train_gi_loss": 0.6797344088554382, "val_gi_loss": 0.5191832184791565, "val_gi_rmse": 0.7205436825752258, "val_gi_spearman": 0.674873033269128}
+{"job": "transfer_ht29_pooled_string_101", "epoch": 10, "train_gi_loss": 0.16127724945545197, "val_gi_loss": 0.16167771816253662, "val_gi_rmse": 0.4020916819572449, "val_gi_spearman": 0.8990069250630639}
+{"job": "transfer_ht29_pooled_string_101", "epoch": 20, "train_gi_loss": 0.13727934658527374, "val_gi_loss": 0.15723462402820587, "val_gi_rmse": 0.3965282142162323, "val_gi_spearman": 0.9003293142976684}
+{"job": "transfer_ht29_pooled_string_101", "epoch": 30, "train_gi_loss": 0.12233229726552963, "val_gi_loss": 0.159175843000412, "val_gi_rmse": 0.39896848797798157, "val_gi_spearman": 0.8996061742479088}
+{"completed_job": "transfer_ht29_pooled_string_101", "validation_rmse": 0.3937729299068451}
+{"starting_job": {"protocol": "transfer_ht29", "seed": 101, "model": "naiad", "name": "transfer_ht29_naiad_101", "job_index": 124}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "transfer_ht29_naiad_101", "epoch": 1, "train_loss": 0.2550332546234131, "val_loss": 0.19746103882789612}
+{"job": "transfer_ht29_naiad_101", "epoch": 10, "train_loss": 0.16396766901016235, "val_loss": 0.15802612900733948}
+{"job": "transfer_ht29_naiad_101", "epoch": 20, "train_loss": 0.15299053490161896, "val_loss": 0.1494291126728058}
+{"job": "transfer_ht29_naiad_101", "epoch": 30, "train_loss": 0.150421604514122, "val_loss": 0.14768147468566895}
+{"job": "transfer_ht29_naiad_101", "epoch": 40, "train_loss": 0.14846530556678772, "val_loss": 0.14686572551727295}
+{"job": "transfer_ht29_naiad_101", "epoch": 50, "train_loss": 0.14756830036640167, "val_loss": 0.14600612223148346}
+{"job": "transfer_ht29_naiad_101", "epoch": 60, "train_loss": 0.1464276909828186, "val_loss": 0.14538294076919556}
+{"job": "transfer_ht29_naiad_101", "epoch": 70, "train_loss": 0.14577335119247437, "val_loss": 0.1449681669473648}
+{"job": "transfer_ht29_naiad_101", "epoch": 80, "train_loss": 0.14513809978961945, "val_loss": 0.14633159339427948}
+{"job": "transfer_ht29_naiad_101", "epoch": 90, "train_loss": 0.14421381056308746, "val_loss": 0.1451311856508255}
+{"job": "transfer_ht29_naiad_101", "epoch": 100, "train_loss": 0.14375610649585724, "val_loss": 0.1437130868434906}
+{"completed_job": "transfer_ht29_naiad_101", "validation_rmse": 0.4307016134262085}
+{"starting_job": {"protocol": "transfer_ht29", "seed": 211, "model": "twohead_gnn", "name": "transfer_ht29_twohead_gnn_211", "job_index": 126}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "transfer_ht29_twohead_gnn_211", "epoch": 1, "train_loss": 0.5161847472190857, "val_loss": 0.20718914270401}
+{"job": "transfer_ht29_twohead_gnn_211", "epoch": 10, "train_loss": 0.12145136296749115, "val_loss": 0.11641214787960052}
+{"job": "transfer_ht29_twohead_gnn_211", "epoch": 20, "train_loss": 0.10592086613178253, "val_loss": 0.11032421886920929}
+{"job": "transfer_ht29_twohead_gnn_211", "epoch": 30, "train_loss": 0.09833177179098129, "val_loss": 0.10909776389598846}
+{"job": "transfer_ht29_twohead_gnn_211", "epoch": 40, "train_loss": 0.09254250675439835, "val_loss": 0.1114952564239502}
+{"completed_job": "transfer_ht29_twohead_gnn_211", "validation_rmse": 0.3778274655342102}
+{"starting_job": {"protocol": "transfer_ht29", "seed": 211, "model": "pooled_string", "name": "transfer_ht29_pooled_string_211", "job_index": 128}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "transfer_ht29_pooled_string_211", "epoch": 1, "train_gi_loss": 0.6564705967903137, "val_gi_loss": 0.49461206793785095, "val_gi_rmse": 0.7032866477966309, "val_gi_spearman": 0.6905576851405113}
+{"job": "transfer_ht29_pooled_string_211", "epoch": 10, "train_gi_loss": 0.16008390486240387, "val_gi_loss": 0.16642054915428162, "val_gi_rmse": 0.40794673562049866, "val_gi_spearman": 0.8970663246758186}
+{"job": "transfer_ht29_pooled_string_211", "epoch": 20, "train_gi_loss": 0.13558568060398102, "val_gi_loss": 0.1585804671049118, "val_gi_rmse": 0.3982216417789459, "val_gi_spearman": 0.9004156887882325}
+{"job": "transfer_ht29_pooled_string_211", "epoch": 30, "train_gi_loss": 0.12321086972951889, "val_gi_loss": 0.15832191705703735, "val_gi_rmse": 0.3978968560695648, "val_gi_spearman": 0.9005771514302894}
+{"completed_job": "transfer_ht29_pooled_string_211", "validation_rmse": 0.3938201069831848}
+{"starting_job": {"protocol": "transfer_ht29", "seed": 211, "model": "naiad", "name": "transfer_ht29_naiad_211", "job_index": 130}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "transfer_ht29_naiad_211", "epoch": 1, "train_loss": 0.2574748992919922, "val_loss": 0.19912949204444885}
+{"job": "transfer_ht29_naiad_211", "epoch": 10, "train_loss": 0.16119928658008575, "val_loss": 0.15571674704551697}
+{"job": "transfer_ht29_naiad_211", "epoch": 20, "train_loss": 0.15312974154949188, "val_loss": 0.15011176466941833}
+{"job": "transfer_ht29_naiad_211", "epoch": 30, "train_loss": 0.15110911428928375, "val_loss": 0.14896884560585022}
+{"job": "transfer_ht29_naiad_211", "epoch": 40, "train_loss": 0.14889778196811676, "val_loss": 0.14749208092689514}
+{"job": "transfer_ht29_naiad_211", "epoch": 50, "train_loss": 0.1481124758720398, "val_loss": 0.1472589373588562}
+{"job": "transfer_ht29_naiad_211", "epoch": 60, "train_loss": 0.14717398583889008, "val_loss": 0.14763595163822174}
+{"job": "transfer_ht29_naiad_211", "epoch": 70, "train_loss": 0.14621198177337646, "val_loss": 0.14688780903816223}
+{"job": "transfer_ht29_naiad_211", "epoch": 80, "train_loss": 0.1461767852306366, "val_loss": 0.14615654945373535}
+{"job": "transfer_ht29_naiad_211", "epoch": 90, "train_loss": 0.14560537040233612, "val_loss": 0.14523553848266602}
+{"job": "transfer_ht29_naiad_211", "epoch": 100, "train_loss": 0.14493519067764282, "val_loss": 0.14482523500919342}
+{"completed_job": "transfer_ht29_naiad_211", "validation_rmse": 0.4330478608608246}
+{"starting_job": {"protocol": "transfer_ht29", "seed": 307, "model": "twohead_gnn", "name": "transfer_ht29_twohead_gnn_307", "job_index": 132}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "transfer_ht29_twohead_gnn_307", "epoch": 1, "train_loss": 0.5088470578193665, "val_loss": 0.22288307547569275}
+{"job": "transfer_ht29_twohead_gnn_307", "epoch": 10, "train_loss": 0.12231520563364029, "val_loss": 0.11538457870483398}
+{"job": "transfer_ht29_twohead_gnn_307", "epoch": 20, "train_loss": 0.10656026750802994, "val_loss": 0.1096096858382225}
+{"job": "transfer_ht29_twohead_gnn_307", "epoch": 30, "train_loss": 0.099070705473423, "val_loss": 0.10928229987621307}
+{"job": "transfer_ht29_twohead_gnn_307", "epoch": 40, "train_loss": 0.09291128069162369, "val_loss": 0.11003631353378296}
+{"completed_job": "transfer_ht29_twohead_gnn_307", "validation_rmse": 0.37659457325935364}
+{"starting_job": {"protocol": "transfer_ht29", "seed": 307, "model": "pooled_string", "name": "transfer_ht29_pooled_string_307", "job_index": 134}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "transfer_ht29_pooled_string_307", "epoch": 1, "train_gi_loss": 0.6392276287078857, "val_gi_loss": 0.499277263879776, "val_gi_rmse": 0.7065955400466919, "val_gi_spearman": 0.6918723737944646}
+{"job": "transfer_ht29_pooled_string_307", "epoch": 10, "train_gi_loss": 0.15935185551643372, "val_gi_loss": 0.16421371698379517, "val_gi_rmse": 0.40523290634155273, "val_gi_spearman": 0.8977029760883407}
+{"job": "transfer_ht29_pooled_string_307", "epoch": 20, "train_gi_loss": 0.13702546060085297, "val_gi_loss": 0.15870466828346252, "val_gi_rmse": 0.39837753772735596, "val_gi_spearman": 0.9003131692051116}
+{"job": "transfer_ht29_pooled_string_307", "epoch": 30, "train_gi_loss": 0.12412653863430023, "val_gi_loss": 0.16005435585975647, "val_gi_rmse": 0.40006792545318604, "val_gi_spearman": 0.9005741197698918}
+{"job": "transfer_ht29_pooled_string_307", "epoch": 40, "train_gi_loss": 0.11385636776685715, "val_gi_loss": 0.16037525236606598, "val_gi_rmse": 0.4004687964916229, "val_gi_spearman": 0.8999298134411355}
+{"completed_job": "transfer_ht29_pooled_string_307", "validation_rmse": 0.3949262201786041}
+{"starting_job": {"protocol": "transfer_ht29", "seed": 307, "model": "naiad", "name": "transfer_ht29_naiad_307", "job_index": 136}, "phase": "fit"}
+/media/yjz/miniconda3/envs/memskill/lib/python3.10/site-packages/numpy/lib/nanfunctions.py:1879: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{"job": "transfer_ht29_naiad_307", "epoch": 1, "train_loss": 0.2610306143760681, "val_loss": 0.19903352856636047}
+{"job": "transfer_ht29_naiad_307", "epoch": 10, "train_loss": 0.16405202448368073, "val_loss": 0.1583627462387085}
+{"job": "transfer_ht29_naiad_307", "epoch": 20, "train_loss": 0.15356646478176117, "val_loss": 0.1501554250717163}
+{"job": "transfer_ht29_naiad_307", "epoch": 30, "train_loss": 0.15068510174751282, "val_loss": 0.1486426293849945}
+{"job": "transfer_ht29_naiad_307", "epoch": 40, "train_loss": 0.1492331475019455, "val_loss": 0.1484518051147461}
+{"job": "transfer_ht29_naiad_307", "epoch": 50, "train_loss": 0.14850838482379913, "val_loss": 0.1482847034931183}
+{"job": "transfer_ht29_naiad_307", "epoch": 60, "train_loss": 0.14719291031360626, "val_loss": 0.14637082815170288}
+{"job": "transfer_ht29_naiad_307", "epoch": 70, "train_loss": 0.1463673859834671, "val_loss": 0.14627066254615784}
+{"job": "transfer_ht29_naiad_307", "epoch": 80, "train_loss": 0.1454736888408661, "val_loss": 0.14505934715270996}
+{"job": "transfer_ht29_naiad_307", "epoch": 90, "train_loss": 0.1452285349369049, "val_loss": 0.1460970640182495}
+{"completed_job": "transfer_ht29_naiad_307", "validation_rmse": 0.4339529871940613}

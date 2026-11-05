@@ -1,0 +1,8 @@
+{
+  "file": "STRING_physical_network.tsv",
+  "url": "https://version-12-5.string-db.org/api/tsv/network",
+  "sha256": "3b32c4a02c38d1fc83da372b61850776d1c7fcb4a8f3a9cdf02408ade9c04907",
+  "bytes": 377040,
+  "retrieved_utc": "2026-10-30T07:17:44.273285+00:00",
+  "status": "downloaded"
+}

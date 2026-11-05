@@ -1,0 +1,21 @@
+{
+  "files": [
+    {
+      "path": "data/sl/ht29_labels.csv",
+      "sha256": "a9550e437dbf5b34e5314736c82684ec200e6558c60388ef26ef3970f97adaea"
+    },
+    {
+      "path": "data/evidence/integrated_features.npz",
+      "sha256": "7706373a5dfdded73ff4f00554569595d68627f235d9293ebc36416c6a3b0455"
+    },
+    {
+      "path": "data/evidence/graphs.npz",
+      "sha256": "da1e02978b7c76d240e961aa7a00bc0460249323be4f1a879aed7e9572747897"
+    },
+    {
+      "path": "configs/experiment_sl.json",
+      "sha256": "cc85d0b19436ab3646dee62257cfb212bf3dc47b73e99d406d6cdd9b8ccf8b64"
+    }
+  ],
+  "started_unix": 1793862232.7600522
+}

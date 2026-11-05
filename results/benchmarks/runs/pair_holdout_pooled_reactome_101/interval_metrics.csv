@@ -1,0 +1,2 @@
+interval_n,interval_coverage,interval_mean_width,protocol,model,seed,nominal_coverage,radius,n_calibration
+2380,0.9100840336134454,0.41147260102847083,pair_holdout,pooled_reactome,101,0.9,0.20573630051423542,1586

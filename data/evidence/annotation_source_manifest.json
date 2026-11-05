@@ -1,0 +1,175 @@
+{
+  "prepared_utc": "2026-10-30T07:09:58.317993+00:00",
+  "manual_decisions": [
+    "metabolic_adjudication.csv",
+    "chromatin_adjudication.csv"
+  ],
+  "uniprot_downloads": [
+    {
+      "file": "uniprot_reviewed_batch_00.tsv",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=%28accession%3AA5YKK6+OR+accession%3AA6H8Y1+OR+accession%3AA6NKF2+OR+accession%3AE9PAV3+OR+accession%3AO00139+OR+accession%3AO00141+OR+accession%3AO00198+OR+accession%3AO00232+OR+accession%3AO00255+OR+accession%3AO00329+OR+accession%3AO00401+OR+accession%3AO00422+OR+accession%3AO00429+OR+accession%3AO00716+OR+accession%3AO00762+OR+accession%3AO14497+OR+accession%3AO14578+OR+accession%3AO14579+OR+accession%3AO14733+OR+accession%3AO14737+OR+accession%3AO14744+OR+accession%3AO14757+OR+accession%3AO14786+OR+accession%3AO14802+OR+accession%3AO14807+OR+accession%3AO14893+OR+accession%3AO14920+OR+accession%3AO14965+OR+accession%3AO14980+OR+accession%3AO15067+OR+accession%3AO15151+OR+accession%3AO15198+OR+accession%3AO15228+OR+accession%3AO15297+OR+accession%3AO15355+OR+accession%3AO15371+OR+accession%3AO15372+OR+accession%3AO15379+OR+accession%3AO43169+OR+accession%3AO43187+OR+accession%3AO43283+OR+accession%3AO43293+OR+accession%3AO43318+OR+accession%3AO43462+OR+accession%3AO43464+OR+accession%3AO43542+OR+accession%3AO43543+OR+accession%3AO43633+OR+accession%3AO43678+OR+accession%3AO43681%29+AND+reviewed%3Atrue+AND+organism_id%3A9606&format=tsv&fields=accession%2Cid%2Creviewed%2Cgene_primary%2Cprotein_name%2Cec%2Ccc_catalytic_activity%2Cgo_f%2Cgo_p%2Ccc_function%2Cxref_hgnc&size=500",
+      "retrieved_utc": "2026-10-29T09:14:18.658823+00:00",
+      "uniprot_release": "2026_03",
+      "release_date": "02-September-2026",
+      "n_returned": 50,
+      "n_requested_accessions": 50
+    },
+    {
+      "file": "uniprot_reviewed_batch_01.tsv",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=%28accession%3AO43683+OR+accession%3AO43684+OR+accession%3AO43766+OR+accession%3AO60244+OR+accession%3AO60285+OR+accession%3AO60313+OR+accession%3AO60318+OR+accession%3AO60341+OR+accession%3AO60508+OR+accession%3AO60524+OR+accession%3AO60566+OR+accession%3AO60674+OR+accession%3AO60783+OR+accession%3AO60841+OR+accession%3AO60885+OR+accession%3AO60921+OR+accession%3AO60942+OR+accession%3AO75027+OR+accession%3AO75116+OR+accession%3AO75127+OR+accession%3AO75348+OR+accession%3AO75391+OR+accession%3AO75394+OR+accession%3AO75396+OR+accession%3AO75438+OR+accession%3AO75439+OR+accession%3AO75448+OR+accession%3AO75533+OR+accession%3AO75569+OR+accession%3AO75643+OR+accession%3AO75879+OR+accession%3AO75880+OR+accession%3AO75909+OR+accession%3AO75935+OR+accession%3AO75940+OR+accession%3AO76039+OR+accession%3AO76064+OR+accession%3AO76095+OR+accession%3AO94921+OR+accession%3AO94986+OR+accession%3AO95071+OR+accession%3AO95140+OR+accession%3AO95168+OR+accession%3AO95178+OR+accession%3AO95229+OR+accession%3AO95232+OR+accession%3AO95239+OR+accession%3AO95251+OR+accession%3AO95299+OR+accession%3AO95613%29+AND+reviewed%3Atrue+AND+organism_id%3A9606&format=tsv&fields=accession%2Cid%2Creviewed%2Cgene_primary%2Cprotein_name%2Cec%2Ccc_catalytic_activity%2Cgo_f%2Cgo_p%2Ccc_function%2Cxref_hgnc&size=500",
+      "retrieved_utc": "2026-10-29T09:14:19.038042+00:00",
+      "uniprot_release": "2026_03",
+      "release_date": "02-September-2026",
+      "n_returned": 50,
+      "n_requested_accessions": 50
+    },
+    {
+      "file": "uniprot_reviewed_batch_02.tsv",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=%28accession%3AO95801+OR+accession%3AO95831+OR+accession%3AO95835+OR+accession%3AO95997+OR+accession%3AO96013+OR+accession%3AO96017+OR+accession%3AO96019+OR+accession%3AO96020+OR+accession%3AP00491+OR+accession%3AP00519+OR+accession%3AP00533+OR+accession%3AP00558+OR+accession%3AP01106+OR+accession%3AP01111+OR+accession%3AP01112+OR+accession%3AP01116+OR+accession%3AP01911+OR+accession%3AP04049+OR+accession%3AP04198+OR+accession%3AP04626+OR+accession%3AP04629+OR+accession%3AP04637+OR+accession%3AP04818+OR+accession%3AP05023+OR+accession%3AP05129+OR+accession%3AP05386+OR+accession%3AP05387+OR+accession%3AP05412+OR+accession%3AP05455+OR+accession%3AP05556+OR+accession%3AP06239+OR+accession%3AP06241+OR+accession%3AP06493+OR+accession%3AP06731+OR+accession%3AP06756+OR+accession%3AP07332+OR+accession%3AP07437+OR+accession%3AP07947+OR+accession%3AP07948+OR+accession%3AP07954+OR+accession%3AP08047+OR+accession%3AP08069+OR+accession%3AP08183+OR+accession%3AP08235+OR+accession%3AP08581+OR+accession%3AP08621+OR+accession%3AP08631+OR+accession%3AP08865+OR+accession%3AP09001+OR+accession%3AP09132%29+AND+reviewed%3Atrue+AND+organism_id%3A9606&format=tsv&fields=accession%2Cid%2Creviewed%2Cgene_primary%2Cprotein_name%2Cec%2Ccc_catalytic_activity%2Cgo_f%2Cgo_p%2Ccc_function%2Cxref_hgnc&size=500",
+      "retrieved_utc": "2026-10-29T09:14:19.036813+00:00",
+      "uniprot_release": "2026_03",
+      "release_date": "02-September-2026",
+      "n_returned": 50,
+      "n_requested_accessions": 50
+    },
+    {
+      "file": "uniprot_reviewed_batch_03.tsv",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=%28accession%3AP09234+OR+accession%3AP09429+OR+accession%3AP09669+OR+accession%3AP09769+OR+accession%3AP09874+OR+accession%3AP09884+OR+accession%3AP10301+OR+accession%3AP10398+OR+accession%3AP10415+OR+accession%3AP10644+OR+accession%3AP10721+OR+accession%3AP11172+OR+accession%3AP11233+OR+accession%3AP11234+OR+accession%3AP11309+OR+accession%3AP11802+OR+accession%3AP12268+OR+accession%3AP12270+OR+accession%3AP12524+OR+accession%3AP12757+OR+accession%3AP12931+OR+accession%3AP13995+OR+accession%3AP14324+OR+accession%3AP14618+OR+accession%3AP14635+OR+accession%3AP14678+OR+accession%3AP14868+OR+accession%3AP14923+OR+accession%3AP14927+OR+accession%3AP15056+OR+accession%3AP15954+OR+accession%3AP16070+OR+accession%3AP16591+OR+accession%3AP16989+OR+accession%3AP17252+OR+accession%3AP17612+OR+accession%3AP17948+OR+accession%3AP18084+OR+accession%3AP20290+OR+accession%3AP20674+OR+accession%3AP21359+OR+accession%3AP21675+OR+accession%3AP21860+OR+accession%3AP22102+OR+accession%3AP22392+OR+accession%3AP22694+OR+accession%3AP23443+OR+accession%3AP23458+OR+accession%3AP23921+OR+accession%3AP24385%29+AND+reviewed%3Atrue+AND+organism_id%3A9606&format=tsv&fields=accession%2Cid%2Creviewed%2Cgene_primary%2Cprotein_name%2Cec%2Ccc_catalytic_activity%2Cgo_f%2Cgo_p%2Ccc_function%2Cxref_hgnc&size=500",
+      "retrieved_utc": "2026-10-29T09:14:37.624899+00:00",
+      "uniprot_release": "2026_03",
+      "release_date": "02-September-2026",
+      "n_returned": 50,
+      "n_requested_accessions": 50
+    },
+    {
+      "file": "uniprot_reviewed_batch_04.tsv",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=%28accession%3AP24539+OR+accession%3AP24941+OR+accession%3AP25054+OR+accession%3AP25205+OR+accession%3AP25440+OR+accession%3AP25705+OR+accession%3AP25786+OR+accession%3AP26358+OR+accession%3AP26373+OR+accession%3AP26641+OR+accession%3AP27361+OR+accession%3AP27635+OR+accession%3AP27986+OR+accession%3AP28072+OR+accession%3AP28340+OR+accession%3AP28347+OR+accession%3AP28482+OR+accession%3AP29083+OR+accession%3AP29353+OR+accession%3AP29597+OR+accession%3AP30048+OR+accession%3AP30153+OR+accession%3AP30260+OR+accession%3AP30530+OR+accession%3AP30825+OR+accession%3AP30876+OR+accession%3AP31153+OR+accession%3AP31749+OR+accession%3AP31751+OR+accession%3AP32298+OR+accession%3AP32780+OR+accession%3AP33316+OR+accession%3AP33552+OR+accession%3AP33991+OR+accession%3AP34947+OR+accession%3AP35222+OR+accession%3AP35240+OR+accession%3AP35244+OR+accession%3AP35249+OR+accession%3AP35790+OR+accession%3AP35998+OR+accession%3AP36404+OR+accession%3AP36507+OR+accession%3AP36776+OR+accession%3AP36888+OR+accession%3AP36957+OR+accession%3AP37198+OR+accession%3AP37231+OR+accession%3AP38398+OR+accession%3AP39023%29+AND+reviewed%3Atrue+AND+organism_id%3A9606&format=tsv&fields=accession%2Cid%2Creviewed%2Cgene_primary%2Cprotein_name%2Cec%2Ccc_catalytic_activity%2Cgo_f%2Cgo_p%2Ccc_function%2Cxref_hgnc&size=500",
+      "retrieved_utc": "2026-10-29T09:14:36.833038+00:00",
+      "uniprot_release": "2026_03",
+      "release_date": "02-September-2026",
+      "n_returned": 50,
+      "n_requested_accessions": 50
+    },
+    {
+      "file": "uniprot_reviewed_batch_05.tsv",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=%28accession%3AP39748+OR+accession%3AP40937+OR+accession%3AP41227+OR+accession%3AP41235+OR+accession%3AP41240+OR+accession%3AP41252+OR+accession%3AP41743+OR+accession%3AP42285+OR+accession%3AP42336+OR+accession%3AP42338+OR+accession%3AP42345+OR+accession%3AP42680+OR+accession%3AP42684+OR+accession%3AP42685+OR+accession%3AP42766+OR+accession%3AP43034+OR+accession%3AP43250+OR+accession%3AP43405+OR+accession%3AP43490+OR+accession%3AP45983+OR+accession%3AP45984+OR+accession%3AP45985+OR+accession%3AP46531+OR+accession%3AP46734+OR+accession%3AP46777+OR+accession%3AP46779+OR+accession%3AP46937+OR+accession%3AP47756+OR+accession%3AP48736+OR+accession%3AP49069+OR+accession%3AP49137+OR+accession%3AP49336+OR+accession%3AP49354+OR+accession%3AP49356+OR+accession%3AP49406+OR+accession%3AP49589+OR+accession%3AP49643+OR+accession%3AP49756+OR+accession%3AP49770+OR+accession%3AP49815+OR+accession%3AP49840+OR+accession%3AP49841+OR+accession%3AP50579+OR+accession%3AP50613+OR+accession%3AP50748+OR+accession%3AP50990+OR+accession%3AP51398+OR+accession%3AP51451+OR+accession%3AP51530+OR+accession%3AP51531%29+AND+reviewed%3Atrue+AND+organism_id%3A9606&format=tsv&fields=accession%2Cid%2Creviewed%2Cgene_primary%2Cprotein_name%2Cec%2Ccc_catalytic_activity%2Cgo_f%2Cgo_p%2Ccc_function%2Cxref_hgnc&size=500",
+      "retrieved_utc": "2026-10-29T09:14:37.890293+00:00",
+      "uniprot_release": "2026_03",
+      "release_date": "02-September-2026",
+      "n_returned": 50,
+      "n_requested_accessions": 50
+    },
+    {
+      "file": "uniprot_reviewed_batch_06.tsv",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=%28accession%3AP51532+OR+accession%3AP51570+OR+accession%3AP51587+OR+accession%3AP51784+OR+accession%3AP51948+OR+accession%3AP51955+OR+accession%3AP51957+OR+accession%3AP51959+OR+accession%3AP51970+OR+accession%3AP52209+OR+accession%3AP52333+OR+accession%3AP52564+OR+accession%3AP52732+OR+accession%3AP52756+OR+accession%3AP52789+OR+accession%3AP53355+OR+accession%3AP53384+OR+accession%3AP53582+OR+accession%3AP53621+OR+accession%3AP53667+OR+accession%3AP53671+OR+accession%3AP53701+OR+accession%3AP53803+OR+accession%3AP54132+OR+accession%3AP54198+OR+accession%3AP54274+OR+accession%3AP54619+OR+accession%3AP55036+OR+accession%3AP55042+OR+accession%3AP55081+OR+accession%3AP55263+OR+accession%3AP55789+OR+accession%3AP56134+OR+accession%3AP56192+OR+accession%3AP56282+OR+accession%3AP56378+OR+accession%3AP56537+OR+accession%3AP57059+OR+accession%3AP57078+OR+accession%3AP57678+OR+accession%3AP60602+OR+accession%3AP60842+OR+accession%3AP60953+OR+accession%3AP61088+OR+accession%3AP61201+OR+accession%3AP61244+OR+accession%3AP61353+OR+accession%3AP61371+OR+accession%3AP61586+OR+accession%3AP61962%29+AND+reviewed%3Atrue+AND+organism_id%3A9606&format=tsv&fields=accession%2Cid%2Creviewed%2Cgene_primary%2Cprotein_name%2Cec%2Ccc_catalytic_activity%2Cgo_f%2Cgo_p%2Ccc_function%2Cxref_hgnc&size=500",
+      "retrieved_utc": "2026-10-29T09:15:20.762144+00:00",
+      "uniprot_release": "2026_03",
+      "release_date": "02-September-2026",
+      "n_returned": 50,
+      "n_requested_accessions": 50
+    },
+    {
+      "file": "uniprot_reviewed_batch_07.tsv",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=%28accession%3AP61970+OR+accession%3AP62070+OR+accession%3AP62191+OR+accession%3AP62269+OR+accession%3AP62308+OR+accession%3AP62318+OR+accession%3AP62330+OR+accession%3AP62333+OR+accession%3AP62829+OR+accession%3AP62857+OR+accession%3AP62888+OR+accession%3AP62910+OR+accession%3AP62913+OR+accession%3AP62917+OR+accession%3AP62942+OR+accession%3AP62979+OR+accession%3AP62993+OR+accession%3AP62995+OR+accession%3AP63151+OR+accession%3AP63165+OR+accession%3AP63244+OR+accession%3AP68371+OR+accession%3AP68400+OR+accession%3AP78330+OR+accession%3AP78344+OR+accession%3AP78345+OR+accession%3AP78346+OR+accession%3AP78362+OR+accession%3AP78382+OR+accession%3AP78406+OR+accession%3AP78527+OR+accession%3AP80192+OR+accession%3AP82663+OR+accession%3AP82664+OR+accession%3AP82673+OR+accession%3AP82675+OR+accession%3AP82912+OR+accession%3AP82921+OR+accession%3AP82933+OR+accession%3AP83731+OR+accession%3AP83881+OR+accession%3AP84022+OR+accession%3AP84090+OR+accession%3AP98170+OR+accession%3AQ00526+OR+accession%3AQ00532+OR+accession%3AQ00534+OR+accession%3AQ00535+OR+accession%3AQ00536+OR+accession%3AQ00987%29+AND+reviewed%3Atrue+AND+organism_id%3A9606&format=tsv&fields=accession%2Cid%2Creviewed%2Cgene_primary%2Cprotein_name%2Cec%2Ccc_catalytic_activity%2Cgo_f%2Cgo_p%2Ccc_function%2Cxref_hgnc&size=500",
+      "retrieved_utc": "2026-10-29T09:15:20.914136+00:00",
+      "uniprot_release": "2026_03",
+      "release_date": "02-September-2026",
+      "n_returned": 50,
+      "n_requested_accessions": 50
+    },
+    {
+      "file": "uniprot_reviewed_batch_08.tsv",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=%28accession%3AQ01094+OR+accession%3AQ01826+OR+accession%3AQ02127+OR+accession%3AQ02750+OR+accession%3AQ02779+OR+accession%3AQ03426+OR+accession%3AQ04637+OR+accession%3AQ04721+OR+accession%3AQ04837+OR+accession%3AQ05397+OR+accession%3AQ05513+OR+accession%3AQ06124+OR+accession%3AQ06203+OR+accession%3AQ06265+OR+accession%3AQ06418+OR+accession%3AQ06609+OR+accession%3AQ07817+OR+accession%3AQ07820+OR+accession%3AQ07864+OR+accession%3AQ08AG7+OR+accession%3AQ09161+OR+accession%3AQ12846+OR+accession%3AQ12852+OR+accession%3AQ12866+OR+accession%3AQ12981+OR+accession%3AQ12983+OR+accession%3AQ12996+OR+accession%3AQ13042+OR+accession%3AQ13043+OR+accession%3AQ13144+OR+accession%3AQ13153+OR+accession%3AQ13158+OR+accession%3AQ13163+OR+accession%3AQ13164+OR+accession%3AQ13177+OR+accession%3AQ13185+OR+accession%3AQ13188+OR+accession%3AQ13233+OR+accession%3AQ13309+OR+accession%3AQ13315+OR+accession%3AQ13418+OR+accession%3AQ13428+OR+accession%3AQ13464+OR+accession%3AQ13485+OR+accession%3AQ13490+OR+accession%3AQ13526+OR+accession%3AQ13535+OR+accession%3AQ13546+OR+accession%3AQ13547+OR+accession%3AQ13561%29+AND+reviewed%3Atrue+AND+organism_id%3A9606&format=tsv&fields=accession%2Cid%2Creviewed%2Cgene_primary%2Cprotein_name%2Cec%2Ccc_catalytic_activity%2Cgo_f%2Cgo_p%2Ccc_function%2Cxref_hgnc&size=500",
+      "retrieved_utc": "2026-10-29T09:15:21.497010+00:00",
+      "uniprot_release": "2026_03",
+      "release_date": "02-September-2026",
+      "n_returned": 50,
+      "n_requested_accessions": 50
+    },
+    {
+      "file": "uniprot_reviewed_batch_09.tsv",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=%28accession%3AQ13564+OR+accession%3AQ13610+OR+accession%3AQ13616+OR+accession%3AQ13618+OR+accession%3AQ13627+OR+accession%3AQ13765+OR+accession%3AQ13823+OR+accession%3AQ13868+OR+accession%3AQ13882+OR+accession%3AQ13952+OR+accession%3AQ14004+OR+accession%3AQ14008+OR+accession%3AQ14116+OR+accession%3AQ14145+OR+accession%3AQ14156+OR+accession%3AQ14186+OR+accession%3AQ14191+OR+accession%3AQ14197+OR+accession%3AQ14204+OR+accession%3AQ14289+OR+accession%3AQ14320+OR+accession%3AQ14494+OR+accession%3AQ14680+OR+accession%3AQ14978+OR+accession%3AQ14980+OR+accession%3AQ14CX7+OR+accession%3AQ15006+OR+accession%3AQ15008+OR+accession%3AQ15021+OR+accession%3AQ15031+OR+accession%3AQ15046+OR+accession%3AQ15054+OR+accession%3AQ15058+OR+accession%3AQ15059+OR+accession%3AQ15120+OR+accession%3AQ15121+OR+accession%3AQ15126+OR+accession%3AQ15131+OR+accession%3AQ15139+OR+accession%3AQ15149+OR+accession%3AQ15154+OR+accession%3AQ15303+OR+accession%3AQ15468+OR+accession%3AQ15477+OR+accession%3AQ15528+OR+accession%3AQ15573+OR+accession%3AQ15648+OR+accession%3AQ15750+OR+accession%3AQ15759+OR+accession%3AQ15796%29+AND+reviewed%3Atrue+AND+organism_id%3A9606&format=tsv&fields=accession%2Cid%2Creviewed%2Cgene_primary%2Cprotein_name%2Cec%2Ccc_catalytic_activity%2Cgo_f%2Cgo_p%2Ccc_function%2Cxref_hgnc&size=500",
+      "retrieved_utc": "2026-10-29T09:15:25.351083+00:00",
+      "uniprot_release": "2026_03",
+      "release_date": "02-September-2026",
+      "n_returned": 50,
+      "n_requested_accessions": 50
+    },
+    {
+      "file": "uniprot_reviewed_batch_10.tsv",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=%28accession%3AQ15797+OR+accession%3AQ15831+OR+accession%3AQ15904+OR+accession%3AQ15906+OR+accession%3AQ16513+OR+accession%3AQ16533+OR+accession%3AQ16539+OR+accession%3AQ16584+OR+accession%3AQ16620+OR+accession%3AQ16629+OR+accession%3AQ16654+OR+accession%3AQ16659+OR+accession%3AQ16763+OR+accession%3AQ16795+OR+accession%3AQ16854+OR+accession%3AQ16881+OR+accession%3AQ2NKJ3+OR+accession%3AQ32P41+OR+accession%3AQ3LIE5+OR+accession%3AQ3ZCM7+OR+accession%3AQ52LJ0+OR+accession%3AQ53EZ4+OR+accession%3AQ53GA4+OR+accession%3AQ53HL2+OR+accession%3AQ56NI9+OR+accession%3AQ56P03+OR+accession%3AQ58F21+OR+accession%3AQ5EE01+OR+accession%3AQ5FBB7+OR+accession%3AQ5J8M3+OR+accession%3AQ5JRX3+OR+accession%3AQ5JSJ4+OR+accession%3AQ5JTZ9+OR+accession%3AQ5QJE6+OR+accession%3AQ5RKV6+OR+accession%3AQ5SRD1+OR+accession%3AQ5SY16+OR+accession%3AQ5T280+OR+accession%3AQ5T4S7+OR+accession%3AQ5TGZ0+OR+accession%3AQ5VTD9+OR+accession%3AQ5VTR2+OR+accession%3AQ68DV7+OR+accession%3AQ68E01+OR+accession%3AQ6IPU0+OR+accession%3AQ6J9G0+OR+accession%3AQ6KC79+OR+accession%3AQ6NUQ1+OR+accession%3AQ6NXR4+OR+accession%3AQ6P1J9%29+AND+reviewed%3Atrue+AND+organism_id%3A9606&format=tsv&fields=accession%2Cid%2Creviewed%2Cgene_primary%2Cprotein_name%2Cec%2Ccc_catalytic_activity%2Cgo_f%2Cgo_p%2Ccc_function%2Cxref_hgnc&size=500",
+      "retrieved_utc": "2026-10-29T09:15:30.601480+00:00",
+      "uniprot_release": "2026_03",
+      "release_date": "02-September-2026",
+      "n_returned": 50,
+      "n_requested_accessions": 50
+    },
+    {
+      "file": "uniprot_reviewed_batch_11.tsv",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=%28accession%3AQ6P1K2+OR+accession%3AQ6P1X5+OR+accession%3AQ6P9B9+OR+accession%3AQ6Q0C0+OR+accession%3AQ6UN15+OR+accession%3AQ6UXV4+OR+accession%3AQ6ZN55+OR+accession%3AQ6ZWJ1+OR+accession%3AQ76FK4+OR+accession%3AQ7L014+OR+accession%3AQ7L2H7+OR+accession%3AQ7L5Y9+OR+accession%3AQ7L622+OR+accession%3AQ7LBC6+OR+accession%3AQ7RTV0+OR+accession%3AQ7Z3B4+OR+accession%3AQ7Z444+OR+accession%3AQ7Z589+OR+accession%3AQ7Z5Q5+OR+accession%3AQ7Z6V5+OR+accession%3AQ7Z6Z7+OR+accession%3AQ7Z7H8+OR+accession%3AQ86TB3+OR+accession%3AQ86TM6+OR+accession%3AQ86TV6+OR+accession%3AQ86UK7+OR+accession%3AQ86UT8+OR+accession%3AQ86UX6+OR+accession%3AQ86V86+OR+accession%3AQ86XP6+OR+accession%3AQ86YH6+OR+accession%3AQ86YT6+OR+accession%3AQ8IVW6+OR+accession%3AQ8IW41+OR+accession%3AQ8IWL3+OR+accession%3AQ8IX12+OR+accession%3AQ8IX90+OR+accession%3AQ8IY18+OR+accession%3AQ8IY37+OR+accession%3AQ8IYK8+OR+accession%3AQ8IYT8+OR+accession%3AQ8IYY4+OR+accession%3AQ8IZL8+OR+accession%3AQ8IZL9+OR+accession%3AQ8IZT6+OR+accession%3AQ8N0V3+OR+accession%3AQ8N122+OR+accession%3AQ8N371+OR+accession%3AQ8N3C0+OR+accession%3AQ8N3U4%29+AND+reviewed%3Atrue+AND+organism_id%3A9606&format=tsv&fields=accession%2Cid%2Creviewed%2Cgene_primary%2Cprotein_name%2Cec%2Ccc_catalytic_activity%2Cgo_f%2Cgo_p%2Ccc_function%2Cxref_hgnc&size=500",
+      "retrieved_utc": "2026-10-29T09:15:26.363598+00:00",
+      "uniprot_release": "2026_03",
+      "release_date": "02-September-2026",
+      "n_returned": 50,
+      "n_requested_accessions": 50
+    },
+    {
+      "file": "uniprot_reviewed_batch_12.tsv",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=%28accession%3AQ8N4C8+OR+accession%3AQ8N543+OR+accession%3AQ8N567+OR+accession%3AQ8N5C8+OR+accession%3AQ8N5N7+OR+accession%3AQ8N688+OR+accession%3AQ8N766+OR+accession%3AQ8N769+OR+accession%3AQ8N7B9+OR+accession%3AQ8N8D1+OR+accession%3AQ8N983+OR+accession%3AQ8NB15+OR+accession%3AQ8NB90+OR+accession%3AQ8NCE0+OR+accession%3AQ8NEB9+OR+accession%3AQ8NEF9+OR+accession%3AQ8NEX6+OR+accession%3AQ8NFC6+OR+accession%3AQ8NFD5+OR+accession%3AQ8NFG4+OR+accession%3AQ8NFH3+OR+accession%3AQ8NFW8+OR+accession%3AQ8NG66+OR+accession%3AQ8NHZ8+OR+accession%3AQ8NI36+OR+accession%3AQ8TAD8+OR+accession%3AQ8TBC4+OR+accession%3AQ8TD08+OR+accession%3AQ8TDC3+OR+accession%3AQ8TDM6+OR+accession%3AQ8TE04+OR+accession%3AQ8TEP8+OR+accession%3AQ8TEW0+OR+accession%3AQ8TF01+OR+accession%3AQ8WUQ7+OR+accession%3AQ8WUX9+OR+accession%3AQ8WV07+OR+accession%3AQ8WV22+OR+accession%3AQ8WVC0+OR+accession%3AQ8WVM0+OR+accession%3AQ8WVM7+OR+accession%3AQ8WW36+OR+accession%3AQ8WXG6+OR+accession%3AQ8WYA6+OR+accession%3AQ8WYB5+OR+accession%3AQ92541+OR+accession%3AQ92552+OR+accession%3AQ92560+OR+accession%3AQ92569+OR+accession%3AQ92574%29+AND+reviewed%3Atrue+AND+organism_id%3A9606&format=tsv&fields=accession%2Cid%2Creviewed%2Cgene_primary%2Cprotein_name%2Cec%2Ccc_catalytic_activity%2Cgo_f%2Cgo_p%2Ccc_function%2Cxref_hgnc&size=500",
+      "retrieved_utc": "2026-10-29T09:15:33.307670+00:00",
+      "uniprot_release": "2026_03",
+      "release_date": "02-September-2026",
+      "n_returned": 50,
+      "n_requested_accessions": 50
+    },
+    {
+      "file": "uniprot_reviewed_batch_13.tsv",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=%28accession%3AQ92630+OR+accession%3AQ92733+OR+accession%3AQ92759+OR+accession%3AQ92769+OR+accession%3AQ92772+OR+accession%3AQ92794+OR+accession%3AQ92843+OR+accession%3AQ92878+OR+accession%3AQ92905+OR+accession%3AQ92979+OR+accession%3AQ92993+OR+accession%3AQ93008+OR+accession%3AQ969X6+OR+accession%3AQ96A35+OR+accession%3AQ96BK5+OR+accession%3AQ96BP3+OR+accession%3AQ96BR1+OR+accession%3AQ96CW5+OR+accession%3AQ96CW6+OR+accession%3AQ96DA6+OR+accession%3AQ96DN5+OR+accession%3AQ96DY7+OR+accession%3AQ96E29+OR+accession%3AQ96EA4+OR+accession%3AQ96EB1+OR+accession%3AQ96EE3+OR+accession%3AQ96EY7+OR+accession%3AQ96FF9+OR+accession%3AQ96FX8+OR+accession%3AQ96GE9+OR+accession%3AQ96GW9+OR+accession%3AQ96GX5+OR+accession%3AQ96H96+OR+accession%3AQ96I25+OR+accession%3AQ96IX5+OR+accession%3AQ96JB2+OR+accession%3AQ96KG9+OR+accession%3AQ96MT8+OR+accession%3AQ96MU7+OR+accession%3AQ96NB3+OR+accession%3AQ96NC0+OR+accession%3AQ96PK6+OR+accession%3AQ96Q15+OR+accession%3AQ96QC0+OR+accession%3AQ96QP1+OR+accession%3AQ96QT4+OR+accession%3AQ96R06+OR+accession%3AQ96RT8+OR+accession%3AQ96SB4+OR+accession%3AQ99426%29+AND+reviewed%3Atrue+AND+organism_id%3A9606&format=tsv&fields=accession%2Cid%2Creviewed%2Cgene_primary%2Cprotein_name%2Cec%2Ccc_catalytic_activity%2Cgo_f%2Cgo_p%2Ccc_function%2Cxref_hgnc&size=500",
+      "retrieved_utc": "2026-10-29T09:15:34.535476+00:00",
+      "uniprot_release": "2026_03",
+      "release_date": "02-September-2026",
+      "n_returned": 50,
+      "n_requested_accessions": 50
+    },
+    {
+      "file": "uniprot_reviewed_batch_14.tsv",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=%28accession%3AQ99436+OR+accession%3AQ99460+OR+accession%3AQ99466+OR+accession%3AQ99547+OR+accession%3AQ99613+OR+accession%3AQ99618+OR+accession%3AQ99633+OR+accession%3AQ99643+OR+accession%3AQ99683+OR+accession%3AQ99708+OR+accession%3AQ99728+OR+accession%3AQ99848+OR+accession%3AQ9BPZ7+OR+accession%3AQ9BQ70+OR+accession%3AQ9BQA1+OR+accession%3AQ9BQC6+OR+accession%3AQ9BQI3+OR+accession%3AQ9BRT9+OR+accession%3AQ9BRX2+OR+accession%3AQ9BS16+OR+accession%3AQ9BS18+OR+accession%3AQ9BSC4+OR+accession%3AQ9BSI4+OR+accession%3AQ9BT78+OR+accession%3AQ9BTC0+OR+accession%3AQ9BTE3+OR+accession%3AQ9BTT4+OR+accession%3AQ9BUB5+OR+accession%3AQ9BV81+OR+accession%3AQ9BVW5+OR+accession%3AQ9BW27+OR+accession%3AQ9BWU1+OR+accession%3AQ9BYC8+OR+accession%3AQ9BYD1+OR+accession%3AQ9BZE1+OR+accession%3AQ9BZE4+OR+accession%3AQ9BZX2+OR+accession%3AQ9C0D2+OR+accession%3AQ9GZN2+OR+accession%3AQ9GZS3+OR+accession%3AQ9GZV5+OR+accession%3AQ9GZZ1+OR+accession%3AQ9H093+OR+accession%3AQ9H0A0+OR+accession%3AQ9H0D6+OR+accession%3AQ9H0E9+OR+accession%3AQ9H0K1+OR+accession%3AQ9H0U6+OR+accession%3AQ9H204+OR+accession%3AQ9H237%29+AND+reviewed%3Atrue+AND+organism_id%3A9606&format=tsv&fields=accession%2Cid%2Creviewed%2Cgene_primary%2Cprotein_name%2Cec%2Ccc_catalytic_activity%2Cgo_f%2Cgo_p%2Ccc_function%2Cxref_hgnc&size=500",
+      "retrieved_utc": "2026-10-29T09:15:37.000084+00:00",
+      "uniprot_release": "2026_03",
+      "release_date": "02-September-2026",
+      "n_returned": 50,
+      "n_requested_accessions": 50
+    },
+    {
+      "file": "uniprot_reviewed_batch_15.tsv",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=%28accession%3AQ9H2W6+OR+accession%3AQ9H2X6+OR+accession%3AQ9H300+OR+accession%3AQ9H307+OR+accession%3AQ9H3F6+OR+accession%3AQ9H3Y6+OR+accession%3AQ9H410+OR+accession%3AQ9H4A3+OR+accession%3AQ9H4B4+OR+accession%3AQ9H7B2+OR+accession%3AQ9H7H0+OR+accession%3AQ9H8T0+OR+accession%3AQ9H8V3+OR+accession%3AQ9H8Y5+OR+accession%3AQ9H9B4+OR+accession%3AQ9HA77+OR+accession%3AQ9HAB8+OR+accession%3AQ9HAW4+OR+accession%3AQ9HBY8+OR+accession%3AQ9HCG8+OR+accession%3AQ9NP92+OR+accession%3AQ9NPA0+OR+accession%3AQ9NPD3+OR+accession%3AQ9NPI1+OR+accession%3AQ9NQR4+OR+accession%3AQ9NQW6+OR+accession%3AQ9NR09+OR+accession%3AQ9NRH2+OR+accession%3AQ9NS69+OR+accession%3AQ9NSD9+OR+accession%3AQ9NSP4+OR+accession%3AQ9NTI5+OR+accession%3AQ9NUG6+OR+accession%3AQ9NUM3+OR+accession%3AQ9NV56+OR+accession%3AQ9NVC6+OR+accession%3AQ9NVF7+OR+accession%3AQ9NVN8+OR+accession%3AQ9NVP1+OR+accession%3AQ9NVP2+OR+accession%3AQ9NVS2+OR+accession%3AQ9NVV4+OR+accession%3AQ9NW08+OR+accession%3AQ9NW64+OR+accession%3AQ9NW82+OR+accession%3AQ9NWA0+OR+accession%3AQ9NWB6+OR+accession%3AQ9NWK9+OR+accession%3AQ9NWU5+OR+accession%3AQ9NX07%29+AND+reviewed%3Atrue+AND+organism_id%3A9606&format=tsv&fields=accession%2Cid%2Creviewed%2Cgene_primary%2Cprotein_name%2Cec%2Ccc_catalytic_activity%2Cgo_f%2Cgo_p%2Ccc_function%2Cxref_hgnc&size=500",
+      "retrieved_utc": "2026-10-29T09:15:38.479290+00:00",
+      "uniprot_release": "2026_03",
+      "release_date": "02-September-2026",
+      "n_returned": 50,
+      "n_requested_accessions": 50
+    },
+    {
+      "file": "uniprot_reviewed_batch_16.tsv",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=%28accession%3AQ9NX20+OR+accession%3AQ9NX47+OR+accession%3AQ9NX55+OR+accession%3AQ9NXX6+OR+accession%3AQ9NY61+OR+accession%3AQ9NYK5+OR+accession%3AQ9NYP3+OR+accession%3AQ9NYV4+OR+accession%3AQ9NYY3+OR+accession%3AQ9NZ32+OR+accession%3AQ9NZ43+OR+accession%3AQ9NZE8+OR+accession%3AQ9P015+OR+accession%3AQ9P0J6+OR+accession%3AQ9P0L2+OR+accession%3AQ9P0M9+OR+accession%3AQ9P0P8+OR+accession%3AQ9P0S2+OR+accession%3AQ9P1U0+OR+accession%3AQ9P1W9+OR+accession%3AQ9P287+OR+accession%3AQ9P2J5+OR+accession%3AQ9P2Y5+OR+accession%3AQ9UBB4+OR+accession%3AQ9UBC3+OR+accession%3AQ9UBE8+OR+accession%3AQ9UBQ0+OR+accession%3AQ9UBS0+OR+accession%3AQ9UBT2+OR+accession%3AQ9UDW3+OR+accession%3AQ9UFF9+OR+accession%3AQ9UGJ0+OR+accession%3AQ9UGJ1+OR+accession%3AQ9UGM6+OR+accession%3AQ9UGN5+OR+accession%3AQ9UHD2+OR+accession%3AQ9UHH9+OR+accession%3AQ9UHW5+OR+accession%3AQ9UIV1+OR+accession%3AQ9UJW0+OR+accession%3AQ9UJX2+OR+accession%3AQ9UK61+OR+accession%3AQ9UL03+OR+accession%3AQ9UL54+OR+accession%3AQ9ULK4+OR+accession%3AQ9ULT0+OR+accession%3AQ9ULW0+OR+accession%3AQ9UM11+OR+accession%3AQ9UM47+OR+accession%3AQ9UN37%29+AND+reviewed%3Atrue+AND+organism_id%3A9606&format=tsv&fields=accession%2Cid%2Creviewed%2Cgene_primary%2Cprotein_name%2Cec%2Ccc_catalytic_activity%2Cgo_f%2Cgo_p%2Ccc_function%2Cxref_hgnc&size=500",
+      "retrieved_utc": "2026-10-29T09:15:37.928632+00:00",
+      "uniprot_release": "2026_03",
+      "release_date": "02-September-2026",
+      "n_returned": 50,
+      "n_requested_accessions": 50
+    },
+    {
+      "file": "uniprot_reviewed_batch_17.tsv",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=%28accession%3AQ9UNP9+OR+accession%3AQ9UNS1+OR+accession%3AQ9UPP1+OR+accession%3AQ9UPY3+OR+accession%3AQ9UPZ9+OR+accession%3AQ9UQ80+OR+accession%3AQ9UQB9+OR+accession%3AQ9UQE7+OR+accession%3AQ9Y219+OR+accession%3AQ9Y221+OR+accession%3AQ9Y243+OR+accession%3AQ9Y247+OR+accession%3AQ9Y266+OR+accession%3AQ9Y285+OR+accession%3AQ9Y294+OR+accession%3AQ9Y2B0+OR+accession%3AQ9Y2Q9+OR+accession%3AQ9Y2R0+OR+accession%3AQ9Y2U5+OR+accession%3AQ9Y2X3+OR+accession%3AQ9Y376+OR+accession%3AQ9Y3B7+OR+accession%3AQ9Y3B8+OR+accession%3AQ9Y3D3+OR+accession%3AQ9Y3D8+OR+accession%3AQ9Y3D9+OR+accession%3AQ9Y3E0+OR+accession%3AQ9Y3S1+OR+accession%3AQ9Y3T9+OR+accession%3AQ9Y450+OR+accession%3AQ9Y4A5+OR+accession%3AQ9Y4C1+OR+accession%3AQ9Y4E6+OR+accession%3AQ9Y4W6+OR+accession%3AQ9Y4X5+OR+accession%3AQ9Y572+OR+accession%3AQ9Y584+OR+accession%3AQ9Y5B6+OR+accession%3AQ9Y5J7+OR+accession%3AQ9Y5Q9+OR+accession%3AQ9Y5T4+OR+accession%3AQ9Y676+OR+accession%3AQ9Y6A5+OR+accession%3AQ9Y6G3+OR+accession%3AQ9Y6K9%29+AND+reviewed%3Atrue+AND+organism_id%3A9606&format=tsv&fields=accession%2Cid%2Creviewed%2Cgene_primary%2Cprotein_name%2Cec%2Ccc_catalytic_activity%2Cgo_f%2Cgo_p%2Ccc_function%2Cxref_hgnc&size=500",
+      "retrieved_utc": "2026-10-29T09:15:40.457919+00:00",
+      "uniprot_release": "2026_03",
+      "release_date": "02-September-2026",
+      "n_returned": 45,
+      "n_requested_accessions": 45
+    }
+  ],
+  "go_ontology_version": "releases/2026-07-26",
+  "source_manifest": "../annotations/source_manifest.json",
+  "primary_enzymes_audit": "direct_histone_enzyme_audit.csv",
+  "classification_inputs_independent_of_pair_labels": true
+}

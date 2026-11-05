@@ -1,0 +1,23 @@
+{
+  "model": "pooled_multigraph",
+  "seeds": [
+    101,
+    211,
+    307,
+    419,
+    503
+  ],
+  "n_candidates": 6756,
+  "n_calibration": 1586,
+  "nominal_coverage": 0.9,
+  "calibration_radius": 0.193370586,
+  "single_partition_seed": 101,
+  "candidate_is_ht29_unmeasured": true,
+  "joint_definition": "measured singleton sum + ensemble predicted GI; missing when either HT29 singleton is unavailable",
+  "primary_scope": "strict metabolic enzymes x direct histone-modifying enzymes; broader pairs exported only as extensions",
+  "candidate_features": "Independent covariates for all model genes; no missing HT29 single-effect imputation in the GI predictor",
+  "interval_definition": "Absolute-residual split calibration of the five-fit ensemble; the same calibration labels excluded from primary architecture selection, all five final fits and early stopping",
+  "interval_scope": "Marginal calibration on observed screen design; candidate nonanchor and disease shifts can invalidate coverage",
+  "seed_sd_scope": "Training randomness conditional on the same final split; not a calibrated interval",
+  "llm_api_calls": 0
+}

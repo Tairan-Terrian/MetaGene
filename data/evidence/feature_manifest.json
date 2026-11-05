@@ -1,0 +1,41 @@
+{
+  "created_at_utc": "2026-10-29T09:37:08.626608+00:00",
+  "graphs": {
+    "bioplex": {
+      "source_edges": 70966,
+      "retained_undirected_edges": 1029,
+      "covered_model_genes": 427
+    },
+    "bioplex_293t": {
+      "source_edges": 118162,
+      "retained_undirected_edges": 1047,
+      "covered_model_genes": 559
+    }
+  },
+  "bioplex_publication": "https://doi.org/10.1016/j.cell.2021.04.011",
+  "bioplex_source_page": "https://bioplex.hms.harvard.edu/interactions.php",
+  "graph_definition": "Released, filtered AP-MS protein associations. HCT116 is the HCT116 PPI graph; 293T is retained as evidence. Model uses binary edges plus self loops and symmetric degree normalization. AP-MS co-complex association does not establish direct binding.",
+  "graph_mapping": "Entrez gene IDs to the existing HGNC model gene table; all graph sources independent of combinatorial phenotype labels.",
+  "graph_learning_scope": "Complete external annotation graph is fixed during training and inference; held-out pair/gene phenotype labels remain excluded. Annotation-transductive, label-inductive evaluation.",
+  "single_source": "https://github.com/ibarrioh/DualGuide_COLO1/tree/main/Analysis/ENCORE/input",
+  "score_source_definition": "Authors' deposited SCORE_median_lfc: independent HT29 gene-level median guide LFC downloaded by the original study from Project SCORE; original release date and exact control scaling not specified in its readme. Retain raw LFC and within-file relative rank.",
+  "scaled_source_definition": "Author-deposited colo1_plm_scale guide-pair values, negative and positive controls scaled to 0 and -1. Mean available biological replicate values per guide pair, then median across gene-control guide pairs; anchor singleton position preferred when both roles are available.",
+  "strong_single_rule": "Control-scaled singleton median <= -0.5: an explicit midpoint depletion filter, not a formal essentiality probability or proof of tumor selectivity. Sensitivity to -0.3/-0.7 is reported in candidate outputs.",
+  "single_evidence_counts": {
+    "control_scaled_genes": 479,
+    "independent_score_genes": 355
+  },
+  "deposited_control_summaries": [
+    {
+      "Note": "NegativeControls",
+      "median": -0.0013646290481287675,
+      "count": 628
+    },
+    {
+      "Note": "PositiveControls",
+      "median": -1.0661879968970527,
+      "count": 984
+    }
+  ],
+  "model_target": "Original joint and additive residual labels are retained for directly comparable benchmarking; control-scaled singles are an independent candidate triage layer."
+}

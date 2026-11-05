@@ -1,0 +1,92 @@
+{"completed_stage": "fixed_fit", "time_utc": "2026-10-30T08:01:54.028594+00:00"}
+{
+  "selected_model": "pooled_multigraph",
+  "best_overall_model": "naiad",
+  "selected_al_model": "target_graphless",
+  "deployment_scope": "Validation-best GNN without source-specific observed single effects; matches the requested graph model and predicts all core gene pairs. Best unrestricted baseline reported separately.",
+  "validation_metric": "Mean HT29 validation GI RMSE; smaller is better",
+  "candidate_scores": [
+    {
+      "model": "naiad",
+      "mean_validation_rmse": 0.11429088337376567,
+      "sd_validation_rmse": 0.0003083837285790687,
+      "n_seeds": 5
+    },
+    {
+      "model": "xgb",
+      "mean_validation_rmse": 0.11513328343706333,
+      "sd_validation_rmse": 0.00018953966992530874,
+      "n_seeds": 5
+    },
+    {
+      "model": "twohead_graphless",
+      "mean_validation_rmse": 0.11701332642170428,
+      "sd_validation_rmse": 0.0005716363361613564,
+      "n_seeds": 5
+    },
+    {
+      "model": "twohead_gnn",
+      "mean_validation_rmse": 0.11708870308222201,
+      "sd_validation_rmse": 0.0006676599982894801,
+      "n_seeds": 5
+    },
+    {
+      "model": "linear",
+      "mean_validation_rmse": 0.11712620499261531,
+      "sd_validation_rmse": 0.00018210172168651935,
+      "n_seeds": 5
+    },
+    {
+      "model": "pooled_multigraph",
+      "mean_validation_rmse": 0.1178509008863697,
+      "sd_validation_rmse": 0.0012070863542474775,
+      "n_seeds": 5
+    },
+    {
+      "model": "pooled_string",
+      "mean_validation_rmse": 0.11856587915726266,
+      "sd_validation_rmse": 0.0009290760739724442,
+      "n_seeds": 5
+    },
+    {
+      "model": "pooled_reactome",
+      "mean_validation_rmse": 0.11863769691942294,
+      "sd_validation_rmse": 0.0008553642223586285,
+      "n_seeds": 5
+    },
+    {
+      "model": "pooled_graphless",
+      "mean_validation_rmse": 0.11913139104488787,
+      "sd_validation_rmse": 0.001384769033803975,
+      "n_seeds": 5
+    },
+    {
+      "model": "target_graphless",
+      "mean_validation_rmse": 0.12042185084850987,
+      "sd_validation_rmse": 0.0007812990218513786,
+      "n_seeds": 5
+    },
+    {
+      "model": "target_string",
+      "mean_validation_rmse": 0.1207867233962185,
+      "sd_validation_rmse": 0.000843900674854258,
+      "n_seeds": 5
+    }
+  ],
+  "selection_time_utc": "2026-10-30T08:01:56.076329+00:00",
+  "test_metrics_used": false
+}
+{"completed_stage": "fixed_evaluate", "time_utc": "2026-10-30T08:02:30.890735+00:00"}
+{"twohead_inconsistency_rms": 0.07515683279442618, "twohead_gi_rmse": 0.12314779737010514, "ht29_n_pairs": 15864, "ht29_n_anchor_pairs": 15828, "ht29_anchor_pair_fraction": 0.9977307110438729, "record_overlap_max": 0, "nontransfer_pair_overlap_max": 0, "source": "Five primary-seed test predictions from the two-head GNN comparison"}
+{"completed_stage": "external", "time_utc": "2026-10-30T08:03:13.452961+00:00"}
+{"completed_stage": "final_fit", "time_utc": "2026-10-30T08:04:33.889978+00:00"}
+{"candidate_predictions": 6756, "ensemble_radius": 0.193370586}
+{"completed_stage": "fixed_al", "time_utc": "2026-10-30T08:06:04.272602+00:00"}
+{"completed_sequences": 20, "curve_rows": 260, "curves": "/media/yjz/htr/MetaGene/results/active_learning/curves.csv"}
+                      rounds  mean_score_zero_fraction  mean_selected_score_zero_fraction  all_zero_rounds  mean_cutoff_ties
+strategy                                                                                                                    
+effect                    60                       0.0                                0.0                0          1.333333
+expected_improvement      60                       0.0                                0.0                0          1.000000
+random                    60                       0.0                                0.0                0          1.000000
+uncertainty               60                       0.0                                0.0                0          1.000000
+{"completed": "fixed-partition revision"}

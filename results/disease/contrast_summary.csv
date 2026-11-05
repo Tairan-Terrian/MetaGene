@@ -1,0 +1,5 @@
+"contrast","role","n_samples","n_genes","n_bh_005","n_by_005","n_high_effect_bh","n_up_high_effect_bh","n_down_high_effect_bh"
+"resistant_vs_parental_untreated","primary_acquired_resistance_association",6,21188,6440,3982,451,263,188
+"parental_oxa_response","secondary_unequal_oxa_doses",12,21188,7666,5356,510,253,257
+"resistant_oxa_response","secondary_unequal_oxa_doses",12,21188,6233,3812,186,105,81
+"state_by_oxa_interaction","secondary_unequal_oxa_doses",12,21188,1345,521,114,80,34

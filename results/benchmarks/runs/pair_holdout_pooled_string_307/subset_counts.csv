@@ -1,0 +1,4 @@
+protocol,model,seed,subset,n_test,metrics_evaluated
+pair_holdout,pooled_string,307,all,2380,True
+pair_holdout,pooled_string,307,strict_enzyme_chromatin,28,True
+pair_holdout,pooled_string,307,core_metabolism_histone,3,False

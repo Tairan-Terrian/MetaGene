@@ -1,0 +1,8 @@
+{
+  "file": "GSM4115600_metadata.txt",
+  "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4115600&targ=self&form=text&view=full",
+  "sha256": "5e1aeab6249518851cfc3308ddcab9d1f65fb23d4e5db4cb8a96abcc7188d805",
+  "bytes": 2173,
+  "retrieved_utc": "2026-10-30T07:40:31.849216+00:00",
+  "status": "downloaded"
+}

@@ -1,0 +1,202 @@
+[
+  {
+    "file": "DepMap_CRISPRGeneEffect.csv",
+    "url": "https://ndownloader.figshare.com/files/51064667",
+    "sha256": "3d8f3ec6dbf2db7ff834b79b508622ec0b226f3518003fe96ecf5a4fcf167e3b",
+    "bytes": 428678699,
+    "retrieved_utc": "2026-10-30T07:17:39.561904+00:00",
+    "status": "downloaded"
+  },
+  {
+    "file": "DepMap_Model.csv",
+    "url": "https://ndownloader.figshare.com/files/51065297",
+    "sha256": "b7a0c1385e6cef30132b56aff61f1261d11e3f490490b355c430d32ee0dbdcfa",
+    "bytes": 645696,
+    "retrieved_utc": "2026-10-30T07:03:26.242434+00:00",
+    "status": "downloaded"
+  },
+  {
+    "file": "DepMap_release.json",
+    "url": "https://api.figshare.com/v2/articles/27993248",
+    "sha256": "84d67d7bac97d1ef4c2e2960169865fc26d5c865f3926c8f5aa1dfe87fbfd952",
+    "bytes": 26540,
+    "retrieved_utc": "2026-10-30T07:06:19.978770+00:00",
+    "status": "downloaded"
+  },
+  {
+    "file": "GSE132465_cell_annotation.txt.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE132nnn/GSE132465/suppl/GSE132465_GEO_processed_CRC_10X_cell_annotation.txt.gz",
+    "sha256": "4bf2ebdadc88da53b0c46e654a6576e841925addc25c981d7cdbc0d988b4677c",
+    "bytes": 434022,
+    "retrieved_utc": "2026-10-30T07:03:31.245961+00:00",
+    "status": "downloaded"
+  },
+  {
+    "file": "GSE132465_counts.txt.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE132nnn/GSE132465/suppl/GSE132465_GEO_processed_CRC_10X_raw_UMI_count_matrix.txt.gz",
+    "sha256": "deff856c7fe1d2c845af5b31e1c65a1dd95ea29541772a66c89bda3aaa8c0666",
+    "bytes": 128941455,
+    "retrieved_utc": "2026-10-30T07:14:13.019160+00:00",
+    "status": "downloaded"
+  },
+  {
+    "file": "GSM4115600_H3K4me3_HCT116_peaks.txt.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4115nnn/GSM4115600/suppl/GSM4115600_H3K4me3_HCT116_peaks.txt.gz",
+    "sha256": "90e264f8d7e10253623b4beadf059d134d86f600369600ef7b927a1ef81efdf8",
+    "bytes": 647751,
+    "retrieved_utc": "2026-10-30T07:30:26.128357+00:00",
+    "status": "downloaded"
+  },
+  {
+    "file": "GSM4115600_metadata.txt",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4115600&targ=self&form=text&view=full",
+    "sha256": "5e1aeab6249518851cfc3308ddcab9d1f65fb23d4e5db4cb8a96abcc7188d805",
+    "bytes": 2173,
+    "retrieved_utc": "2026-10-30T07:40:31.849216+00:00",
+    "status": "downloaded"
+  },
+  {
+    "file": "GSM4115601_H3K4me3_HCT116OxR_peaks.txt.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4115nnn/GSM4115601/suppl/GSM4115601_H3K4me3_HCT116OxR_peaks.txt.gz",
+    "sha256": "cbc7a1cb7ba0ce5af28fe56ce9a0bf12fce81be33ec40478a298a4e077649c33",
+    "bytes": 801288,
+    "retrieved_utc": "2026-10-30T07:30:14.265426+00:00",
+    "status": "downloaded"
+  },
+  {
+    "file": "GSM4115602_H3K27ac_HCT116_peaks.txt.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4115nnn/GSM4115602/suppl/GSM4115602_H3K27ac_HCT116_peaks.txt.gz",
+    "sha256": "9fd8b0b484456bd1603b7e6bc7f930a9de3a8589ef3e6d220f0dc735b0e73d12",
+    "bytes": 1626335,
+    "retrieved_utc": "2026-10-30T07:30:23.556083+00:00",
+    "status": "downloaded"
+  },
+  {
+    "file": "GSM4115603_H3K27ac_HCT116OxR_peaks.txt.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4115nnn/GSM4115603/suppl/GSM4115603_H3K27ac_HCT116OxR_peaks.txt.gz",
+    "sha256": "c53a85d3ef1dcbe9ac26787c1531cd6756cca882892901c8757ed1151419fdb2",
+    "bytes": 1604736,
+    "retrieved_utc": "2026-10-30T07:31:18.362026+00:00",
+    "status": "downloaded"
+  },
+  {
+    "file": "GSM4115604_H3K27me3_HCT116_peaks.txt.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4115nnn/GSM4115604/suppl/GSM4115604_H3K27me3_HCT116_peaks.txt.gz",
+    "sha256": "1ccfbadb5e0139497250f07ee972b7d93a8a92d567286e98bc5a6f3713544ef2",
+    "bytes": 680209,
+    "retrieved_utc": "2026-10-30T07:30:33.579968+00:00",
+    "status": "downloaded"
+  },
+  {
+    "file": "GSM4115605_H3K27me3_HCT116OxR_peaks.txt.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4115nnn/GSM4115605/suppl/GSM4115605_H3K27me3_HCT116OxR_peaks.txt.gz",
+    "sha256": "bd98f222cc67b13d8c4aeb145ba2030d728f2ded6fe02f81daada46dc1defa66",
+    "bytes": 461181,
+    "retrieved_utc": "2026-10-30T07:30:42.012882+00:00",
+    "status": "downloaded"
+  },
+  {
+    "file": "HCT116_exchange_constraints.ipynb",
+    "url": "https://raw.githubusercontent.com/HAHerrmann/Hct116_DrugRes/3ba911ee3b931e0909add599beba48bdca9f69a9/Code/exometabo_constrain.ipynb",
+    "sha256": "6eb0d7a021592946d5fd7cbfae32c51f15884490a9bbb36f121d5a1dcdd47d5e",
+    "bytes": 354924,
+    "retrieved_utc": "2026-10-30T07:30:03.010679+00:00",
+    "status": "downloaded"
+  },
+  {
+    "file": "HCT116_flux_Control_clean.p",
+    "url": "https://raw.githubusercontent.com/HAHerrmann/Hct116_DrugRes/3ba911ee3b931e0909add599beba48bdca9f69a9/Results/pTVA_Control_clean.p",
+    "sha256": "fe8ebeeb27698f5d360e98429463f4300347d850a07eab90e7afeace40d0b897",
+    "bytes": 160909,
+    "retrieved_utc": "2026-10-30T07:30:01.689958+00:00",
+    "status": "downloaded"
+  },
+  {
+    "file": "HCT116_flux_OxR_clean.p",
+    "url": "https://raw.githubusercontent.com/HAHerrmann/Hct116_DrugRes/3ba911ee3b931e0909add599beba48bdca9f69a9/Results/pTVA_OxR_clean.p",
+    "sha256": "a37ba01bc997283b6d2575130f86055e709dddbc28b2449fe63371eb658098b0",
+    "bytes": 160909,
+    "retrieved_utc": "2026-10-30T07:30:01.849202+00:00",
+    "status": "downloaded"
+  },
+  {
+    "file": "HCT116_flux_analysis.ipynb",
+    "url": "https://raw.githubusercontent.com/HAHerrmann/Hct116_DrugRes/3ba911ee3b931e0909add599beba48bdca9f69a9/Code/flux_analysis.ipynb",
+    "sha256": "02570328460a14acdbf4c0a745405c37090144eec6ce007e95ac228aed68cc8a",
+    "bytes": 13847,
+    "retrieved_utc": "2026-10-30T07:30:02.335421+00:00",
+    "status": "downloaded"
+  },
+  {
+    "file": "HCT116_general_functions.ipynb",
+    "url": "https://raw.githubusercontent.com/HAHerrmann/Hct116_DrugRes/3ba911ee3b931e0909add599beba48bdca9f69a9/Code/general_functions.ipynb",
+    "sha256": "e88192a36f4855521690e1a4b244d189d474adcc7995cbb4dd0c3527a1b92b25",
+    "bytes": 27078,
+    "retrieved_utc": "2026-10-30T07:40:31.865765+00:00",
+    "status": "downloaded"
+  },
+  {
+    "file": "HCT116_growth_curves.csv",
+    "url": "https://raw.githubusercontent.com/HAHerrmann/Hct116_DrugRes/3ba911ee3b931e0909add599beba48bdca9f69a9/Data/growthCurves.csv",
+    "sha256": "e258232787b1f450b082e5c374dc1f37b76a1536103d97ac1ccd4b677966ead4",
+    "bytes": 445,
+    "retrieved_utc": "2026-10-30T07:30:02.782830+00:00",
+    "status": "downloaded"
+  },
+  {
+    "file": "HCT116_metabolic_model.mat",
+    "url": "https://raw.githubusercontent.com/HAHerrmann/Hct116_DrugRes/3ba911ee3b931e0909add599beba48bdca9f69a9/Models/HCT_GEM.mat",
+    "sha256": "e3e7b7f1485d7e097670dbdfd2631f17c2469ab2e3a008f8065c315006defe86",
+    "bytes": 676182,
+    "retrieved_utc": "2026-10-30T07:30:02.322611+00:00",
+    "status": "downloaded"
+  },
+  {
+    "file": "HCT116_metabolite_time_series.csv",
+    "url": "https://raw.githubusercontent.com/HAHerrmann/Hct116_DrugRes/3ba911ee3b931e0909add599beba48bdca9f69a9/Data/metabolites_nM_timeSeriesAnnotated.csv",
+    "sha256": "e92207fc67edcb0cf6b82334d850458b738290f60ba1572b40e52d512225b2fd",
+    "bytes": 43060,
+    "retrieved_utc": "2026-10-30T07:30:03.043995+00:00",
+    "status": "downloaded"
+  },
+  {
+    "file": "STRING_mapping.tsv",
+    "url": "https://version-12-5.string-db.org/api/tsv/get_string_ids",
+    "sha256": "1278b976cdae781ba9899bae30bd8ddfa5dc9a32de9dc8b907d1140e8b3db373",
+    "bytes": 428625,
+    "retrieved_utc": "2026-10-30T07:17:41.977688+00:00",
+    "status": "downloaded"
+  },
+  {
+    "file": "STRING_physical_network.tsv",
+    "url": "https://version-12-5.string-db.org/api/tsv/network",
+    "sha256": "3b32c4a02c38d1fc83da372b61850776d1c7fcb4a8f3a9cdf02408ade9c04907",
+    "bytes": 377040,
+    "retrieved_utc": "2026-10-30T07:17:44.273285+00:00",
+    "status": "downloaded"
+  },
+  {
+    "file": "TCGA_COAD_expression.tsv.gz",
+    "url": "https://tcga.xenahubs.net/download/TCGA.COAD.sampleMap/HiSeqV2.gz",
+    "sha256": "c6721b7f2db5f10c3836ad2a619ffb87e91713ace8f1306e4b4229ac384a2137",
+    "bytes": 17543014,
+    "retrieved_utc": "2026-10-30T07:06:17.990251+00:00",
+    "status": "downloaded"
+  },
+  {
+    "file": "TCGA_COAD_metadata.json",
+    "url": "https://tcga.xenahubs.net/download/TCGA.COAD.sampleMap/HiSeqV2.json",
+    "sha256": "8ca3bd54ffff19338370ab46396e9764afc1446d14c486b1914ccd5c422ae1c9",
+    "bytes": 2553,
+    "retrieved_utc": "2026-10-30T07:03:28.899081+00:00",
+    "status": "downloaded"
+  },
+  {
+    "file": "hg19_refGene.txt.gz",
+    "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/refGene.txt.gz",
+    "sha256": "28e7fe22cf1923a6887c7b60e6004c75987f810b8374d4d396021a34ac0410d1",
+    "bytes": 8043766,
+    "retrieved_utc": "2026-10-30T07:30:31.627330+00:00",
+    "status": "downloaded"
+  }
+]

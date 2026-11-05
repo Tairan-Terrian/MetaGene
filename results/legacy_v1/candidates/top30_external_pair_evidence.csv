@@ -1,0 +1,1 @@
+dataset,study,cell_line,gene_a,gene_b,joint_effect,single_a,single_b,expected_additive,author_gi,cohen_d,source_pair_id,source_table,source_row,study_hit,hit_definition,source_doi,perturbation_type,pair_key,sl_score,label_direction,label_type,pvalue,padj,is_measured_nonhit,both_genes_in_model_domain,pair_seen_in_any_training_study,independent_study,oxaliplatin_experiment

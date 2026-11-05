@@ -1,0 +1,13 @@
+{
+  "version": "sl_v2_2026-11-05",
+  "n_candidates": 500,
+  "predicted_dlfc_below_zero": 500,
+  "predicted_dlfc_min": -0.7105262139999999,
+  "predicted_dlfc_max": -0.31010072,
+  "predicted_dlfc_median": -0.542580988,
+  "predicted_dlfc_below_minus1": 0,
+  "direction_definition": "Negative predicted dLFC means predicted double-perturbation fitness below the additive expectation.",
+  "training_definition": "The frozen main classifier and reported classification benchmarks retain dLFC < -1.",
+  "result_type": "Model predictions; pair effects are to be measured by the collaborating laboratory.",
+  "prediction_values_and_rankings_changed": false
+}
